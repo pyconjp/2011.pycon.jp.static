@@ -1,0 +1,1571 @@
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+
+    
+    
+    
+    
+    
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Forces IE8+ into newest rendering engine even if on an intranet. This has to be defined before any script/style tags. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+    
+        <base href="" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <link rel="alternate" type="application/rss+xml" title="ニュース" href="#" />
+    <link rel="alternate" type="application/rss+xml" title="更新情報" href="#" />
+
+    
+        <meta content="1. TODOの確認
+2. プログラム、タイムテーブルの進捗
+3. スポンサー状況共有
+4. 翌日のスプリントの計画
+5. 会場の利用方針の共有(動画配信等)
+6. 事務局系の報告
+7. 経費・収入・スポンサーの関係資料共有（paypal口座データ等)
+8. 開催レポート担当者
+9. 開催レポート内容について技術評論社様と翔泳社様それぞれどうするか
+10. 物販ブースに関して
+11. PyCon Party について進め方を決める
+12. Guidoさんを含めOffice hourやるかどうか" name="description" />
+<link rel="kss-base-url" href="index.html" />
+
+  
+    <link rel="stylesheet" type="text/css" href="../../../../portal_css/Sunburst&#32;Theme/base-cachekey3695.css" />
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="#" />
+        <![endif]-->
+    
+    <style type="text/css" media="screen">@import url(../../../../portal_css/Sunburst&#32;Theme/resourceeasyslider-portlet-cachekey0470.css);</style>
+    <style type="text/css" media="screen">@import url(../../../../portal_css/Sunburst&#32;Theme/resourceprettyPhoto-cachekey0127.css);</style>
+    <link rel="stylesheet" type="text/css" media="all" href="../../../../portal_css/Sunburst&#32;Theme/ploneCustom-cachekey1147.css" />
+
+  
+    <link rel="kinetic-stylesheet" type="text/css" href="../../../../portal_kss/Sunburst&#32;Theme/resourcetinymce.ksstinymce-cachekey4145.kss.css" />
+    <link rel="kinetic-stylesheet" type="text/css" href="../../../../portal_kss/Sunburst&#32;Theme/at-cachekey4559.kss.css" />
+  
+    <script type="text/javascript" src="../../../../portal_javascripts/Sunburst&#32;Theme/jquery-cachekey4811.js"></script>
+       <!--[if lt IE 8]>
+     
+    <script type="text/javascript" src="#"></script>
+       <![endif]-->
+     
+    <script type="text/javascript" src="../../../../portal_javascripts/Sunburst&#32;Theme/jquery-shuffle-cachekey3172.js"></script>
+    <script type="text/javascript" src="../../../../portal_javascripts/Sunburst&#32;Theme/resourceeasyslider-portlet-cachekey0840.js"></script>
+    <script type="text/javascript" src="../../../../portal_javascripts/Sunburst&#32;Theme/resourcejquery.prettyPhoto-cachekey5397.js"></script>
+
+
+<title>第7回 ミーティング議事録 &mdash; PyCon JP 2011</title>
+        
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../favicon.ico" />
+    <link rel="apple-touch-icon" href="../../../../touch_icon.png" />
+
+
+
+    <link rel="home" href="../../../../index.html" title="フロントページ" />
+
+    <link rel="contents" href="../../../../sitemap.html" title="サイトマップ" />
+
+
+
+
+
+
+    <link rel="search" href="#" title="このサイトを検索" />
+
+
+
+        
+        
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width; initial-scale=0.6666; maximum-scale=1.0; minimum-scale=0.6666" />
+        <meta name="generator" content="Plone - http://plone.org" />
+    
+</head>
+
+<body class="template-document_view portaltype-document section-misc icons-on" dir="ltr">
+
+<div id="visual-portal-wrapper">
+
+        <div id="portal-top" class="row">
+<div class="cell width-full position-0"> <!-- TODO: Temporary, this one should be in the template that is inserted -->
+            <div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="index.html#content">コンテンツに飛ぶ</a> |
+
+  <a accesskey="6" href="index.html#portlet-navigation-tree">ナビゲーションに飛ぶ</a>
+</p>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">パーソナルツール</h5>
+
+
+
+<dl class="actionMenu deactivated" id="portal-personaltools">
+  <dt id="anon-personalbar">
+    
+        <a href="#" id="personaltools-login">ログイン</a>
+    
+  </dt>
+</dl>
+
+</div>
+
+
+
+<div id="portal-searchbox">
+
+   <div id="python-logo">
+        <img width="250" height="68" src="../../../../python_logo.png" />
+   </div>
+
+   <form name="searchform" id="searchGadget_form" action="#">
+
+        <div class="LSBox">
+        <label class="hiddenStructure" for="searchGadget">サイトを検索</label>
+
+        <input name="SearchableText" type="text" size="18" title="サイトを検索" accesskey="4" class="searchField inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="submit" value="検索" />
+
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/Plone/misc/team/meeting" />
+            <label for="searchbox_currentfolder_only" style="cursor: pointer">現在のセクション内のみ</label>
+        </div>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="#" accesskey="5">詳細検索</a>
+    </div>
+
+</div>
+<a id="portal-logo" title="ホーム" accesskey="1" href="../../../../index.html">
+    <img src="../../../../logo.png" alt="" title="logo.png" height="90" width="292" /></a>
+
+
+    <h5 class="hiddenStructure">セクション</h5>
+
+    <ul id="portal-globalnav"><li id="portaltab-index_html" class="plain"><a href="../../../../index.html" title="">ホーム</a></li><li id="portaltab-about" class="plain"><a href="../../../../about.html" title="PyCon は、Pythonユーザが集まり、PythonやPythonを使ったソフトウェアについて情報交換し、交流するためのカンファレンスです。 PyCon JP開催を通してPythonの使い手が一同に集まり、他の分野などの情報や知識や知人を増やす場所とすることが目標です。
+
+2011年春に開催した&quot;PyCon mini JP&quot;の成功を受け、よりよいイベントの開催を目指しています。
+">開催趣旨</a></li><li id="portaltab-audience" class="plain"><a href="../../../../audience.html" title="参加者向け情報">一般参加の方へ</a></li><li id="portaltab-program" class="plain"><a href="../../../../program.html" title="当日のプログラムに関する情報">Program</a></li><li id="portaltab-english-information" class="plain"><a href="../../../../english-information.html" title="">English Information</a></li><li id="portaltab-sponsor" class="plain"><a href="../../../../sponsor.html" title="">スポンサー一覧</a></li><li id="portaltab-misc" class="selected"><a href="../../../../misc.html" title="">運営情報</a></li><li
+    id="portaltab-reports" class="plain"><a href="../../../../reports.html" title="開催報告系記事・動画アーカイブ・発表資料とアンケートなど諸々">開催報告</a></li></ul>
+
+</div>
+</div>
+        </div>
+    <div id="portal-columns" class="row">
+
+        <div id="portal-column-content" class="cell width-3:4 position-0">
+
+            <div id="viewlet-above-content"><div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">現在位置:</span>
+    <span id="breadcrumbs-home">
+        <a href="../../../../index.html">ホーム</a>
+        <span class="breadcrumbSeparator">
+            &rsaquo;
+            
+        </span>
+    </span>
+    <span id="breadcrumbs-1" dir="ltr">
+        
+            <a href="../../../../misc.html">運営情報</a>
+            <span class="breadcrumbSeparator">
+                &rsaquo;
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-2" dir="ltr">
+        
+            <a href="../../../team.html">運営チーム</a>
+            <span class="breadcrumbSeparator">
+                &rsaquo;
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-3" dir="ltr">
+        
+            <a href="../../meeting.html">運営会議</a>
+            <span class="breadcrumbSeparator">
+                &rsaquo;
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-4" dir="ltr">
+        
+            
+            
+            <span id="breadcrumbs-current">第7回 ミーティング議事録</span>
+         
+    </span>
+
+</div>
+</div>
+            
+            
+                <div class="">
+
+                    
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                        <div id="content">
+
+                            
+
+                                                                                        
+
+                                                          
+                                                           
+                                 
+                                 
+            
+                <h1 id="parent-fieldname-title" class="documentFirstHeading">
+                    第7回 ミーティング議事録
+                </h1>
+            
+            
+                                                                                            
+                                                                                                            
+                             
+
+
+                             
+
+                                               
+                                 
+                                 
+            
+                <div id="parent-fieldname-description" class="documentDescription">
+                   1. TODOの確認
+2. プログラム、タイムテーブルの進捗
+3. スポンサー状況共有
+4. 翌日のスプリントの計画
+5. 会場の利用方針の共有(動画配信等)
+6. 事務局系の報告
+7. 経費・収入・スポンサーの関係資料共有（paypal口座データ等)
+8. 開催レポート担当者
+9. 開催レポート内容について技術評論社様と翔泳社様それぞれどうするか
+10. 物販ブースに関して
+11. PyCon Party について進め方を決める
+12. Guidoさんを含めOffice hourやるかどうか
+                </div>
+            
+            
+                                                                                             
+                                                                                                      
+
+                             
+
+                              
+                             <div id="content-core">                                                                      
+                                 
+    
+        
+        <div class="" id="parent-fieldname-text">
+            <table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name">
+<col class="docinfo-content">
+<tbody valign="top">
+<tr class="field"><th class="docinfo-name">参加者:</th><td class="field-body">寺田、清水川、土屋先生、イアン、森本、松崎、保坂、鈴木、堀田、池、畠、氏原、イクバル、薄井、杵渕、原(13名)</td>
+</tr>
+<tr class="field"><th class="docinfo-name">日時:</th><td class="field-body">2011年7月28日 19:00-21:00</td>
+</tr>
+<tr class="field"><th class="docinfo-name">会場:</th><td class="field-body">BeProud ミーティングスペース</td>
+</tr>
+</tbody>
+</table>
+<div class="contents topic" id="id1">
+<p class="topic-title first">議題</p>
+<ul class="simple">
+<li><a class="reference internal" href="../2011-07-28.html#todo" id="id12">1.TODOの確認</a></li>
+<li><a class="reference internal" href="../2011-07-28.html#id2" id="id13">2.プログラム、タイムテーブルの進捗</a></li>
+<li><a class="reference internal" href="../2011-07-28.html#id3" id="id14">3.スポンサー状況共有</a></li>
+<li><a class="reference internal" href="../2011-07-28.html#id4" id="id15">4.翌日のスプリントの計画</a></li>
+<li><a class="reference internal" href="../2011-07-28.html#id5" id="id16">5.会場の利用方針の共有(動画配信等)</a></li>
+<li><a class="reference internal" href="../2011-07-28.html#id6" id="id17">6.事務局系の報告</a></li>
+<li><a class="reference internal" href="../2011-07-28.html#paypal" id="id18">7.経費・収入・スポンサーの関係資料共有（paypal口座データ等)</a></li>
+<li><a class="reference internal" href="../2011-07-28.html#id7" id="id19">8.開催レポート担当者</a></li>
+<li><a class="reference internal" href="../2011-07-28.html#id8" id="id20">9.物販ブースに関して</a></li>
+<li><a class="reference internal" href="../2011-07-28.html#pycon-party" id="id21">10.PyCon Party について進め方を決める</a></li>
+<li><a class="reference internal" href="../2011-07-28.html#guidooffice-hour" id="id22">11.Guidoさんを含めOffice hourやるかどうか</a></li>
+<li><a class="reference internal" href="../2011-07-28.html#id9" id="id23">12.物品スポンサー</a></li>
+<li><a class="reference internal" href="../2011-07-28.html#id10" id="id24">13.スタッフ配置</a></li>
+<li><a class="reference internal" href="../2011-07-28.html#mtg" id="id25">14.次回MTG</a><ul>
+<li><a class="reference internal" href="../2011-07-28.html#id11" id="id26">次回の議題</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="todo">
+<h3><a class="toc-backref" href="../2011-07-28.html#id12">1.TODOの確認</a></h3>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">確認して、完了したものはCloseにした。</p>
+</li>
+<li><p class="first">TarekにSprintあるよとメールする(Ian)</p>
+</li>
+<li><p class="first">物販はないかもしれない</p>
+</li>
+<li><p class="first">guidebook app</p>
+<blockquote>
+<ol class="arabic simple">
+<li>アプリケーションに載せる地図を作る</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">スポンサーロゴのサイズを決める</p>
+<blockquote>
+<ol class="arabic simple">
+<li>サイズは仮決めしたので堀田さんにいただいてもらう</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">サイトのCFPや参加登録のボタン画像化</p>
+<blockquote>
+<ol class="arabic simple">
+<li>トップで一目見てわかるように。飛べるように</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">英語の案内ページを作る(しみずかわ</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">参加登録方法</p>
+</li>
+<li><p class="first">英語のアンケートって取るの?</p>
+<blockquote>
+<ol class="arabic simple">
+<li>余裕があればアンケート取る</li>
+<li>英語話者が10人くらいまでならとらなくてもいい</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">メディア告知</p>
+<blockquote>
+<ol class="arabic simple">
+<li>技評さん・翔泳社さんに依頼済み</li>
+<li>あとはオライリーさん</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="id2">
+<h3><a class="toc-backref" href="../2011-07-28.html#id13">2.プログラム、タイムテーブルの進捗</a></h3>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">プログラム確定</p>
+<blockquote>
+<ol class="arabic simple">
+<li>発表者への通知も済んでいる</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">タイムテーブル</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">パネルディスカッションのセッションだけ入っていない</p>
+</li>
+<li><p class="first">guido への質問の回答発表タイムを昼食後に</p>
+<blockquote>
+<ol class="arabic simple">
+<li>その後スポンサーセッション</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">パネルディスカッション何分?</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">三社の社長でディスカッション</p>
+<blockquote>
+<ol class="arabic simple">
+<li>司会 池</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">国光さん(gumiさん)の話す量次第?</p>
+</li>
+<li><p class="first">60分やりましょう→池さんと60分可能か確認する(たかのり)</p>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">チュートリアル</p>
+<blockquote>
+<ol class="arabic simple">
+<li>内容はどのようなものか</li>
+<li>初心者向けに行う</li>
+<li>一日で覚えられる量にもかぎりがあるのであまり長くなくても</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="id3">
+<h3><a class="toc-backref" href="../2011-07-28.html#id14">3.スポンサー状況共有</a></h3>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">決定している</p>
+</li>
+<li><p class="first">snack&amp;beverage が足りていない</p>
+<blockquote>
+<ol class="arabic simple">
+<li>追加募集をするのかしないのか→金額的には足りているのでしない</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">締め切りは特に設けない</p>
+</li>
+<li><p class="first">入金確認</p>
+<blockquote>
+<ol class="arabic simple">
+<li>スポンサーからの入金状況に関して問題になるような状況ではない</li>
+<li>キャッシュフローを考えると今の状況では25万円ほど足りない</li>
+<li>paypal 支払いでの入金はあまりキャッシュフローの考慮に入れていない</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">先に払う費用</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">弁当</p>
+</li>
+<li><p class="first">UST 業者</p>
+</li>
+<li><p class="first">スタッフTシャツほしいよね</p>
+<blockquote>
+<ol class="arabic simple">
+<li>スタッフと参加者の区別しやすい</li>
+<li>当日お手伝いにもあったほうがいい</li>
+<li>30枚で十分でしょう</li>
+<li>余ったら当日売るのもありか</li>
+<li>一色(生地の色+柄の色)</li>
+<li>やってみる(イクバル)</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">tarek に渡すお金は円建てで</p>
+</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="id4">
+<h3><a class="toc-backref" href="../2011-07-28.html#id15">4.翌日のスプリントの計画</a></h3>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">事前にやりたいことを募りつつ、基本的にあまり干渉しない</p>
+</li>
+<li><p class="first">オープンスペースでW/Bに自由に書けるようにしておくと良いよね</p>
+</li>
+<li><p class="first">Webサイトにも書けるようににしておきたいね</p>
+</li>
+<li><p class="first">開会・閉会は仕切る</p>
+<blockquote>
+<ol class="arabic simple">
+<li>LT 開発内容を紹介してもいいかもしれない</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">開発経過報告</p>
+<blockquote>
+<ol class="arabic simple">
+<li>最初と最後くらいはやってもいいかもしれない</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">リーダ発表し、参加者がぶら下がる方式</p>
+</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="id5">
+<h3><a class="toc-backref" href="../2011-07-28.html#id16">5.会場の利用方針の共有(動画配信等)</a></h3>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">UST 配信</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">PyCon JP スタッフを手伝いとして付ける場合の費用</p>
+<blockquote>
+<ol class="arabic simple">
+<li>158104円</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">スタッフがつかない場合の費用</p>
+<blockquote>
+<ol class="arabic simple">
+<li>195000円程度</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">VGAケーブルで画面も合成できる</p>
+<blockquote>
+<ol class="arabic simple">
+<li>スクリーンにPC画面を表示して、左下に発表者の映像を出す</li>
+<li>画面の映像に被ってでるわけではない</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">PyCon 側のスタッフの手間はそれほどかからなそう</p>
+</li>
+<li><p class="first">テロップも出してくれる</p>
+<blockquote>
+<ol class="arabic simple">
+<li>セッションタイトルとかスポンサー名とかを出すのがいいかも</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">録画</p>
+<blockquote>
+<ol class="arabic simple">
+<li>USTの機能で保存できる</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">支払い</p>
+<blockquote>
+<ol class="arabic simple">
+<li>前日まででいいとのこと</li>
+<li>二週間前までに払うという約束をしている</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">第二回会場見学</p>
+<blockquote>
+<ol class="arabic simple">
+<li>来週木曜日に行う</li>
+<li>今のところ物販の申し出はない</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="id6">
+<h3><a class="toc-backref" href="../2011-07-28.html#id17">6.事務局系の報告</a></h3>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">ネームカード</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">デザインは問題なさそうだが、もう少し直す(たきざわ</p>
+</li>
+<li><p class="first">名札に名前を入れるか?</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">手で書いてもらう?</p>
+<blockquote>
+<ol class="arabic simple">
+<li>入場する際に時間がかかりそう</li>
+<li>どこで書いてもらうか</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">申し込みフォームで入力してもらった情報を反映しない</p>
+</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">電源タップを用意する?</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">メイン会場に電源が全く足りていない</p>
+</li>
+<li><p class="first">ドラムがあればよい</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">一つはあるが足りるかどか</p>
+</li>
+<li><p class="first">買う?</p>
+<blockquote>
+<ol class="arabic simple">
+<li>資産にしてしまうかどうか</li>
+<li>管理をどうするか</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">スタッフの中に持っている人がいたら持ってきてもらう</p>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">それ以外の教室は問題なさそう</p>
+</li>
+<li><p class="first">バッテリがたりなくなったらオープンスペースに行ってもらう?</p>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">ボールペンなど</p>
+<blockquote>
+<ol class="arabic simple">
+<li>増田が持っているので送ってもらう</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">発注はいつ頃?</p>
+<blockquote>
+<ol class="arabic simple">
+<li>一週間もあればそろえられるので、あまり焦る必要はない</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="paypal">
+<h3><a class="toc-backref" href="../2011-07-28.html#id18">7.経費・収入・スポンサーの関係資料共有（paypal口座データ等)</a></h3>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">スプレッドシートで予算を管理している</p>
+<blockquote>
+<ol class="arabic simple">
+<li>出納帳タブに書いてある</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="id7">
+<h3><a class="toc-backref" href="../2011-07-28.html#id19">8.開催レポート担当者</a></h3>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">OKをもらっている出版社さん</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">技術評論社さん -&gt; 参加レポート</p>
+<blockquote>
+<ol class="arabic simple">
+<li>原さん</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">翔泳社さん(code zine) -&gt; 開催レポート</p>
+<blockquote>
+<ol class="arabic simple">
+<li>ほさかさん -&gt; みんなにインタビューして構成しましょう</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">2社両方に出してもOKかどうかを確認しましょう</p>
+</li>
+<li><p class="first">参加レポートは荷が重そう</p>
+<blockquote>
+<ol class="arabic simple">
+<li>初めて書く人でもよいが責任を持って書いてくれる人</li>
+<li>pycon-organizers-jp に投げて聞いてみる</li>
+<li>探してみる -&gt; 原さんどうですか -&gt; OK</li>
+<li>基調講演、スポンサー講演、Guido、LT</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">瀧澤さん, たかのりさん, 森本さんにチェックしてもらうのは可能</p>
+</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="id8">
+<h3><a class="toc-backref" href="../2011-07-28.html#id20">9.物販ブースに関して</a></h3>
+<blockquote>
+<ol class="arabic simple">
+<li>今回はオライリーさん等出版系はLLPlanetに参加しているため厳しだろう</li>
+<li>今回はないとおもう</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="pycon-party">
+<h3><a class="toc-backref" href="../2011-07-28.html#id21">10.PyCon Party について進め方を決める</a></h3>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">飲み会</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">大学でビアバッシュとか</p>
+<blockquote>
+<ol class="arabic simple">
+<li>大学は酒はダメとのこと</li>
+<li>ビアバッシュなし</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">100人くらい参加見込み</p>
+</li>
+<li><p class="first">スタッフ有料</p>
+</li>
+<li><p class="first">tarek 無料</p>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">運方方法</p>
+</li>
+<li><p class="first">受付</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">人数をあらかじめ決めておいて予約をしないと厳しい</p>
+</li>
+<li><p class="first">予算一人頭5000くらい?</p>
+</li>
+<li><p class="first">いつ参加受付をするか</p>
+<blockquote>
+<ol class="arabic simple">
+<li>PyCon 当日朝の受付は難しいかも</li>
+<li>当日チケット販売をするなど</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">集金</p>
+<blockquote>
+<ol class="arabic simple">
+<li>paypal で集めたい</li>
+<li>店の予約のお金は三日くらい前に払えばいい</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">確定事項</p>
+<blockquote>
+<ol class="arabic simple">
+<li>店を決めてから PayPal で集金</li>
+<li>お金を払った人は当日シールなりチケットなりを配布して、入場券とする</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="guidooffice-hour">
+<h3><a class="toc-backref" href="../2011-07-28.html#id22">11.Guidoさんを含めOffice hourやるかどうか</a></h3>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">やりましょう</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">前回の反省会でもoffice hour やろうという話があった</p>
+</li>
+<li><p class="first">11時〜12時</p>
+<blockquote>
+<ol class="arabic simple">
+<li>講演者の office hour もいっしょにやりたい</li>
+<li>guido だけの office hour というのはやりたくない</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">Open Space の部屋でやる?</p>
+<blockquote>
+<ol class="arabic simple">
+<li>チュートリアルと被っている</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">office hour スペースは廊下で</p>
+<blockquote>
+<ol class="arabic simple">
+<li>お茶とお菓子を用意する</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">発表者はあらかじめ office hour にアサインしておく</p>
+</li>
+<li><p class="first">office hour タイムテーブルを作らないといけない</p>
+<blockquote>
+<ol class="arabic simple">
+<li>ジャンルの近い発表者同士を同じ時間にした方いいのではないか</li>
+<li>1週間毎に仮組・連絡・レビュー・公開、と進めていきましょう（杵渕）</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">質問をあらかじめ用意しておいた方がいいのではないか</p>
+</li>
+<li><p class="first">スタッフを一人付ける</p>
+<blockquote>
+<ol class="arabic simple">
+<li>cocoatm</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="id9">
+<h3><a class="toc-backref" href="../2011-07-28.html#id23">12.物品スポンサー</a></h3>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">redbull</p>
+<blockquote>
+<ol class="arabic simple">
+<li>sprint のスポンサーになってもらう予定</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">mozilla</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">mozilla グッズの提供</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">シール</p>
+</li>
+<li><p class="first">紙バッグ</p>
+</li>
+<li><p class="first">クリアファイル</p>
+</li>
+<li><p class="first">Tシャツ</p>
+</li>
+<li><p class="first">メーリングリストでの宣伝</p>
+<blockquote>
+<ol class="arabic simple">
+<li>tarek も出してくれる</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">要求</p>
+<blockquote>
+<ol class="arabic simple">
+<li>ロゴ出す</li>
+<li>ロゴは協力団体として出す</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">mozilla の方が一般的に認知されている</p>
+<blockquote>
+<ol class="arabic simple">
+<li>PyCon JP としての広告効果があるのではないか</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">提案を受けましょう</p>
+</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="id10">
+<h3><a class="toc-backref" href="../2011-07-28.html#id24">13.スタッフ配置</a></h3>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">当日協力</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">そろそろ呼びかけたほうがいい</p>
+</li>
+<li><p class="first">終日お手伝いであるならお金は取らない</p>
+</li>
+<li><p class="first">pycon-organizers-jp で声を掛ける</p>
+<blockquote>
+<ol class="arabic simple">
+<li>足りなければ Python ML でも声を掛ける</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">当日配置をどうするか</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">事務局</p>
+<blockquote>
+<ol class="arabic simple">
+<li>受付人員(朝のみ)</li>
+<li>飲み会の受付の時</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">一週間くらいで各担当に必要人員数を出してもらってから決める</p>
+</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="mtg">
+<h3><a class="toc-backref" href="../2011-07-28.html#id25">14.次回MTG</a></h3>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">あと何回やるか</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">全体のMTGはあと一回くらい</p>
+</li>
+<li><p class="first">前回は二十日前に一回やっている</p>
+</li>
+<li><p class="first">お盆の前か後か</p>
+<blockquote>
+<ol class="arabic simple">
+<li>お盆の後は厳しい</li>
+<li>17, 18, 19 くらい</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">TODO の最終チェックと漏れの確認を主にやる</p>
+</li>
+<li><p class="first">9, 10, 11 でMTGを行う</p>
+</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+<div class="section" id="id11">
+<h4><a class="toc-backref" href="../2011-07-28.html#id26">次回の議題</a></h4>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">PyCon JP 2012</p>
+<blockquote>
+<ol class="arabic simple">
+<li>まだ早くない?</li>
+<li>会の最後に次回のことについて話さないといけない</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">来年もやりたい(寺田</p>
+</li>
+<li><p class="first">目標</p>
+<blockquote>
+<ol class="arabic simple">
+<li>mini -&gt; PyCon ときて次は何か</li>
+<li>PyCon APAC を誘致するという目標</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first">東京以外の地方チームがあるといい</p>
+</li>
+</ol>
+</blockquote>
+</div>
+</div>
+
+            
+        </div>
+    
+    
+                                                                            
+                             </div>                                                                                       
+                             
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+        
+
+    </div>
+                              
+
+                            
+                        </div>
+                    
+
+                    
+                </div>
+            
+        
+            <div id="viewlet-below-content">
+
+
+
+
+
+    
+
+</div>
+        </div>
+
+        
+        
+
+        <div id="portal-column-two" class="cell width-1:4 position-3:4">
+            
+                
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a727373" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a727373"><div class="portletStaticText portlet-static-rss"><p style="text-align:right;font-size:80%;margin-bottom:1em;margin-right:1em">
+<a href="../../../../headline/rss"><img src="../feed.png" />ニュース</a> <a href="../../../../recent/rss"><img src="../feed.png" />サイト更新情報</a>
+</p>
+</div>
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a706f72746c65745f636f756e74646f776e" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a706f72746c65745f636f756e74646f776e">
+
+
+  
+    <div>
+      <dl class="portlet portletStaticText">
+
+        <dt class="portletHeader">
+          <span class="portletTopLeft"></span>
+          <span>
+            PyCon JP 2011 (8/27開催)
+          </span>
+          <span class="portletTopRight"></span>
+        </dt>
+
+        <dd class="portletItem odd">
+          <div style="text-align:center">
+            終了後
+            <span style="color:red; font-size:400%; font-weight:bold">958</span>
+            日経過
+          </div>
+
+          <ul>
+          </ul>
+          
+          <span class="portletBottomLeft"></span>
+          <span class="portletBottomRight"></span>
+          
+        </dd>
+      </dl>
+
+    </div>
+  
+
+  
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a6e617669676174696f6e" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a6e617669676174696f6e">
+<dl class="portlet portletNavigationTree">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="../../../sitemap.html" class="tile">ナビゲーション</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem lastItem">
+        <ul class="navTree navTreeLevel0">
+            
+            
+
+
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish section-team">
+
+    
+
+
+        <a href="../../../team.html" class="state-published navTreeItemInPath navTreeFolderish contenttype-folder" title="運営メンバーや議事録など">
+            
+            <span>運営チーム</span>
+        </a>
+
+    <ul class="navTree navTreeLevel1">
+        
+
+
+
+<li class="navTreeItem visualNoMarker section-members">
+
+    
+
+
+        <a href="../../members.html" class="state-published contenttype-document" title="プロジェクト運営メンバーです。お手伝いいただける方を随時募集しています。 ML http://groups.google.com/group/pycon-organizers-jp にユーザー登録し、参加の宣言をおこなってください。">
+            
+            <span>運営チーム</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish section-meeting">
+
+    
+
+
+        <a href="../../meeting.html" class="state-published navTreeItemInPath navTreeFolderish contenttype-folder" title="2011年3月から運営会議を行っております。">
+            
+            <span>運営会議</span>
+        </a>
+
+    <ul class="navTree navTreeLevel2">
+        
+
+
+
+<li class="navTreeItem visualNoMarker section-2011-03-08">
+
+    
+
+
+        <a href="../2011-03-08.html" class="state-published contenttype-document" title="構想共有・テーマ・開催概要・担当決定・運営方法">
+            
+            <span>第1回 ミーティング議事録</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-2011-03-28">
+
+    
+
+
+        <a href="../2011-03-28.html" class="state-published contenttype-document" title="会場選定・担当決定・マイルストーンについて・セッション内容・サイト">
+            
+            <span>第2回 ミーティング議事録</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-2011-04-22">
+
+    
+
+
+        <a href="../2011-04-22.html" class="state-published contenttype-document" title="">
+            
+            <span>第3回 ミーティング議事録</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-2011-05-19">
+
+    
+
+
+        <a href="../2011-05-19.html" class="state-published contenttype-document" title="CFPとキーノートとスポンサーと">
+            
+            <span>第4回 ミーティング議事録</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-2011-06-14">
+
+    
+
+
+        <a href="../2011-06-14.html" class="state-published contenttype-document" title="会場見学と CFP とスポンサーと予算">
+            
+            <span>第5回 ミーティング議事録</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-2011-07-07">
+
+    
+
+
+        <a href="../2011-07-07.html" class="state-published contenttype-document" title="">
+            
+            <span>第6回 ミーティング議事録</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeCurrentNode section-2011-07-28">
+
+    
+
+
+        <a href="../2011-07-28.html" class="state-published navTreeCurrentItem navTreeCurrentNode contenttype-document" title="1. TODOの確認
+2. プログラム、タイムテーブルの進捗
+3. スポンサー状況共有
+4. 翌日のスプリントの計画
+5. 会場の利用方針の共有(動画配信等)
+6. 事務局系の報告
+7. 経費・収入・スポンサーの関係資料共有（paypal口座データ等)
+8. 開催レポート担当者
+9. 開催レポート内容について技術評論社様と翔泳社様それぞれどうするか
+10. 物販ブースに関して
+11. PyCon Party について進め方を決める
+12. Guidoさんを含めOffice hourやるかどうか">
+            
+            <span>第7回 ミーティング議事録</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-2011-08-11">
+
+    
+
+
+        <a href="../2011-08-11.html" class="state-published contenttype-document" title="   1. TODOの確認
+   2. 当日の会場運営手引きをざっと確認
+   3. おやつ、コーヒーブレイクの対応、スポンサーロゴの印刷（食堂）
+   4. 申し込み：チケット未購入問題、当日チケット関連
+   5. パーティー受付方法の共有
+   6. Partyの料金プランといつまで受け付けるか(入金等)
+   7. 英語できるスタンプ
+   8. ノベルティー
+   9. 会場見学の報告（森本）
+  10. キャッシュフロー
+  11. Indesignお持ちの方募集(アンケート作成に必要)">
+            
+            <span>PyCon 2011 夏 第8回 最終MTG</span>
+        </a>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-function">
+
+    
+
+
+        <a href="../../function.html" class="state-published contenttype-document" title="イベント運営にあたっては以下の役割があり、各メンバーはいずれか、あるいは複数の担当を受け持ちます。
+担当は2011/3/8 キックオフミーティングで立候補してもらいました。決定や舵取りのため、主担当と担当に分けています。">
+            
+            <span>運営上の役割</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-images">
+
+    
+
+
+        <a href="../../images.html" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>images</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-kpt">
+
+    
+
+
+        <a href="../../kpt.html" class="state-published contenttype-document" title="続けたいこと、問題点、やってみたいこと、を書きましょう。">
+            
+            <span>Keep, Problem, Try</span>
+        </a>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+    
+</li>
+
+
+
+
+        </ul>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a33306239333066333330623533306663" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a33306239333066333330623533306663">
+<dl class="portlet portletStaticText portlet-static-30b930f330b530fc">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span>
+           スポンサー
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <h4>Gold</h4>
+<div style="text-align:center">
+<p>
+<a href="http://gu3.co.jp/"><img alt="株式会社gumi" title="株式会社gumi" src="../../../../banners/sponsors/gumi_sign.jpg" /><br />株式会社gumi</a>
+</p>
+</div>
+
+<hr />
+
+<h4>Silver</h4>
+<div style="text-align:center">
+<p>
+<a href="http://www.nexedi.co.jp/"><img alt="株式会社Nexedi" title="株式会社Nexedi" src="../../../../banners/sponsors/nexedi_logo.png" /><br />株式会社Nexedi</a>
+</p>
+<p>
+<a href="http://www.s-cubism.jp/"><img alt="株式会社エスキュービズム" title="株式会社エスキュービズム" src="../../../../banners/sponsors/s-cubism.png" /><br />株式会社エスキュービズム</a>
+</p>
+</div>
+
+<hr />
+
+<h4>Bronze</h4>
+<div style="text-align:center">
+<p>
+<a href="http://www.beproud.jp/"><img alt="株式会社ビープラウド" title="株式会社ビープラウド" src="../../../../banners/sponsors/beproud.jpg" /><br />株式会社ビープラウド</a>
+</p>
+<p>
+<a href="http://accense.com/"><img alt="株式会社アクセンス・テクノロジー" title="株式会社アクセンス・テクノロジー" src="../../../../banners/sponsors/atlogo.png" /><br />株式会社アクセンス・テクノロジー</a>
+</p>
+<p>
+<a href="http://www.cb21.co.jp/"><img alt="株式会社キャッチボールトゥエンティワン・インターネット・コンサルティング" title="株式会社キャッチボールトゥエンティワン・インターネット・コンサルティング" src="../../../../banners/sponsors/catchball21.png" /><br />株式会社キャッチボールトゥエンティワン・<br />インターネット・コンサルティング</a>
+</p>
+<p>
+<a href="http://www.ariel-networks.com/"><img alt="アリエル・ネットワーク株式会社" title="アリエル・ネットワーク株式会社" src="../../../../banners/sponsors/ariel.png" /><br />アリエル・ネットワーク株式会社</a>
+</p>
+</div>
+
+<hr />
+
+<h4>Snack&amp;Beverage</h4>
+<ul>
+<li><a href="http://www.garage.co.jp/">株式会社デジタルガレージ</a></li>
+<li><a href="http://www.rakuten.co.jp/">楽天株式会社</a></li>
+</ul>
+
+<hr />
+
+<p>(スポンサー募集は終了しました)</p>
+
+        
+            <span class="portletBottomLeft"></span>
+            <span class="portletBottomRight"></span>
+        
+    </dd>
+    
+    
+
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a3533353435323962" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a3533353435323962">
+<dl class="portlet portletStaticText portlet-static-5354529b">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span>
+           協力
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <div style="text-align:center">
+<p>
+<a href="http://aiit.ac.jp/"><img alt="産業技術大学院大学" title="産業技術大学院大学" src="../../../../banners/aiit_logo_s.gif" /><br />産業技術大学院大学</a>
+</p>
+<p>
+<a href="http://gihyo.jp/"><img alt="技術評論社" title="技術評論社" src="../../../../banners/gjp_site_logo_200.jpg" /><br />技術評論社</a>
+</p>
+<p>
+<a href="http://codezine.jp/"><img alt="CodeZine" title="CodeZine" src="../../../../banners/codezine.png" /><br />CodeZine</a>
+</p>
+<p>
+<a href="http://www.oreilly.co.jp/"><img alt="オライリー・ジャパン" title="オライリー・ジャパン" src="../../../../banners/oraj_logo.jpg" /><br />オライリー・ジャパン</a>
+</p>
+<p>
+<a href="http://mozilla.jp/"><img alt="Mozilla Japan" title="Mozilla Japan" src="../../../../banners/mozilla-firefox.png" /><br />Mozilla Japan</a>
+</p>
+</div>
+
+
+        
+            <span class="portletBottomLeft"></span>
+            <span class="portletBottomRight"></span>
+        
+    </dd>
+    
+    
+
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a666f75726469676974732d706f72746c65742d74776974746572" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a666f75726469676974732d706f72746c65742d74776974746572"><dl class="portlet portletTwitterPortlet">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        Twitter (#pyconjp)
+        <span class="portletTopRight"></span>
+    </dt>
+
+    
+
+    
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a3930346535336262333036657079636f6e2d6a70" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a3930346535336262333036657079636f6e2d6a70">
+<dl class="portlet portletStaticText portlet-static-904e53bb306epycon-jp">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span>
+           過去のPyCon JP
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <ul>
+<li><a class="external-link" href="http://sites.google.com/site/pyconminijp/">PyCon mini JP 2011</a></li>
+</ul>
+        
+            <span class="portletBottomLeft"></span>
+            <span class="portletBottomRight"></span>
+        
+    </dd>
+    
+    
+
+</dl>
+</div>
+
+
+
+
+            
+        </div>
+        
+    </div>
+
+
+    
+        <div class="row">
+  <div class="cell width-full position-0">
+    <div id="portal-footer">
+      <p>
+        &copy; 2014
+        <span>PyCon JP</span>
+      </p>
+    </div>
+
+  </div>
+</div>
+<div id="portal-colophon">
+
+<div class="colophonWrapper">
+<ul>
+  <li>
+    <a href="http://plone.org" title="このサイトは Plone オープンソース CMS/WCM を使って作られました。">Powered by Plone & Python</a>
+  </li>
+</ul>
+</div>
+</div>
+
+<ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a href="../../../../sitemap.html" accesskey="3" title="サイトマップ">サイトマップ</a></li>
+    <li id="siteaction-accessibility"><a href="../../../../accessibility-info.html" accesskey="0" title="アクセシビリティ">アクセシビリティ</a></li>
+    <li id="siteaction-contact"><a href="../../../../contact-info.html" accesskey="9" title="お問い合わせ">お問い合わせ</a></li>
+</ul>
+
+
+    
+
+</div>
+</body>
+</html>
+
+
+

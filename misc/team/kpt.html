@@ -1,0 +1,874 @@
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+
+    
+    
+    
+    
+    
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Forces IE8+ into newest rendering engine even if on an intranet. This has to be defined before any script/style tags. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+    
+        <base href="" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <link rel="alternate" type="application/rss+xml" title="ニュース" href="#" />
+    <link rel="alternate" type="application/rss+xml" title="更新情報" href="#" />
+
+    
+        <meta content="続けたいこと、問題点、やってみたいこと、を書きましょう。" name="description" />
+<link rel="kss-base-url" href="kpt/index.html" />
+
+  
+    <link rel="stylesheet" type="text/css" href="../../portal_css/Sunburst&#32;Theme/base-cachekey3695.css" />
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="#" />
+        <![endif]-->
+    
+    <style type="text/css" media="screen">@import url(../../portal_css/Sunburst&#32;Theme/resourceeasyslider-portlet-cachekey0470.css);</style>
+    <style type="text/css" media="screen">@import url(../../portal_css/Sunburst&#32;Theme/resourceprettyPhoto-cachekey0127.css);</style>
+    <link rel="stylesheet" type="text/css" media="all" href="../../portal_css/Sunburst&#32;Theme/ploneCustom-cachekey1147.css" />
+
+  
+    <link rel="kinetic-stylesheet" type="text/css" href="../../portal_kss/Sunburst&#32;Theme/resourcetinymce.ksstinymce-cachekey4145.kss.css" />
+    <link rel="kinetic-stylesheet" type="text/css" href="../../portal_kss/Sunburst&#32;Theme/at-cachekey4559.kss.css" />
+  
+    <script type="text/javascript" src="../../portal_javascripts/Sunburst&#32;Theme/jquery-cachekey4811.js"></script>
+       <!--[if lt IE 8]>
+     
+    <script type="text/javascript" src="#"></script>
+       <![endif]-->
+     
+    <script type="text/javascript" src="../../portal_javascripts/Sunburst&#32;Theme/jquery-shuffle-cachekey3172.js"></script>
+    <script type="text/javascript" src="../../portal_javascripts/Sunburst&#32;Theme/resourceeasyslider-portlet-cachekey0840.js"></script>
+    <script type="text/javascript" src="../../portal_javascripts/Sunburst&#32;Theme/resourcejquery.prettyPhoto-cachekey5397.js"></script>
+
+
+<title>Keep, Problem, Try &mdash; PyCon JP 2011</title>
+        
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
+    <link rel="apple-touch-icon" href="../../touch_icon.png" />
+
+
+
+    <link rel="home" href="../../index.html" title="フロントページ" />
+
+    <link rel="contents" href="../../sitemap.html" title="サイトマップ" />
+
+
+
+
+
+
+    <link rel="search" href="#" title="このサイトを検索" />
+
+
+
+        
+        
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width; initial-scale=0.6666; maximum-scale=1.0; minimum-scale=0.6666" />
+        <meta name="generator" content="Plone - http://plone.org" />
+    
+</head>
+
+<body class="template-document_view portaltype-document section-misc icons-on" dir="ltr">
+
+<div id="visual-portal-wrapper">
+
+        <div id="portal-top" class="row">
+<div class="cell width-full position-0"> <!-- TODO: Temporary, this one should be in the template that is inserted -->
+            <div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="kpt.html#content">コンテンツに飛ぶ</a> |
+
+  <a accesskey="6" href="kpt.html#portlet-navigation-tree">ナビゲーションに飛ぶ</a>
+</p>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">パーソナルツール</h5>
+
+
+
+<dl class="actionMenu deactivated" id="portal-personaltools">
+  <dt id="anon-personalbar">
+    
+        <a href="#" id="personaltools-login">ログイン</a>
+    
+  </dt>
+</dl>
+
+</div>
+
+
+
+<div id="portal-searchbox">
+
+   <div id="python-logo">
+        <img width="250" height="68" src="../../python_logo.png" />
+   </div>
+
+   <form name="searchform" id="searchGadget_form" action="#">
+
+        <div class="LSBox">
+        <label class="hiddenStructure" for="searchGadget">サイトを検索</label>
+
+        <input name="SearchableText" type="text" size="18" title="サイトを検索" accesskey="4" class="searchField inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="submit" value="検索" />
+
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/Plone/misc/team" />
+            <label for="searchbox_currentfolder_only" style="cursor: pointer">現在のセクション内のみ</label>
+        </div>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="#" accesskey="5">詳細検索</a>
+    </div>
+
+</div>
+<a id="portal-logo" title="ホーム" accesskey="1" href="../../index.html">
+    <img src="../../logo.png" alt="" title="logo.png" height="90" width="292" /></a>
+
+
+    <h5 class="hiddenStructure">セクション</h5>
+
+    <ul id="portal-globalnav"><li id="portaltab-index_html" class="plain"><a href="../../index.html" title="">ホーム</a></li><li id="portaltab-about" class="plain"><a href="../../about.html" title="PyCon は、Pythonユーザが集まり、PythonやPythonを使ったソフトウェアについて情報交換し、交流するためのカンファレンスです。 PyCon JP開催を通してPythonの使い手が一同に集まり、他の分野などの情報や知識や知人を増やす場所とすることが目標です。
+
+2011年春に開催した&quot;PyCon mini JP&quot;の成功を受け、よりよいイベントの開催を目指しています。
+">開催趣旨</a></li><li id="portaltab-audience" class="plain"><a href="../../audience.html" title="参加者向け情報">一般参加の方へ</a></li><li id="portaltab-program" class="plain"><a href="../../program.html" title="当日のプログラムに関する情報">Program</a></li><li id="portaltab-english-information" class="plain"><a href="../../english-information.html" title="">English Information</a></li><li id="portaltab-sponsor" class="plain"><a href="../../sponsor.html" title="">スポンサー一覧</a></li><li id="portaltab-misc" class="selected"><a href="../../misc.html" title="">運営情報</a></li><li
+    id="portaltab-reports" class="plain"><a href="../../reports.html" title="開催報告系記事・動画アーカイブ・発表資料とアンケートなど諸々">開催報告</a></li></ul>
+
+</div>
+</div>
+        </div>
+    <div id="portal-columns" class="row">
+
+        <div id="portal-column-content" class="cell width-3:4 position-0">
+
+            <div id="viewlet-above-content"><div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">現在位置:</span>
+    <span id="breadcrumbs-home">
+        <a href="../../index.html">ホーム</a>
+        <span class="breadcrumbSeparator">
+            &rsaquo;
+            
+        </span>
+    </span>
+    <span id="breadcrumbs-1" dir="ltr">
+        
+            <a href="../../misc.html">運営情報</a>
+            <span class="breadcrumbSeparator">
+                &rsaquo;
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-2" dir="ltr">
+        
+            <a href="../team.html">運営チーム</a>
+            <span class="breadcrumbSeparator">
+                &rsaquo;
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-3" dir="ltr">
+        
+            
+            
+            <span id="breadcrumbs-current">Keep, Problem, Try</span>
+         
+    </span>
+
+</div>
+</div>
+            
+            
+                <div class="">
+
+                    
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                        <div id="content">
+
+                            
+
+                                                                                        
+
+                                                          
+                                                           
+                                 
+                                 
+            
+                <h1 id="parent-fieldname-title" class="documentFirstHeading">
+                    Keep, Problem, Try
+                </h1>
+            
+            
+                                                                                            
+                                                                                                            
+                             
+
+
+                             
+
+                                               
+                                 
+                                 
+            
+                <div id="parent-fieldname-description" class="documentDescription">
+                   続けたいこと、問題点、やってみたいこと、を書きましょう。
+                </div>
+            
+            
+                                                                                             
+                                                                                                      
+
+                             
+
+                              
+                             <div id="content-core">                                                                      
+                                 
+    
+        
+        <div class="" id="parent-fieldname-text">
+            <div class="section" id="keep">
+<h3>Keep</h3>
+<ul class="simple">
+<li>Twitterの当日実況中継的な運用は継続したい(清水川)</li>
+<li>昼食を会場内で取る＆ぼっちをなくす。出会い系要素が非常に良かった。(清水川)</li>
+<li>Guido の意向次第だが、今後も Guido となんらかの形で直接やりとりする機会を持ちたい。(杵渕)</li>
+<li>開催前記事はモチベーションが上がって良い (ほさか)</li>
+<li>ライブ配信を業者さんに全てお任せしたので会場係りの負荷が少なかった (もりもと)</li>
+<li>海外から講演者 (参加者) が来ることをアピールしたので日本人の発表者も英語を意識した資料作りをしてくれたし、参加者にも英語が重要だという意識を高めるきっかけになって良かったと思う (もりもと)</li>
+<li>オープンスペースのチュートリアルは参加者が多かったように思う、これから Python を始めようという人向けの企画が良かったと思う (もりもと)</li>
+<li>英語トラックはすばらしい！本イベント、Party、Sprintsとそれぞれで英語必須なシーンが発生していて、英語話せるようになりたいモチベーションがかなり上がった。国内でこんな体験が出来るのはとても良いこと(清水川)</li>
+<li>Partyは立食形式なのでかなり人が入り組んでてよかった(たかのり)</li>
+<li>グッズ配布はネタになってよかったと思う。PCにステッカーはってくれた人もいるし(たかのり)</li>
+<li>開催できたこと・開催できたこと(原)</li>
+<li>昼食を出す。皆で話したり出来るのが楽しい(原)</li>
+<li>テーマに沿った会に出来たことは良かった(原)</li>
+<li>大きめの名札と色わけ、それと何語が喋れるかの表示(原)</li>
+<li>朝、会場付近で吹奏楽部が音出しをし始めるかも、というトラブルを解決できたのはよかった、トラブルへの迅速な対応(原)</li>
+<li>当日スタッフの募集は、場所までの案内などできるので良かった(原)</li>
+<li>ネットワークが安定していた(原)</li>
+<li>guidebook appが便利だった。作ったのは良かったと思う(原)</li>
+<li>昼食とコーヒーブレイク。他のイベントと異なる雰囲気が出せていてよかった(児島)</li>
+<li>受付の役割分担を適宜行い、列をさばくことを重視したため、受付の待ち行列が発生することがあまりなかった(児島)</li>
+<li>スタッフの雰囲気や姿勢。(okuji)</li>
+<li>英語トラック。(okuji)</li>
+<li>日本人以外の発表者の複数人確保。(okuji)</li>
+<li>開催前の連載記事。(okuji)</li>
+<li>ustreamによる中継。(okuji)</li>
+<li>運営情報の公開。(okuji)</li>
+<li>Partyの当日参加申し込み。(okuji)</li>
+<li>レポートの掲載が出来た(原)</li>
+<li>Guidoの登場。別の方でも来年(寺田)</li>
+<li>前日準備と車で荷物を運ぶ(寺田)</li>
+<li>アンケート。今後も同じ質問を繰り返していくことで、経時変化を捉えられそうに思える。何を提供していくべきかを考える材料になるし、それ自体が注目を集めるコンテンツにもなる(増田)</li>
+<li>the Team! 今後もこの実行力と熱意を維持してほしい(増田)</li>
+</ul>
+</div>
+<div class="section" id="problem">
+<h3>Problem</h3>
+<ul class="simple">
+<li>サイト等での情報周知が分かりにくかった。情報量は出したつもりだったがシンプルに分かりやすく情報を出したい。(清水川)</li>
+<li>当日の人員配置などチーム内への連絡徹底が出来ていなかった。直前ミーティングで運用マニュアルや配置を徹底周知したい(清水川)</li>
+<li>Office Hour に質問者が来るかどうかが分からない上、来た質問によっては30分では不足することもあり、時間枠の設定が困難。(杵渕)</li>
+<li>セッションや Office Hour の講師役の人が時間通り来ない場合、探すのが困難。(杵渕)</li>
+<li>自動販売機の場所を聞かれてすぐに答えられなかった。来場者が知りたいことを想定できていなかった。(杵渕)</li>
+<li>昼間の廊下の明るさ(照明器具)や気温を把握できていなかった。照明、エアコンの有無のチェックをすべきだった。(杵渕)</li>
+<li>議事録が分かりづらかった。特に、イベントの大目標や方向性があまり書かれておらず、個々の項目を読んでもあまり頭に入ってこなかった。(杵渕)</li>
+<li>スポンサーロゴのサイズを決めておくべきだった (ほさか)</li>
+<li>しみずかわさん、たかのりさんの負荷が高めだったような (ほさか)</li>
+<li>skype はタイムラインが一つなのがわかりにくいので何とかならないかな (ほさか)</li>
+<li>同時書き込みで問題が起きまくるので議事録とるのに google docs は向かない。とはいえ複数人が見てチェックできるのは便利ではある (ほさか)</li>
+<li>議事録は reST で最初から書いた方が…。(ほさか)</li>
+<li>セッションの開始・終了でスタッフがひとこと言った方が良い、セッションによってあったりなかったりするのは発表者も聴講者も困惑する (もりもと)</li>
+<li>プロジェクタの相性で2名映らなかった (433教室)、プレゼンツールがインストールされた Windows/Mac OS の予備マシンが必要だった (もりもと)</li>
+<li>パネルディスカッションの企画と段取りを事前にもっと詰めておくべきだった、司会／プログラム／会場係りの想定が全く違っていた (もりもと)</li>
+<li>当日の会場全体を見回る主担当者が必要だった (寺田さんが行ってた？)、それぞれの教室の主担当に委譲するという意図はあったものの、全体としてどうだったかの判断が行えないことに気付いた (もりもと)</li>
+<li>階段を使えない人に対してエレベータの場所の案内が出来なかった。誘導係は事前に確認しておくべきだった。(若山)</li>
+<li>日本語が出来ない参加者がメイントラックのみのタイミング(LT等)で置いて行かれていたようだ。Tarekちょっと寝てた(清水川)</li>
+<li>狭いスペースだからかもしれないが、「一般」の参加者と「その他」の参加者が受付ところが違うにも関わらず皆「一般」のところに一ヶ所並んでいた。（イクバル）</li>
+<li>案内看板がなかったため？遅れて来られた方々が路頭に迷われていた(Surgo)</li>
+<li>予想外に早く(8/4頃)にチケットが無くなりそう、と思った翌日には販売を終了することになってしまった。売り切れ間近の周知期間がほぼゼロという点のみ残念(清水川)</li>
+<li>Partyで飲み過ぎてSprintに来なかった人がいるような気がする(たかのり)</li>
+<li>食堂でのLunch、Coffee Breakは人の移動が少なかった。椅子をとっぱらったほうがよかったかも。(たかのり)</li>
+<li>最初のほうとか、スタッフの声だしがちょっと弱かった。みんな声だそう!!(たかのり)</li>
+<li>English Trackで発表の内容を講演中に、日本語で解説する機会があってもよかったと思います。
+質問も英語でしか行われなかったので、質疑応答を日本語訳して聞いている人に教える,日本語で質問してもいい雰囲気をつくるなどは
+行った方がよかったと思いました。敷居が高かった気がします。(中村)</li>
+<li>日本語トラックについても同様。(中村)</li>
+<li>Twitter, #pyconjp一つだと結構他のセッションの様子も感じられて面白いが混乱する。(原)</li>
+<li>スタッフ内で連絡がつかず困っていることがあった(原)</li>
+<li>ちょっと学生には懇親会お高いと思いました（チケット売るにしてもやりにくい人も：実際大人の人が声かけてくれていたけど）(原)</li>
+<li>公式サイトがPloneのデザインのままなのは、初めての人ちょっと戸惑う気もした。他のイベントを参考にレイアウト合わせてあげるとやさしいと思う。(原)</li>
+<li>会場位置がすこし分かりにくかった(児島)</li>
+<li>昼食時間帯に来た人で、昼食があることを知らなかった人も多くいた(児島)</li>
+<li>受付、本部まわりに人が集まりやすく、廊下での立ち話の声が大きくなり教室側からやんわりとクレームを受ける場面などがあった(児島)</li>
+<li>基調講演直前あたりで、講演への誘導を優先して受付時の手続き(名札記入とノベルティ配布)を省略したため、基調講演後の受付前通路がごった返した(児島)</li>
+<li>やっぱりLTはドラ(的なもの)が欲しいですね(児島)</li>
+<li>無線LANアクセスポイントの案内がわかりにくかった？ (受付に質問に来られた方が1名いました)(児島)</li>
+<li>Job Boardが目立たない、強化したほうが魅力的である、との要望がありました（遠藤）</li>
+<li>Pythonチュートリアル、テンポが早くついていけない、とのご意見がありました（遠藤）</li>
+<li>Pythonチュートリアル、配布資料はダウンロードしなくてもいいと思った、とのご意見がありました（遠藤）</li>
+<li>議論し尽くされた事項ではあるが（後出しごめんなさい）、全てのスポンサーのロゴをのせるべきではないか？差別化として、ロゴの大小は良い案であると認識しているが、ロゴの有無はサイトが永続的に存在すること、スポンサーの企業体、担当者様の社内体を考慮するといかがなものではないか？（池）</li>
+<li>ノベリティ作成の準備が遅かったので、次回は事前に計画、準備しよう！（池）</li>
+<li>発表者が優遇なさ過ぎて、発表中に大荷物を置く場所くらいは欲しかった（蘭水）</li>
+<li>会場の案内不足。発表部屋がどこにあるかわからない方、飲み物を買える場所がわからない方、トイレを探している方等、結構いらっしゃいました。(okuji)</li>
+<li>個人情報入り冊子をスタッフ全員に配布したこと。実際受付撤収のごたごたで私のものが紛失しました。(okuji)</li>
+<li>席を外せない担当のバックアップ体制不足。受付は個人情報が多く、Party受付の当日客のため現金まであったので、トイレに行くのも不安でしたが、そのとき一時的に見てもらえる人は本部で多忙だった清水川さんだけでした。(okuji)</li>
+<li>撤収の手順や方針の（明文化されていなかったという意味での）欠如。結局その場にいたスタッフで適当に結論を出して実行されました。(okuji)</li>
+<li>スタッフの準備不足。例えば、私はチケット持参者の受付で、半券を切らないといけないことを指摘されるまで気づきませんでした。よく考えれば当たり前の話ではありますが、わからなかったという事実は残ります。(okuji)</li>
+<li>プロジェクタの事前チェックを怠ったこと。(okuji)</li>
+<li>時間を守る仕組みの欠如。例にして申し訳ないですが、小宮さんの発表はプロジェクタの問題で開始が遅れたこともあって、15分ぐらい延長しましたが、その間誰も発表の切り上げを指示しませんでした。たまたま昼食直前だったので実害はほとんどありませんでしたが、運がよかっただけです。発表者は発表に集中していて、そこまで気を回すのを要求するのは酷なので、運営側の問題だと私は考えます。(okuji)</li>
+<li>Job Boardを見てられる時間帯が実は非常に限られていたこと。全体的に余裕が少なかったきらいがあります。(okuji)</li>
+<li>サンドイッチがおいしくない。 <a class="footnote-reference" href="kpt.html#id2" id="id1">[1]</a> (okuji)</li>
+<li>スタッフ以外の一般参加者がスタッフルームを利用していた。発表者に使っていただくことを優先すべきでは?（瀧澤）</li>
+<li>議論の場所がミーティング、ML、Skypeと分散していて、道筋を追うのが難しかった（瀧澤）。</li>
+<li>受付の方法については手順をマニュアル化すべき（瀧澤）。</li>
+<li>受付方法、名簿の管理は大変だった。(スタッフ未登録もたくさん)(寺田)</li>
+<li>メールの流量が多く、追い切れない。＆公開されていることで書きにくい内容も有った。(寺田)</li>
+<li>ネームカードの言語わけは使い方が難しかった(寺田)</li>
+<li>必ず休憩挟まない時の移動時間が無く慌てた(寺田)</li>
+<li>スタッフ担当者のセッションと別の準備が重なり、ギリギリだった(寺田)</li>
+<li>ビープラウド社からの発表者二人がかぶった(寺田)</li>
+<li>スポンサーへの連絡混乱(寺田)</li>
+<li>運営マニュアルの印刷が直前で多量印刷が大変だった(寺田)</li>
+<li>アンケートの「良かったと思う講演」の表の記入方法がわかりにくかったらしく、項目の左側でなく右側にチェックを入れているケースが少なくなかった。また、設問に矛盾があったり、選択肢の番号付けに誤りがあった。(増田)</li>
+<li>アンケートの回収率が低い。前回の倍の参加者にもかかわらず、回収枚数は前回とほとんど変わらない。 (増田)</li>
+<li>内容も方法も練られていない状態で直前に実施が決まったサービスが多く、指摘を受けて一旦差し戻したり、付和雷同的に方針転換することがあった。（増田）</li>
+<li>ゲストとのコミュニケーション不足。来てから細かい取り決めやその後の日程について話し合うのは、呼ぶ側にも呼ばれる側にも負担。(増田)</li>
+<li>今後の発表内容・発表者の確保。同じ内容の発表・同じ発表者が固定化してしまっては、先がないと強く危機感を持っている(増田)</li>
+<li>受け付け後の参加者が、両手にグッズと紙束を両手に持たされて会場に放されるのはかわいそう。せっかく配ったものも、すぐにカバンの底に押し込まれてしまう。(増田)</li>
+<li>写真の再利用範囲について明確になっていないので判断に迷う。</li>
+</ul>
+<table class="docutils footnote" frame="void" id="id2" rules="none">
+<colgroup><col class="label"><col></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="kpt.html#id1">[1]</a></td><td>おいしかったという意見も多数聞こえたので私の舌が肥えているだけかも。</td></tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="try">
+<h3>Try</h3>
+<ul class="simple">
+<li>公式Twitterアカウントの周知は次は大々的にやりたい(清水川)</li>
+<li>サイトやguidebook app (等)で「いいね！」を集めてオンデマンドで集計表示したい(清水川)</li>
+<li>アンケートで各セッションの評価感想を求める。5段階と自由記述。(清水川)</li>
+<li>レシーバー導入。電話してもみんな気づかない。(清水川)</li>
+<li>Office Hour 自体の意義(すごい人に直接質問できる)は感じられた。積極的に質問に来る人が少ないのをこちらが出会う機会を提供できてなかったと捉えて、形式を変えるなどしてその意義をより大きく実現させたい。(杵渕)</li>
+<li>アンケートを電子化してすぐに反応できるようにしたい。集計も楽にしたい (ほさか)</li>
+<li>お昼休み等に LT の発表者にプロジェクタの相性問題が発生しないかのマシンチェックを行う (もりもと)</li>
+<li>当日お手伝いの方へもスタッフ T シャツを配布する(私服だと参加者からみてスタッフだと認知されにくい) (もりもと)</li>
+<li>日本語が出来ない参加者のために要所要所では英語通訳したい。会場内での案内Talkは全て、とか、LTだけはやるとか(清水川)</li>
+<li>無線 LAN の SSID と キーはパンフレットに掲載する(Surgo)</li>
+<li>電源スペース (オフィスアワーの場所など) を作る(Surgo)</li>
+<li>PyCon 当日に翌日のスプリントに参加したくなった方々へのサポートをする(Surgo)</li>
+<li>スポンサー企業様のメリットを増やす (ブース設置など)(Surgo)</li>
+<li>同一規模(部屋数、トラック数、時間)で受入人数を倍に増やしてみたい(清水川)</li>
+<li>Business &amp; チュートリアルDay を1日設けたい。チュートリアルセッションは別費用等 (清水川)</li>
+<li>2日開催にして、半日くらいOpen Spaceやりたい(たかのり)</li>
+<li>スポンサーのリクルーティングセッションとかあるといいかも(たかのり)</li>
+<li>参加者用のTシャツを作る。事前にサイズ確認(たかのり)</li>
+<li>もっと積極的にアジア圏の国々に PyCon JP の開催をアピールしたい(たかのり)</li>
+<li>Sprintにも初心者向けのものを作る。(中村)</li>
+<li>Job Boardがにぎわっていたので、ホワイトボートを利用してもっとコミュニケーションを取る場として使えないか。(例: 好きなライブラリの人気投票など)(中村)</li>
+<li>Job BoardをWebサイトに掲載する（遠藤）</li>
+<li>リクルートはスポンサーとしてのインセンティブになる、とのご意見がありました（遠藤）</li>
+<li>セッショントラックごとのハッシュタグ（部屋番号など）をつけてみる(原)</li>
+<li>引き続き本の販売をお願いする（サイン会もしてみたりとか、著者が販売とかもおもしろい？）(原)</li>
+<li>難しいとは思うけれど、日本語セッションと英語セッション、それぞれ相手の言語にリアルタイム翻訳できたら素晴らしいと思ったりしました(原)</li>
+<li>案内資料の類を充実させたい(児島)</li>
+<li>演題一覧(プログラム)の見やすさ向上の一つとして、言語ソートやタグカテゴライズなど動的に見せたい。beginnersはこれ、みたいな。(清水川)</li>
+<li>Pythonチュートリアルは、初学者〜中級以前で数段階にレベルを分けるとよさそうです（遠藤）</li>
+<li>ディナースポンサーを募ってみる（遠藤）</li>
+<li>Rubykaigiのリアルタイム技評さんサイト更新をしてみたい。多人数のレポート班組織、要打ち合わせ...要事前準備。（池）</li>
+<li>発表者向けに発表者だからこそ困ることを解消するようサポートする（荷物置き場や受付後の個別の案内など）（清水川）</li>
+<li>事前に現地でシミュレーションやリハーサルをスタッフのみで行う。誘導の問題、準備不足等はかなり未然に防げると思います。全員が難しいなら、せめて主要スタッフだけでも。(okuji)</li>
+<li>出来れば立て看板、予算的に難しいなら、せめてもうちょっと視認性のよい誘導マーカを用意する（色や大きさ等）。会場担当や受付担当の負荷が軽減され、来場者も助かると思います。会場外では会場入口の方向、会場内では受付、食堂、自販機、喫煙場所、トイレ、各発表場所、本部への方向が必要。部屋の前にはもっと大きく何の部屋なのかを明記。(okuji)</li>
+<li>個人情報だけはハードコピーをやめて電子的に扱うか、一部の責任者のみに配布し、それ以外のスタッフは近くの責任者に訊く、あるいは、開場前に携帯等に写す等の方がよい。どうしても全員に配るなら、絶対体から離さないで済むよう、個人情報部分だけ名札入れに入る程度の大きさにする。(okuji)</li>
+<li>プロジェクタとの接続は必ず事前に（出来れば開場前および昼休みに）確認させる。発表資料は、オリジナル及びPDF化したもの両方を、確認時にUSBメモリ等で引き渡してもらい、他者のPCでもプレゼン可能な状況にする。(okuji)</li>
+<li>発表中は必ず一名進行役をつけ、終了前や終了時に発表者に情報を伝え、適宜発表を早めさせる等の処置を行う。ベル（ホテルのフロント等にあるタイプのもの）があるとよい。口頭で伝えられると、発表の話の腰を折ってしまう。質問時間を削るのはよくない。いくらOffice Hourがあるとはいえ、他の発表も聞きに行っていると、Office Hourには参加できない。(okuji)</li>
+<li>もっと外国からの参加者を増やす。発表者でも聞くだけの人でも。(okuji)</li>
+<li>やっぱり一日は短いので、せめて二日はやりたい。これぐらいあればしらふで知り合い増やせるんじゃないかな…(okuji)</li>
+<li>写真撮影班を2名以上にする。2011では1名でも十分な写真がとれたけれど、3トラック+αを1人でカバーは仕切れていない。もっと参加者や運営裏舞台の写真が欲しい(清水川)</li>
+<li>写真は開催レポートなどの利用用途を考えた上で、載せたいシーンを考えて撮影計画を立てておくと良いと思った。(杵渕)</li>
+<li>来年のレポートはもう少し、テーマに沿って書けると良い(原)</li>
+<li>デザインの統一感をだしたい。  (ロゴ、サイト、紙系の物、もろもろ)(寺田)</li>
+<li>スポンサー集めとして大手スポンサーも欲しい。他国のPyConから情報を得るなど模索。(寺田)</li>
+<li>チケット販売・フォーム連携したい(寺田)</li>
+<li>ネームカードは全員印刷(寺田)</li>
+<li>受付の効率化。配布物の配り方などを別の方法に。アイデアを出し検討(寺田)</li>
+<li>チュートリアルなど初心者向けを増やす(寺田)</li>
+<li>当日スタッフが実際はどこに居たか？を確認しておきたい(寺田)</li>
+<li>コーヒーブレイクのマイクの準備と放送内容を決めておきたい(寺田)</li>
+<li>打ち合わせ頻度と担当わけの再検討(寺田)</li>
+<li>担当配置の詳細見直し(寺田)</li>
+<li>Sprintへの参加者を増やしたい(寺田)</li>
+<li>最低限、定形のアナウンスや、オープニング・クロージングのスピーチは英語版も用意する(増田)</li>
+<li>運営のトップは積極的に英語圏の人たちと交流してもらいたい。カタコトでもいいから話す。英語コミュニケーションから逃げ回る姿は見せない。(増田)</li>
+<li>国際交流を目指すなら、自分たちのイベントに来てもらうことだけを気にしていてはいけない。国内外のイベントに参加して、現地でキーマンや発表者と話し合ってきてもらいたい(増田)</li>
+<li>海外からの参加者向けに、日本での観光ガイド・おすすめの宿泊先・渡航方法を記載する。できれば、相談窓口も用意する。(増田)</li>
+<li>アンケートの分析。あと、次回はどんな話を聞きたいか、どんな分野に興味があるかを問いかける。(増田)</li>
+<li>小ネタの発表枠。ちょっとしたモジュールやプログラムの紹介ができるような、申し込みやすい枠をつくって、今発表をためらっている人たちの背中を押す(増田)</li>
+<li>カンファレンス・バッグ。紙袋でいい。ちょっと手間だけど、ノベルティやパンフレット類は前日までにバッグに詰める。(増田)</li>
+<li>車椅子の方専用のスタッフを準備(松尾)</li>
+<li>Office Hour をセッション会場の出口近くでやる(参加しやすい,移動が楽)(松尾)</li>
+<li>アンケートを Google Spreadsheets で取る(集計も簡単にできて楽かも)(松尾)</li>
+<li>基調講演だけでも同時通訳を付けるのはありかも(評判のとても良かった同時通訳者を知っているので紹介します, 同時通訳用にイヤフォンなど使うとさらにコストがかかりますが…)(松尾)</li>
+<li>写真の掲載/再利用についてイベント全体を通じて参加者の承認を明示的にもらう(申し込みサイトか受付)。</li>
+</ul>
+</div>
+
+            
+        </div>
+    
+    
+                                                                            
+                             </div>                                                                                       
+                             
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+        
+
+    </div>
+                              
+
+                            
+                        </div>
+                    
+
+                    
+                </div>
+            
+        
+            <div id="viewlet-below-content">
+
+
+
+
+
+    
+
+</div>
+        </div>
+
+        
+        
+
+        <div id="portal-column-two" class="cell width-1:4 position-3:4">
+            
+                
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a727373" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a727373"><div class="portletStaticText portlet-static-rss"><p style="text-align:right;font-size:80%;margin-bottom:1em;margin-right:1em">
+<a href="../../headline/rss"><img src="feed.png" />ニュース</a> <a href="../../recent/rss"><img src="feed.png" />サイト更新情報</a>
+</p>
+</div>
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a706f72746c65745f636f756e74646f776e" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a706f72746c65745f636f756e74646f776e">
+
+
+  
+    <div>
+      <dl class="portlet portletStaticText">
+
+        <dt class="portletHeader">
+          <span class="portletTopLeft"></span>
+          <span>
+            PyCon JP 2011 (8/27開催)
+          </span>
+          <span class="portletTopRight"></span>
+        </dt>
+
+        <dd class="portletItem odd">
+          <div style="text-align:center">
+            終了後
+            <span style="color:red; font-size:400%; font-weight:bold">958</span>
+            日経過
+          </div>
+
+          <ul>
+          </ul>
+          
+          <span class="portletBottomLeft"></span>
+          <span class="portletBottomRight"></span>
+          
+        </dd>
+      </dl>
+
+    </div>
+  
+
+  
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a6e617669676174696f6e" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a6e617669676174696f6e">
+<dl class="portlet portletNavigationTree">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="../sitemap.html" class="tile">ナビゲーション</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem lastItem">
+        <ul class="navTree navTreeLevel0">
+            
+            
+
+
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish section-team">
+
+    
+
+
+        <a href="../team.html" class="state-published navTreeItemInPath navTreeFolderish contenttype-folder" title="運営メンバーや議事録など">
+            
+            <span>運営チーム</span>
+        </a>
+
+    <ul class="navTree navTreeLevel1">
+        
+
+
+
+<li class="navTreeItem visualNoMarker section-members">
+
+    
+
+
+        <a href="members.html" class="state-published contenttype-document" title="プロジェクト運営メンバーです。お手伝いいただける方を随時募集しています。 ML http://groups.google.com/group/pycon-organizers-jp にユーザー登録し、参加の宣言をおこなってください。">
+            
+            <span>運営チーム</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-meeting">
+
+    
+
+
+        <a href="meeting.html" class="state-published navTreeFolderish contenttype-folder" title="2011年3月から運営会議を行っております。">
+            
+            <span>運営会議</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-function">
+
+    
+
+
+        <a href="function.html" class="state-published contenttype-document" title="イベント運営にあたっては以下の役割があり、各メンバーはいずれか、あるいは複数の担当を受け持ちます。
+担当は2011/3/8 キックオフミーティングで立候補してもらいました。決定や舵取りのため、主担当と担当に分けています。">
+            
+            <span>運営上の役割</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-images">
+
+    
+
+
+        <a href="images.html" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>images</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeCurrentNode section-kpt">
+
+    
+
+
+        <a href="kpt.html" class="state-published navTreeCurrentItem navTreeCurrentNode contenttype-document" title="続けたいこと、問題点、やってみたいこと、を書きましょう。">
+            
+            <span>Keep, Problem, Try</span>
+        </a>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+    
+</li>
+
+
+
+
+        </ul>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a33306239333066333330623533306663" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a33306239333066333330623533306663">
+<dl class="portlet portletStaticText portlet-static-30b930f330b530fc">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span>
+           スポンサー
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <h4>Gold</h4>
+<div style="text-align:center">
+<p>
+<a href="http://gu3.co.jp/"><img alt="株式会社gumi" title="株式会社gumi" src="../../banners/sponsors/gumi_sign.jpg" /><br />株式会社gumi</a>
+</p>
+</div>
+
+<hr />
+
+<h4>Silver</h4>
+<div style="text-align:center">
+<p>
+<a href="http://www.nexedi.co.jp/"><img alt="株式会社Nexedi" title="株式会社Nexedi" src="../../banners/sponsors/nexedi_logo.png" /><br />株式会社Nexedi</a>
+</p>
+<p>
+<a href="http://www.s-cubism.jp/"><img alt="株式会社エスキュービズム" title="株式会社エスキュービズム" src="../../banners/sponsors/s-cubism.png" /><br />株式会社エスキュービズム</a>
+</p>
+</div>
+
+<hr />
+
+<h4>Bronze</h4>
+<div style="text-align:center">
+<p>
+<a href="http://www.beproud.jp/"><img alt="株式会社ビープラウド" title="株式会社ビープラウド" src="../../banners/sponsors/beproud.jpg" /><br />株式会社ビープラウド</a>
+</p>
+<p>
+<a href="http://accense.com/"><img alt="株式会社アクセンス・テクノロジー" title="株式会社アクセンス・テクノロジー" src="../../banners/sponsors/atlogo.png" /><br />株式会社アクセンス・テクノロジー</a>
+</p>
+<p>
+<a href="http://www.cb21.co.jp/"><img alt="株式会社キャッチボールトゥエンティワン・インターネット・コンサルティング" title="株式会社キャッチボールトゥエンティワン・インターネット・コンサルティング" src="../../banners/sponsors/catchball21.png" /><br />株式会社キャッチボールトゥエンティワン・<br />インターネット・コンサルティング</a>
+</p>
+<p>
+<a href="http://www.ariel-networks.com/"><img alt="アリエル・ネットワーク株式会社" title="アリエル・ネットワーク株式会社" src="../../banners/sponsors/ariel.png" /><br />アリエル・ネットワーク株式会社</a>
+</p>
+</div>
+
+<hr />
+
+<h4>Snack&amp;Beverage</h4>
+<ul>
+<li><a href="http://www.garage.co.jp/">株式会社デジタルガレージ</a></li>
+<li><a href="http://www.rakuten.co.jp/">楽天株式会社</a></li>
+</ul>
+
+<hr />
+
+<p>(スポンサー募集は終了しました)</p>
+
+        
+            <span class="portletBottomLeft"></span>
+            <span class="portletBottomRight"></span>
+        
+    </dd>
+    
+    
+
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a3533353435323962" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a3533353435323962">
+<dl class="portlet portletStaticText portlet-static-5354529b">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span>
+           協力
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <div style="text-align:center">
+<p>
+<a href="http://aiit.ac.jp/"><img alt="産業技術大学院大学" title="産業技術大学院大学" src="../../banners/aiit_logo_s.gif" /><br />産業技術大学院大学</a>
+</p>
+<p>
+<a href="http://gihyo.jp/"><img alt="技術評論社" title="技術評論社" src="../../banners/gjp_site_logo_200.jpg" /><br />技術評論社</a>
+</p>
+<p>
+<a href="http://codezine.jp/"><img alt="CodeZine" title="CodeZine" src="../../banners/codezine.png" /><br />CodeZine</a>
+</p>
+<p>
+<a href="http://www.oreilly.co.jp/"><img alt="オライリー・ジャパン" title="オライリー・ジャパン" src="../../banners/oraj_logo.jpg" /><br />オライリー・ジャパン</a>
+</p>
+<p>
+<a href="http://mozilla.jp/"><img alt="Mozilla Japan" title="Mozilla Japan" src="../../banners/mozilla-firefox.png" /><br />Mozilla Japan</a>
+</p>
+</div>
+
+
+        
+            <span class="portletBottomLeft"></span>
+            <span class="portletBottomRight"></span>
+        
+    </dd>
+    
+    
+
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a666f75726469676974732d706f72746c65742d74776974746572" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a666f75726469676974732d706f72746c65742d74776974746572"><dl class="portlet portletTwitterPortlet">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        Twitter (#pyconjp)
+        <span class="portletTopRight"></span>
+    </dt>
+
+    
+
+    
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a3930346535336262333036657079636f6e2d6a70" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a3930346535336262333036657079636f6e2d6a70">
+<dl class="portlet portletStaticText portlet-static-904e53bb306epycon-jp">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span>
+           過去のPyCon JP
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <ul>
+<li><a class="external-link" href="http://sites.google.com/site/pyconminijp/">PyCon mini JP 2011</a></li>
+</ul>
+        
+            <span class="portletBottomLeft"></span>
+            <span class="portletBottomRight"></span>
+        
+    </dd>
+    
+    
+
+</dl>
+</div>
+
+
+
+
+            
+        </div>
+        
+    </div>
+
+
+    
+        <div class="row">
+  <div class="cell width-full position-0">
+    <div id="portal-footer">
+      <p>
+        &copy; 2014
+        <span>PyCon JP</span>
+      </p>
+    </div>
+
+  </div>
+</div>
+<div id="portal-colophon">
+
+<div class="colophonWrapper">
+<ul>
+  <li>
+    <a href="http://plone.org" title="このサイトは Plone オープンソース CMS/WCM を使って作られました。">Powered by Plone & Python</a>
+  </li>
+</ul>
+</div>
+</div>
+
+<ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a href="../../sitemap.html" accesskey="3" title="サイトマップ">サイトマップ</a></li>
+    <li id="siteaction-accessibility"><a href="../../accessibility-info.html" accesskey="0" title="アクセシビリティ">アクセシビリティ</a></li>
+    <li id="siteaction-contact"><a href="../../contact-info.html" accesskey="9" title="お問い合わせ">お問い合わせ</a></li>
+</ul>
+
+
+    
+
+</div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+
+
+
+    
+
+
+
+<channel rdf:about="http://2011.pycon.jp/recent/rss">
+  <title>最近の更新</title>
+  <link>http://2011.pycon.jp</link>
+
+  <description>
+    
+      PyConJP 2011 のサイトの更新状況をお知らせします。
+    
+  </description>
+
+  
+
+  
+            <syn:updatePeriod>daily</syn:updatePeriod>
+            <syn:updateFrequency>1</syn:updateFrequency>
+            <syn:updateBase>2011-04-23T09:34:12Z</syn:updateBase>
+        
+
+  <image rdf:resource="http://2011.pycon.jp/logo.png"/>
+
+  <items>
+    <rdf:Seq>
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/audience/index2/1/1/ja"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/reports/earningsreports/balancereport"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/0c1gjf/5/1/about-2012"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/reports/archives"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/reports/blogentries"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/misc/team/kpt"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/reports/photos"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/9j9g6"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/reports/organizers"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/0c1gjf/5/1/postreport"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/program/collection"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/reports/enquete/result"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/3l7p2t"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/t4g6jj"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/program/index"/>
+      
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+  <item rdf:about="http://2011.pycon.jp/audience/index2/1/1/ja">
+    <title>一般参加の方へ</title>
+    <link>http://2011.pycon.jp/audience/index2/1/1/ja</link>
+    <description></description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>PyConJP 2011 開催まであと少しとなりました。参加される皆さんは、以下にご注意ください。</p>
+<ul>
+<li><strong style="font-size:130%; color:red;">紙の入場チケット、またはPayPal購入メールの印刷または画面をご持参ください</strong></li>
+</li>
+<li><strong style="font-size:130%; color:red;">チケット購入後の登録がまだの方は参加登録をお願いします</strong></li>
+<li><strong style="font-size:130%; color:red;"><a href="/audience">一般参加の方へ</a>をご一読ください</strong></li>
+</ul>
+
+<p>
+同日(8/27 土 19:00-21:00)、<a href="/audience/party">PyCon JP 2011 Party</a> を開催します。事前チケット販売は終了しましたが、当日に若干数受付ます。Partyの詳細は <a href="/audience/party">PyCon JP 2011 Party</a> をご確認ください。
+</p>
+
+<p>
+翌日(8/28 日 10:00-18:00)に同じ会場でSprintを実施します。詳しくは <a href="/program/sprints">Sprints(スプリント)</a> をご参照ください。
+</p>]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>清水川</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-08-03T14:15:00Z</dc:date>
+    <dc:type>ページ</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/reports/earningsreports/balancereport">
+    <title>収支報告</title>
+    <link>http://2011.pycon.jp/reports/earningsreports/balancereport</link>
+    <description></description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<iframe width="700" height="400" frameborder="0" src="https://docs.google.com/spreadsheet/pub?key=0AjmtypRXAd8zdE1BdjFHU0poSGxjS1J6end2UzljaGc&single=true&gid=0&output=html&widget=true"></iframe>]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>清水川</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2012-08-17T00:55:44Z</dc:date>
+    <dc:type>ページ</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/0c1gjf/5/1/about-2012">
+    <title>PyCon JP 2012 開催します</title>
+    <link>http://2011.pycon.jp/0c1gjf/5/1/about-2012</link>
+    <description></description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div class="figure">
+<a class="reference external image-reference" href="http://2012.pycon.jp/"><img alt="PyCon JP 2012" src="http://2012.pycon.jp/_static/image/pyconjp2012_logo.png" /></a>
+<p class="caption">PyCon JP 2012 ロゴ</p>
+</div>
+<p>PyCon JP 2012 の詳細については <a class="reference external" href="http://2012.pycon.jp/">PyCon JP 2012 サイト</a> を参照してください。</p>
+<p>開催概要は以下のとおりです。</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">カンファレンス:</th><td class="field-body">2012-09-15(土)-16(日)</td>
+</tr>
+<tr class="field"><th class="field-name">Sprint:</th><td class="field-body">2012-09-17(月・祝)</td>
+</tr>
+<tr class="field"><th class="field-name">テーマ:</th><td class="field-body">つながるPython/Python Connect</td>
+</tr>
+<tr class="field"><th class="field-name">会場:</th><td class="field-body"><a class="reference external" href="http://2012.pycon.jp/venue.html">産業技術大学院大学</a></td>
+</tr>
+<tr class="field"><th class="field-name">参加者数(予定):</th><td class="field-body">400</td>
+</tr>
+<tr class="field"><th class="field-name">参加費:</th><td class="field-body">3,000円</td>
+</tr>
+<tr class="field"><th class="field-name">運営:</th><td class="field-body"><a class="reference external" href="http://www.pycon.jp/committee.html">PyCon JP 実行委員会</a> PyCon JP 2012 運営チーム</td>
+</tr>
+<tr class="field"><th class="field-name">連絡先:</th><td class="field-body"><a class="reference external" href="mailto:2012@pycon.jp">2012&#64;pycon.jp</a></td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>清水川</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2012-03-14T04:55:00Z</dc:date>
+    <dc:type>ページ</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/reports/archives">
+    <title>講演の動画と発表資料アーカイブ</title>
+    <link>http://2011.pycon.jp/reports/archives</link>
+    <description>当日 Ustream で流した動画のアーカイブと発表資料へのリンクです</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>プログラムページにまとめるかもしれません</p>
+<div class="section" id="id1">
+<h3>講演動画</h3>
+<p>ustreamで当日の講演を視聴出来ます。</p>
+<ul class="simple">
+<li>メイントラック<ul>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16893292">Opening</a></li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16893512">Keynote</a> [Tarek Ziade]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16895208">C API への誘(いざな)い / An Introduction to the C API</a> [Tomohiko Kinebuchi]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16896078">Webフォームウィジェットツールキットを総括する / Exploring Web Form Widget Toolkits</a> [Atsushi Odagiri(BeProud)]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16897842">Guido への5つの質問 / Five Questions to Guido van Rossum</a> (Takashi Matsuo)</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16898222">Gold Sponser Session Pythonで創るソーシャルゲームの未来 / Creating the Future of Social Games in Python</a> [Hironao Kunimitsu(gumi), Yasuhiro Horiuchi(gumi)]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16898778">Tuning Python Code</a> [Naoki Inada(KLab)]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16901398">Lightning Talks</a></li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16902152">Closing</a></li>
+</ul>
+</li>
+<li>英語トラック<ul>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16895105">Scribboo with Embedded Python</a> [Sinker Li]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16896043">Asyncronous Python Programming</a> [Ian Lewis(BeProud)]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16898172">Object-oriented usage of using command line tools in Python</a> [Hsin-Yi Chen]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16898809">SlapOS, A Python Powered Open Source Cloud Computing System</a> [Yusei Tahara(Nexedi)]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16900492">Pythonで1万台のiPhoneを管理する / Managing 10,000 iPhones with Python</a> [Keisuke Nishida(BizMobile)]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16900951">Pythonによる日本語自然言語処理 / Japanese Natural Language Processing with Python</a> [Okuno Yoh]</li>
+</ul>
+</li>
+<li>サブトラック<ul>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16895224">http と telnet をつなぐ何か / Bridging between HTTP and Telnet</a> [LossCuts]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16896213">Python エンジニアの作り方 / How to Become a Python Engineer</a> [Takeshi Komiya(Time Intermedia)]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16898050">Python と MongoDB でWEB開発 / Web Application Development with Python and MongoDB</a> [Fumikazu Kiyota]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16898833">PyQtではじめるGUIプログラミング / Tutorial: GUI Programming with PyQt</a> [Ransui Iso(X-Listing)]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16900519">Pythonを使った次世代組み込みシステムの姿 / Next Generation Embedded Systems using Python</a> [Yuta Kitagami(ArtifactNoise)]</li>
+<li><a class="reference external" href="http://www.ustream.tv/recorded/16901006">reSTudy: STudy group about reST の活動 / An Update on reSTudy</a> [team reSTudy]</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h3>発表資料</h3>
+<ul class="simple">
+<li><a class="reference external" href="http://www.ziade.org/pyconjp-keynote.html#slide1">Pycon Japan Keynote</a></li>
+<li><a class="reference external" href="https://docs.google.com/present/view?id=dchk96tc_2ftxfgqck&pli=1">C API への誘い</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/RansuiIso/pyqtgui">PyQt で始める GUI プログラミング</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/TakeshiKomiya/python-201108-pyconjp">Python エンジニアの作り方</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/nokuno/python-pyconjp">Python による日本語自然言語処理</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/aodag/form-libraries-9031180">Webフォームウィジェットツールキットを総括する</a></li>
+<li><a class="reference external" href="http://ianlewis.bitbucket.org/pyconjp_2011_slides/template/index.html">Asynchronous Python Programming</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/yutakitagami/pycon-jp2011-yuta-kitagami">Python を使った次世代組み込みシステム</a></li>
+<li><a class="reference external" href="http://rsh.csh.sh/restudy/">reSTudy 活動報告</a></li>
+<li><a class="reference external" href="http://2011.pycon.jp/program/five-questions-to-guido">Guido への5つの質問/Five questions to Guido</a></li>
+<li><a class="reference external" href="http://dev.s-cubism.com/web2py_plugins">web2py のプラグイン集</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/aodag/wsgi">フレームワークなしで WSGI プログラミング</a></li>
+<li><a class="reference external" href="http://www.slapos.org/wiki/slapos-Wiki.Home/osoe-Lecture.SlapOS.Extended/developer-Introducing.SlapOS.Architecture">Introducing SlapOS Architecture</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/hychen/pyconjp11-ucltip-2011">Pyconjp11 ucltip 2011</a></li>
+</ul>
+<div class="section" id="id5">
+<h4>Lightning Talks</h4>
+<ul class="simple">
+<li><a class="reference external" href="http://www.slideshare.net/shibukawa/expert-javascript-programming">Expert JavaScript Programming for Expert Python Programmer</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/wakadannacom/20110827-py-conjp2011ltpythonrdma">Python で RDMA を…</a>
+[danna]</li>
+<li><a class="reference external" href="http://www.slideshare.net/yaruki_nil/pyssp-9065731">pyssp</a>
+[Shunsuke Aihara]</li>
+<li><a class="reference external" href="http://www.slideshare.net/kishimotosc/cassandra-web2pycms-9051414">Cassandraのトランザクションサポート化 &amp; web2pyによるcms用プラグイン開発</a>
+[Koji Kishimoto(Scubism)]</li>
+<li><a class="reference external" href="http://www.slideshare.net/miurahr/unihandecode-a-transliterate-library-for-unicode">unihandecode: An Unicode transliteration library</a>
+[Hiroshi Miura(OpenStreetMap Foundation Japan)]</li>
+<li><a class="reference external" href="http://taka.no32.tk/pub/PyConJP2011.html#slide1">5分でわかる IPv6</a>
+[Mitsuhiro Takano]</li>
+<li><a class="reference external" href="http://www.slideshare.net/nishimotz/nishimotz-pycon2011augv3">Japanese L18N of NVDA</a>
+[Takuya Nishimoto]</li>
+<li><a class="reference external" href="http://slidesha.re/qrwBYa">Oktest - a new style testing library for Python</a>
+[Makoto Kuwata]</li>
+<li><a class="reference external" href="http://www.slideshare.net/ytakeuch/pycon-jp-2011-lt-no10">PyCon JP 2011 Lightning Talk No.10</a>
+[Yoji Takeuchi]</li>
+<li><a class="reference external" href="http://www.slideshare.net/ytakeuch/pycon-jp-2011-lightning-talk-no10-in-english">PyCon JP 2011 Lightning Talk No.10 in English</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="pycon-jp-sprint">
+<h3>PyCon JP Sprint</h3>
+<ul class="simple">
+<li><a class="reference external" href="http://t.co/nJ4dGKq">pyramid チュートリアル</a></li>
+<li><a class="reference external" href="http://t.co/JI3D9xv">GAE Code Lab</a></li>
+</ul>
+</div>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-09-11T12:40:00Z</dc:date>
+    <dc:type>ページ</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/reports/blogentries">
+    <title>参加者・運営メンバーによるブログ記事</title>
+    <link>http://2011.pycon.jp/reports/blogentries</link>
+    <description>参加者および運営メンバーによるブログ記事へのリンクです</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>「ブログ書いたのにリストされてないよ!」って時は <a class="reference external" href="https://twitter.com/search?q=%23pyconjp">#pyconjp</a> でつぶやいて下さい</p>
+<div class="section" id="tarek">
+<h3>Tarek氏によるブログエントリ</h3>
+<ul class="simple">
+<li><a class="reference external" href="https://tarekziade.wordpress.com/2011/09/05/pycon-japan-retrospective/">Pycon Japan Retrospective « Fetchez le Python</a></li>
+</ul>
+</div>
+<div class="section" id="id1">
+<h3>運営メンバーによるエントリ</h3>
+<ul class="simple">
+<li><a class="reference external" href="http://www.ianlewis.org/jp/pycon-jp-2011-kaisai">Pycon JP 2011 開催しました！ - Ian Lewis</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/mactkg/20110829/1314643228">PyConJP 2011行ってきたよ - 俺たちに明日はない</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/shomah4a/20110831/1314779352">PyCon JP 2011 に参加してきました - プログラマのネタ帳</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/flag-boy/20110901/1314841008">PyConJPでスタッフしてました - ま、そんな日もあるさ</a></li>
+<li><a class="reference external" href="http://www.ianlewis.org/en/pycon-jp-2011-en">Pycon JP 2011 was Awesome! - Ian Lewis</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/goode/20110829">2011-08-29 - 某備忘録</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/mactkg/20110828/1314494250">PyConJP Sprint 参加中です - 俺たちに明日はない</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/navyfox_sh/20110828/1314534129">PyCon JP 2011を撮ってきました - use No::Name;</a></li>
+<li><a class="reference external" href="http://www.cmscom.jp/blog/fqt8jz">PyCon JP 2011 座長をつとめて — 株式会社CMSコミュニケーションズ</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/mactkg/20110907/1315399616">gihyo.jpさんでPyCon JP 2011の参加レポート記事を書きました - 俺たちに明日はない</a></li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h3>参加報告ブログエントリ</h3>
+<ul class="simple">
+<li><a class="reference external" href="http://d.hatena.ne.jp/nullpobug/20110828/1314463855">PyCon JP 2011 に参加した - 偏った言語信者の垂れ流し</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/nokuno/20110828/1314458863">PyConJP 2011に参加しました #pyconjp - nokunoの日記</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/tanihito/20110828/1314528829">PyCon JP 2011 に行ってきました - tanihitoの日記</a></li>
+<li><a class="reference external" href="http://zafiel.wingall.com/archives/2011082802352236.php">PyCon JP 2011行ってきた &gt;&gt; Azrael</a></li>
+<li><a class="reference external" href="http://straitmouth.jp/blog/setomits/2319">blogSetomits : PyCon JP 2011 に行ってきました</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/feiz/20110828/1314547843">PyconJP2011のかんそうぶん - logiqboard</a></li>
+<li><a class="reference external" href="http://artifactnoise.com/2011/08/27/pycon-jp-2011%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82/">Pycon JP 2011に参加しました。 | ArtifactNoise</a></li>
+<li><a class="reference external" href="http://nakagami.blog.so-net.ne.jp/2011-08-28">Pycon JP 2011：ある nakagami の日記：So-netブログ</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/naka-06_18/20110827/1314461752">PyCon JP 2011 に参加してきました。 - jptomo断章</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/chlere/20110827/1314451748">PyConJPでGuido van Rossum氏と生電話させてもらってみた - 長時間睡眠記</a></li>
+<li><a class="reference external" href="http://shmachid.com/?p=150">PyConJP 2011に行ってきました &gt;&gt; shmachid.com</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/shitsyndrome/20110828/1314492205">PyConJP行ってきた - くそったれ症候群の垂れ流し</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/ytakeuch/20110827">PyConJP 2011に参加しました1 #pyconjp - 人は歴史を創り出し、人は歴史を語り継ぐ</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/blaue_fuchs/20110828/1314507444">PyConJP に行ってきた - 混沌脳内</a></li>
+<li><a class="reference external" href="http://d.nishimotz.com/archives/1069">nishimotzの日記 · PyCon JP 2011 参加</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/hirokiky/20110829/1314601164">#PyConJP 2011に参加してきました。 - Make組ブログ</a></li>
+<li><a class="reference external" href="http://blog.pasonatech.co.jp/ootani/202/17256.html">pycon.jp 2011に行った | スキル | 踊るプログラマ物語 | あすなろBLOG</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/akihirox/20110829">2011-08-29 - 負けないように頑張る日記</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/koharubit/20110830/pyconjp2011">PyCon JP 2011 に参加してきました #pyconjp - Programmer 101</a></li>
+<li><a class="reference external" href="http://room6933.com/blog/2011/08/30/pyconjp2011_attend/">PyConJP2011に参加した話 - OKEREKE-RL</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/keiskS/20110827/p1">PyConJP2011に参加してきました - worldwidewug #2</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/tmmkr/20110831/1314803554">PyCon JP 2011へいってきました - tmmkrの日記</a></li>
+<li><a class="reference external" href="http://d.hatena.ne.jp/naka-06_18/20110828/1314520180">PyCon JP 2011 Sprints に参加してきました。 - jptomo断章</a></li>
+<li><a class="reference external" href="http://blog.livedoor.jp/bakorer/archives/50626001.html">Python初心者が「PyCon JP 2011」に参加して感じた5つのこと [ #pyconjp] - バコラー日記</a></li>
+<li><a class="reference external" href="http://jharrison.blog.com/2011/08/29/pycon-jp-2011/">PyCon JP 2011 notes | Around Harrison</a></li>
+<li><a class="reference external" href="http://nakagami.blog.so-net.ne.jp/2011-09-19">Fabric と boto と Celery：ある nakagami の日記：So-netブログ</a></li>
+</ul>
+</div>
+<div class="section" id="twitter">
+<h3>Twitterまとめ</h3>
+<ul class="simple">
+<li><a class="reference external" href="http://togetter.com/li/180732">PyCon JP 2011 (8/27 開催) + Party &amp; Sprints #pyconjp</a></li>
+</ul>
+</div>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-09-11T12:40:00Z</dc:date>
+    <dc:type>ページ</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/misc/team/kpt">
+    <title>Keep, Problem, Try</title>
+    <link>http://2011.pycon.jp/misc/team/kpt</link>
+    <description>続けたいこと、問題点、やってみたいこと、を書きましょう。</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div class="section" id="keep">
+<h3>Keep</h3>
+<ul class="simple">
+<li>Twitterの当日実況中継的な運用は継続したい(清水川)</li>
+<li>昼食を会場内で取る＆ぼっちをなくす。出会い系要素が非常に良かった。(清水川)</li>
+<li>Guido の意向次第だが、今後も Guido となんらかの形で直接やりとりする機会を持ちたい。(杵渕)</li>
+<li>開催前記事はモチベーションが上がって良い (ほさか)</li>
+<li>ライブ配信を業者さんに全てお任せしたので会場係りの負荷が少なかった (もりもと)</li>
+<li>海外から講演者 (参加者) が来ることをアピールしたので日本人の発表者も英語を意識した資料作りをしてくれたし、参加者にも英語が重要だという意識を高めるきっかけになって良かったと思う (もりもと)</li>
+<li>オープンスペースのチュートリアルは参加者が多かったように思う、これから Python を始めようという人向けの企画が良かったと思う (もりもと)</li>
+<li>英語トラックはすばらしい！本イベント、Party、Sprintsとそれぞれで英語必須なシーンが発生していて、英語話せるようになりたいモチベーションがかなり上がった。国内でこんな体験が出来るのはとても良いこと(清水川)</li>
+<li>Partyは立食形式なのでかなり人が入り組んでてよかった(たかのり)</li>
+<li>グッズ配布はネタになってよかったと思う。PCにステッカーはってくれた人もいるし(たかのり)</li>
+<li>開催できたこと・開催できたこと(原)</li>
+<li>昼食を出す。皆で話したり出来るのが楽しい(原)</li>
+<li>テーマに沿った会に出来たことは良かった(原)</li>
+<li>大きめの名札と色わけ、それと何語が喋れるかの表示(原)</li>
+<li>朝、会場付近で吹奏楽部が音出しをし始めるかも、というトラブルを解決できたのはよかった、トラブルへの迅速な対応(原)</li>
+<li>当日スタッフの募集は、場所までの案内などできるので良かった(原)</li>
+<li>ネットワークが安定していた(原)</li>
+<li>guidebook appが便利だった。作ったのは良かったと思う(原)</li>
+<li>昼食とコーヒーブレイク。他のイベントと異なる雰囲気が出せていてよかった(児島)</li>
+<li>受付の役割分担を適宜行い、列をさばくことを重視したため、受付の待ち行列が発生することがあまりなかった(児島)</li>
+<li>スタッフの雰囲気や姿勢。(okuji)</li>
+<li>英語トラック。(okuji)</li>
+<li>日本人以外の発表者の複数人確保。(okuji)</li>
+<li>開催前の連載記事。(okuji)</li>
+<li>ustreamによる中継。(okuji)</li>
+<li>運営情報の公開。(okuji)</li>
+<li>Partyの当日参加申し込み。(okuji)</li>
+<li>レポートの掲載が出来た(原)</li>
+<li>Guidoの登場。別の方でも来年(寺田)</li>
+<li>前日準備と車で荷物を運ぶ(寺田)</li>
+<li>アンケート。今後も同じ質問を繰り返していくことで、経時変化を捉えられそうに思える。何を提供していくべきかを考える材料になるし、それ自体が注目を集めるコンテンツにもなる(増田)</li>
+<li>the Team! 今後もこの実行力と熱意を維持してほしい(増田)</li>
+</ul>
+</div>
+<div class="section" id="problem">
+<h3>Problem</h3>
+<ul class="simple">
+<li>サイト等での情報周知が分かりにくかった。情報量は出したつもりだったがシンプルに分かりやすく情報を出したい。(清水川)</li>
+<li>当日の人員配置などチーム内への連絡徹底が出来ていなかった。直前ミーティングで運用マニュアルや配置を徹底周知したい(清水川)</li>
+<li>Office Hour に質問者が来るかどうかが分からない上、来た質問によっては30分では不足することもあり、時間枠の設定が困難。(杵渕)</li>
+<li>セッションや Office Hour の講師役の人が時間通り来ない場合、探すのが困難。(杵渕)</li>
+<li>自動販売機の場所を聞かれてすぐに答えられなかった。来場者が知りたいことを想定できていなかった。(杵渕)</li>
+<li>昼間の廊下の明るさ(照明器具)や気温を把握できていなかった。照明、エアコンの有無のチェックをすべきだった。(杵渕)</li>
+<li>議事録が分かりづらかった。特に、イベントの大目標や方向性があまり書かれておらず、個々の項目を読んでもあまり頭に入ってこなかった。(杵渕)</li>
+<li>スポンサーロゴのサイズを決めておくべきだった (ほさか)</li>
+<li>しみずかわさん、たかのりさんの負荷が高めだったような (ほさか)</li>
+<li>skype はタイムラインが一つなのがわかりにくいので何とかならないかな (ほさか)</li>
+<li>同時書き込みで問題が起きまくるので議事録とるのに google docs は向かない。とはいえ複数人が見てチェックできるのは便利ではある (ほさか)</li>
+<li>議事録は reST で最初から書いた方が…。(ほさか)</li>
+<li>セッションの開始・終了でスタッフがひとこと言った方が良い、セッションによってあったりなかったりするのは発表者も聴講者も困惑する (もりもと)</li>
+<li>プロジェクタの相性で2名映らなかった (433教室)、プレゼンツールがインストールされた Windows/Mac OS の予備マシンが必要だった (もりもと)</li>
+<li>パネルディスカッションの企画と段取りを事前にもっと詰めておくべきだった、司会／プログラム／会場係りの想定が全く違っていた (もりもと)</li>
+<li>当日の会場全体を見回る主担当者が必要だった (寺田さんが行ってた？)、それぞれの教室の主担当に委譲するという意図はあったものの、全体としてどうだったかの判断が行えないことに気付いた (もりもと)</li>
+<li>階段を使えない人に対してエレベータの場所の案内が出来なかった。誘導係は事前に確認しておくべきだった。(若山)</li>
+<li>日本語が出来ない参加者がメイントラックのみのタイミング(LT等)で置いて行かれていたようだ。Tarekちょっと寝てた(清水川)</li>
+<li>狭いスペースだからかもしれないが、「一般」の参加者と「その他」の参加者が受付ところが違うにも関わらず皆「一般」のところに一ヶ所並んでいた。（イクバル）</li>
+<li>案内看板がなかったため？遅れて来られた方々が路頭に迷われていた(Surgo)</li>
+<li>予想外に早く(8/4頃)にチケットが無くなりそう、と思った翌日には販売を終了することになってしまった。売り切れ間近の周知期間がほぼゼロという点のみ残念(清水川)</li>
+<li>Partyで飲み過ぎてSprintに来なかった人がいるような気がする(たかのり)</li>
+<li>食堂でのLunch、Coffee Breakは人の移動が少なかった。椅子をとっぱらったほうがよかったかも。(たかのり)</li>
+<li>最初のほうとか、スタッフの声だしがちょっと弱かった。みんな声だそう!!(たかのり)</li>
+<li>English Trackで発表の内容を講演中に、日本語で解説する機会があってもよかったと思います。
+質問も英語でしか行われなかったので、質疑応答を日本語訳して聞いている人に教える,日本語で質問してもいい雰囲気をつくるなどは
+行った方がよかったと思いました。敷居が高かった気がします。(中村)</li>
+<li>日本語トラックについても同様。(中村)</li>
+<li>Twitter, #pyconjp一つだと結構他のセッションの様子も感じられて面白いが混乱する。(原)</li>
+<li>スタッフ内で連絡がつかず困っていることがあった(原)</li>
+<li>ちょっと学生には懇親会お高いと思いました（チケット売るにしてもやりにくい人も：実際大人の人が声かけてくれていたけど）(原)</li>
+<li>公式サイトがPloneのデザインのままなのは、初めての人ちょっと戸惑う気もした。他のイベントを参考にレイアウト合わせてあげるとやさしいと思う。(原)</li>
+<li>会場位置がすこし分かりにくかった(児島)</li>
+<li>昼食時間帯に来た人で、昼食があることを知らなかった人も多くいた(児島)</li>
+<li>受付、本部まわりに人が集まりやすく、廊下での立ち話の声が大きくなり教室側からやんわりとクレームを受ける場面などがあった(児島)</li>
+<li>基調講演直前あたりで、講演への誘導を優先して受付時の手続き(名札記入とノベルティ配布)を省略したため、基調講演後の受付前通路がごった返した(児島)</li>
+<li>やっぱりLTはドラ(的なもの)が欲しいですね(児島)</li>
+<li>無線LANアクセスポイントの案内がわかりにくかった？ (受付に質問に来られた方が1名いました)(児島)</li>
+<li>Job Boardが目立たない、強化したほうが魅力的である、との要望がありました（遠藤）</li>
+<li>Pythonチュートリアル、テンポが早くついていけない、とのご意見がありました（遠藤）</li>
+<li>Pythonチュートリアル、配布資料はダウンロードしなくてもいいと思った、とのご意見がありました（遠藤）</li>
+<li>議論し尽くされた事項ではあるが（後出しごめんなさい）、全てのスポンサーのロゴをのせるべきではないか？差別化として、ロゴの大小は良い案であると認識しているが、ロゴの有無はサイトが永続的に存在すること、スポンサーの企業体、担当者様の社内体を考慮するといかがなものではないか？（池）</li>
+<li>ノベリティ作成の準備が遅かったので、次回は事前に計画、準備しよう！（池）</li>
+<li>発表者が優遇なさ過ぎて、発表中に大荷物を置く場所くらいは欲しかった（蘭水）</li>
+<li>会場の案内不足。発表部屋がどこにあるかわからない方、飲み物を買える場所がわからない方、トイレを探している方等、結構いらっしゃいました。(okuji)</li>
+<li>個人情報入り冊子をスタッフ全員に配布したこと。実際受付撤収のごたごたで私のものが紛失しました。(okuji)</li>
+<li>席を外せない担当のバックアップ体制不足。受付は個人情報が多く、Party受付の当日客のため現金まであったので、トイレに行くのも不安でしたが、そのとき一時的に見てもらえる人は本部で多忙だった清水川さんだけでした。(okuji)</li>
+<li>撤収の手順や方針の（明文化されていなかったという意味での）欠如。結局その場にいたスタッフで適当に結論を出して実行されました。(okuji)</li>
+<li>スタッフの準備不足。例えば、私はチケット持参者の受付で、半券を切らないといけないことを指摘されるまで気づきませんでした。よく考えれば当たり前の話ではありますが、わからなかったという事実は残ります。(okuji)</li>
+<li>プロジェクタの事前チェックを怠ったこと。(okuji)</li>
+<li>時間を守る仕組みの欠如。例にして申し訳ないですが、小宮さんの発表はプロジェクタの問題で開始が遅れたこともあって、15分ぐらい延長しましたが、その間誰も発表の切り上げを指示しませんでした。たまたま昼食直前だったので実害はほとんどありませんでしたが、運がよかっただけです。発表者は発表に集中していて、そこまで気を回すのを要求するのは酷なので、運営側の問題だと私は考えます。(okuji)</li>
+<li>Job Boardを見てられる時間帯が実は非常に限られていたこと。全体的に余裕が少なかったきらいがあります。(okuji)</li>
+<li>サンドイッチがおいしくない。 <a class="footnote-reference" href="#id2" id="id1">[1]</a> (okuji)</li>
+<li>スタッフ以外の一般参加者がスタッフルームを利用していた。発表者に使っていただくことを優先すべきでは?（瀧澤）</li>
+<li>議論の場所がミーティング、ML、Skypeと分散していて、道筋を追うのが難しかった（瀧澤）。</li>
+<li>受付の方法については手順をマニュアル化すべき（瀧澤）。</li>
+<li>受付方法、名簿の管理は大変だった。(スタッフ未登録もたくさん)(寺田)</li>
+<li>メールの流量が多く、追い切れない。＆公開されていることで書きにくい内容も有った。(寺田)</li>
+<li>ネームカードの言語わけは使い方が難しかった(寺田)</li>
+<li>必ず休憩挟まない時の移動時間が無く慌てた(寺田)</li>
+<li>スタッフ担当者のセッションと別の準備が重なり、ギリギリだった(寺田)</li>
+<li>ビープラウド社からの発表者二人がかぶった(寺田)</li>
+<li>スポンサーへの連絡混乱(寺田)</li>
+<li>運営マニュアルの印刷が直前で多量印刷が大変だった(寺田)</li>
+<li>アンケートの「良かったと思う講演」の表の記入方法がわかりにくかったらしく、項目の左側でなく右側にチェックを入れているケースが少なくなかった。また、設問に矛盾があったり、選択肢の番号付けに誤りがあった。(増田)</li>
+<li>アンケートの回収率が低い。前回の倍の参加者にもかかわらず、回収枚数は前回とほとんど変わらない。 (増田)</li>
+<li>内容も方法も練られていない状態で直前に実施が決まったサービスが多く、指摘を受けて一旦差し戻したり、付和雷同的に方針転換することがあった。（増田）</li>
+<li>ゲストとのコミュニケーション不足。来てから細かい取り決めやその後の日程について話し合うのは、呼ぶ側にも呼ばれる側にも負担。(増田)</li>
+<li>今後の発表内容・発表者の確保。同じ内容の発表・同じ発表者が固定化してしまっては、先がないと強く危機感を持っている(増田)</li>
+<li>受け付け後の参加者が、両手にグッズと紙束を両手に持たされて会場に放されるのはかわいそう。せっかく配ったものも、すぐにカバンの底に押し込まれてしまう。(増田)</li>
+<li>写真の再利用範囲について明確になっていないので判断に迷う。</li>
+</ul>
+<table class="docutils footnote" frame="void" id="id2" rules="none">
+<colgroup><col class="label"><col></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>おいしかったという意見も多数聞こえたので私の舌が肥えているだけかも。</td></tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="try">
+<h3>Try</h3>
+<ul class="simple">
+<li>公式Twitterアカウントの周知は次は大々的にやりたい(清水川)</li>
+<li>サイトやguidebook app (等)で「いいね！」を集めてオンデマンドで集計表示したい(清水川)</li>
+<li>アンケートで各セッションの評価感想を求める。5段階と自由記述。(清水川)</li>
+<li>レシーバー導入。電話してもみんな気づかない。(清水川)</li>
+<li>Office Hour 自体の意義(すごい人に直接質問できる)は感じられた。積極的に質問に来る人が少ないのをこちらが出会う機会を提供できてなかったと捉えて、形式を変えるなどしてその意義をより大きく実現させたい。(杵渕)</li>
+<li>アンケートを電子化してすぐに反応できるようにしたい。集計も楽にしたい (ほさか)</li>
+<li>お昼休み等に LT の発表者にプロジェクタの相性問題が発生しないかのマシンチェックを行う (もりもと)</li>
+<li>当日お手伝いの方へもスタッフ T シャツを配布する(私服だと参加者からみてスタッフだと認知されにくい) (もりもと)</li>
+<li>日本語が出来ない参加者のために要所要所では英語通訳したい。会場内での案内Talkは全て、とか、LTだけはやるとか(清水川)</li>
+<li>無線 LAN の SSID と キーはパンフレットに掲載する(Surgo)</li>
+<li>電源スペース (オフィスアワーの場所など) を作る(Surgo)</li>
+<li>PyCon 当日に翌日のスプリントに参加したくなった方々へのサポートをする(Surgo)</li>
+<li>スポンサー企業様のメリットを増やす (ブース設置など)(Surgo)</li>
+<li>同一規模(部屋数、トラック数、時間)で受入人数を倍に増やしてみたい(清水川)</li>
+<li>Business &amp; チュートリアルDay を1日設けたい。チュートリアルセッションは別費用等 (清水川)</li>
+<li>2日開催にして、半日くらいOpen Spaceやりたい(たかのり)</li>
+<li>スポンサーのリクルーティングセッションとかあるといいかも(たかのり)</li>
+<li>参加者用のTシャツを作る。事前にサイズ確認(たかのり)</li>
+<li>もっと積極的にアジア圏の国々に PyCon JP の開催をアピールしたい(たかのり)</li>
+<li>Sprintにも初心者向けのものを作る。(中村)</li>
+<li>Job Boardがにぎわっていたので、ホワイトボートを利用してもっとコミュニケーションを取る場として使えないか。(例: 好きなライブラリの人気投票など)(中村)</li>
+<li>Job BoardをWebサイトに掲載する（遠藤）</li>
+<li>リクルートはスポンサーとしてのインセンティブになる、とのご意見がありました（遠藤）</li>
+<li>セッショントラックごとのハッシュタグ（部屋番号など）をつけてみる(原)</li>
+<li>引き続き本の販売をお願いする（サイン会もしてみたりとか、著者が販売とかもおもしろい？）(原)</li>
+<li>難しいとは思うけれど、日本語セッションと英語セッション、それぞれ相手の言語にリアルタイム翻訳できたら素晴らしいと思ったりしました(原)</li>
+<li>案内資料の類を充実させたい(児島)</li>
+<li>演題一覧(プログラム)の見やすさ向上の一つとして、言語ソートやタグカテゴライズなど動的に見せたい。beginnersはこれ、みたいな。(清水川)</li>
+<li>Pythonチュートリアルは、初学者〜中級以前で数段階にレベルを分けるとよさそうです（遠藤）</li>
+<li>ディナースポンサーを募ってみる（遠藤）</li>
+<li>Rubykaigiのリアルタイム技評さんサイト更新をしてみたい。多人数のレポート班組織、要打ち合わせ...要事前準備。（池）</li>
+<li>発表者向けに発表者だからこそ困ることを解消するようサポートする（荷物置き場や受付後の個別の案内など）（清水川）</li>
+<li>事前に現地でシミュレーションやリハーサルをスタッフのみで行う。誘導の問題、準備不足等はかなり未然に防げると思います。全員が難しいなら、せめて主要スタッフだけでも。(okuji)</li>
+<li>出来れば立て看板、予算的に難しいなら、せめてもうちょっと視認性のよい誘導マーカを用意する（色や大きさ等）。会場担当や受付担当の負荷が軽減され、来場者も助かると思います。会場外では会場入口の方向、会場内では受付、食堂、自販機、喫煙場所、トイレ、各発表場所、本部への方向が必要。部屋の前にはもっと大きく何の部屋なのかを明記。(okuji)</li>
+<li>個人情報だけはハードコピーをやめて電子的に扱うか、一部の責任者のみに配布し、それ以外のスタッフは近くの責任者に訊く、あるいは、開場前に携帯等に写す等の方がよい。どうしても全員に配るなら、絶対体から離さないで済むよう、個人情報部分だけ名札入れに入る程度の大きさにする。(okuji)</li>
+<li>プロジェクタとの接続は必ず事前に（出来れば開場前および昼休みに）確認させる。発表資料は、オリジナル及びPDF化したもの両方を、確認時にUSBメモリ等で引き渡してもらい、他者のPCでもプレゼン可能な状況にする。(okuji)</li>
+<li>発表中は必ず一名進行役をつけ、終了前や終了時に発表者に情報を伝え、適宜発表を早めさせる等の処置を行う。ベル（ホテルのフロント等にあるタイプのもの）があるとよい。口頭で伝えられると、発表の話の腰を折ってしまう。質問時間を削るのはよくない。いくらOffice Hourがあるとはいえ、他の発表も聞きに行っていると、Office Hourには参加できない。(okuji)</li>
+<li>もっと外国からの参加者を増やす。発表者でも聞くだけの人でも。(okuji)</li>
+<li>やっぱり一日は短いので、せめて二日はやりたい。これぐらいあればしらふで知り合い増やせるんじゃないかな…(okuji)</li>
+<li>写真撮影班を2名以上にする。2011では1名でも十分な写真がとれたけれど、3トラック+αを1人でカバーは仕切れていない。もっと参加者や運営裏舞台の写真が欲しい(清水川)</li>
+<li>写真は開催レポートなどの利用用途を考えた上で、載せたいシーンを考えて撮影計画を立てておくと良いと思った。(杵渕)</li>
+<li>来年のレポートはもう少し、テーマに沿って書けると良い(原)</li>
+<li>デザインの統一感をだしたい。  (ロゴ、サイト、紙系の物、もろもろ)(寺田)</li>
+<li>スポンサー集めとして大手スポンサーも欲しい。他国のPyConから情報を得るなど模索。(寺田)</li>
+<li>チケット販売・フォーム連携したい(寺田)</li>
+<li>ネームカードは全員印刷(寺田)</li>
+<li>受付の効率化。配布物の配り方などを別の方法に。アイデアを出し検討(寺田)</li>
+<li>チュートリアルなど初心者向けを増やす(寺田)</li>
+<li>当日スタッフが実際はどこに居たか？を確認しておきたい(寺田)</li>
+<li>コーヒーブレイクのマイクの準備と放送内容を決めておきたい(寺田)</li>
+<li>打ち合わせ頻度と担当わけの再検討(寺田)</li>
+<li>担当配置の詳細見直し(寺田)</li>
+<li>Sprintへの参加者を増やしたい(寺田)</li>
+<li>最低限、定形のアナウンスや、オープニング・クロージングのスピーチは英語版も用意する(増田)</li>
+<li>運営のトップは積極的に英語圏の人たちと交流してもらいたい。カタコトでもいいから話す。英語コミュニケーションから逃げ回る姿は見せない。(増田)</li>
+<li>国際交流を目指すなら、自分たちのイベントに来てもらうことだけを気にしていてはいけない。国内外のイベントに参加して、現地でキーマンや発表者と話し合ってきてもらいたい(増田)</li>
+<li>海外からの参加者向けに、日本での観光ガイド・おすすめの宿泊先・渡航方法を記載する。できれば、相談窓口も用意する。(増田)</li>
+<li>アンケートの分析。あと、次回はどんな話を聞きたいか、どんな分野に興味があるかを問いかける。(増田)</li>
+<li>小ネタの発表枠。ちょっとしたモジュールやプログラムの紹介ができるような、申し込みやすい枠をつくって、今発表をためらっている人たちの背中を押す(増田)</li>
+<li>カンファレンス・バッグ。紙袋でいい。ちょっと手間だけど、ノベルティやパンフレット類は前日までにバッグに詰める。(増田)</li>
+<li>車椅子の方専用のスタッフを準備(松尾)</li>
+<li>Office Hour をセッション会場の出口近くでやる(参加しやすい,移動が楽)(松尾)</li>
+<li>アンケートを Google Spreadsheets で取る(集計も簡単にできて楽かも)(松尾)</li>
+<li>基調講演だけでも同時通訳を付けるのはありかも(評判のとても良かった同時通訳者を知っているので紹介します, 同時通訳用にイヤフォンなど使うとさらにコストがかかりますが…)(松尾)</li>
+<li>写真の掲載/再利用についてイベント全体を通じて参加者の承認を明示的にもらう(申し込みサイトか受付)。</li>
+</ul>
+</div>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>清水川</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-08-28T09:45:00Z</dc:date>
+    <dc:type>ページ</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/reports/photos">
+    <title>当日の写真</title>
+    <link>http://2011.pycon.jp/reports/photos</link>
+    <description>PyConJP2011 会場の様子、夜のParty, 翌日のSprintなどの写真です。もし掲載してほしくない写真がある場合は、 2011@pycon.jp までご連絡ください。</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div style="width:600px;font-family:arial,sans-serif;font-size:13px;">
+<div>
+<embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="600" height="400" flashvars="host=picasaweb.google.com&captions=1&hl=ja&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F105425126474739588803%2Falbumid%2F5652761827775490321%3Falt%3Drss%26kind%3Dphoto%26hl%3Dja" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</div>
+<span style="float:left;">
+<a href="https://picasaweb.google.com/105425126474739588803/PyConJP2011Tokyo?authuser=0&feat=flashalbum" style="color:#3964c2">すべて表示</a>
+</span>
+<div style="text-align:right;">
+<a href="http://picasaweb.google.com/lh/getEmbed?feat=flashalbum" style="color:#3964c2">自分用に作成</a>
+</div>
+</div>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>清水川</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-09-27T04:10:00Z</dc:date>
+    <dc:type>ページ</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/9j9g6">
+    <title>運営チームによる開催報告記事が公開されました!</title>
+    <link>http://2011.pycon.jp/news/9j9g6</link>
+    <description>6ページに渡る長編です!</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>運営チームによる PyCon JP 2011 開催報告記事が <a class="reference external" href="http://codezine.jp/">CodeZine</a> にて公開されています。</p>
+<p>PyCon JP 運営の裏側から運営に関する反省・今後の展望まで幅広い内容です。</p>
+<p><a class="reference external" href="http://codezine.jp/article/detail/6151">運営スタッフが振り返る「PyCon JP 2011」の模様と今後の展望（1/6）：CodeZine</a></p>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-09-15T08:54:20Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/reports/organizers">
+    <title>運営による報告</title>
+    <link>http://2011.pycon.jp/reports/organizers</link>
+    <description>運営チームによる開催報告記事や参加報告記事です</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div class="section" id="id1">
+<h3><a class="reference external" href="http://twitter.com/mactkg">&#64;mactkg</a> による参加報告記事</h3>
+<ul class="simple">
+<li><a class="reference external" href="http://gihyo.jp/news/report/2011/09/0601">レポート：PyCon JP 2011 参加レポート［前編］ ｜gihyo.jp … 技術評論社</a></li>
+<li><a class="reference external" href="http://gihyo.jp/news/report/2011/09/0602">レポート：PyCon JP 2011 参加レポート［後編］ ｜gihyo.jp … 技術評論社</a></li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h3>運営チームによる開催報告記事</h3>
+<ul class="simple">
+<li><a class="reference external" href="http://codezine.jp/article/detail/6151">運営スタッフが振り返る「PyCon JP 2011」の模様と今後の展望（1/6）：CodeZine</a></li>
+</ul>
+</div>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-09-11T12:40:00Z</dc:date>
+    <dc:type>ページ</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/0c1gjf/5/1/postreport">
+    <title>開催報告</title>
+    <link>http://2011.pycon.jp/0c1gjf/5/1/postreport</link>
+    <description></description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>
+<span style="font-size:150%; color: blue; font-weight: bold;">PyCon JP 2011 は盛況のうちに終了いたしました。</span>
+</p>
+
+<p>
+当日の参加者、スポンサー、学生、スタッフ等の総参加者数は <del>226名</del><span style="font-size: 130%; color: red;">247名</span>でした。ご協力・ご来場いただいた皆様、ありがとうございました！
+</p>
+
+<p>現在、開催報告を準備中です。今しばらくお待ちください</p>
+
+<ul>
+<li><a href="/reports">開催報告ページ</a>を作りました。随時更新します。当日資料・講演ust・言及blogなどを集めています。</li>
+</ul>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>清水川</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-08-29T00:40:00Z</dc:date>
+    <dc:type>ページ</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/program/collection">
+    <title>速報版 PyCon JP 2011 諸々まとめ</title>
+    <link>http://2011.pycon.jp/program/collection</link>
+    <description>随時更新します。最終的にURL変わるかもしれません。
+</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p><a class="reference external" href="/reports">別ページ</a> に移しました</p>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-08-28T11:35:00Z</dc:date>
+    <dc:type>ページ</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/reports/enquete/result">
+    <title>アンケート集計結果</title>
+    <link>http://2011.pycon.jp/reports/enquete/result</link>
+    <description>来場者の皆様に回答いただいたアンケートの集計結果です</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#q1-pycon-jp-2011" id="id1">Q1 PyCon JP 2011 を知ったきっかけはなんですか？</a></li>
+<li><a class="reference internal" href="#q2-python" id="id2">Q2 主に利用しているPythonのバージョンを教えてください</a></li>
+<li><a class="reference internal" href="#q3-python" id="id3">Q3 普段、どの分野でPythonを使っていますか？</a></li>
+<li><a class="reference internal" href="#q4-python" id="id4">Q4 Python以外で普段利用しているプログラミング言語を教えてください</a></li>
+<li><a class="reference internal" href="#q5-webweb" id="id5">Q5 Web開発に関わっている方に質問です。どんなWebフレームワークを使っていますか？</a></li>
+<li><a class="reference internal" href="#q6" id="id6">Q6 今回は、どちらからお越しですか？</a></li>
+<li><a class="reference internal" href="#q7-pycon-jp" id="id7">Q7 今後も、日本で開催されるPyCon JP に参加したいと思いますか？</a></li>
+<li><a class="reference internal" href="#q8" id="id8">Q8 次回以降の開催について、ご意見ください。</a></li>
+<li><a class="reference internal" href="#q9" id="id9">Q9 本イベントは有料で開催されましたが、値段は適切だったと思いますか？</a></li>
+<li><a class="reference internal" href="#q10-q9" id="id10">Q10 Q9で「適切である」以外を選択された方にお聞きします。本イベントの適切な価格は幾らでしょうか。</a></li>
+<li><a class="reference internal" href="#q11" id="id11">Q11 本イベントはトラック形式で発表が行われました。トラックについてご意見ください。</a></li>
+<li><a class="reference internal" href="#q12-office-houroffice-hour" id="id12">Q12 本イベントはOffice Hourを行いました。Office Hourについてご意見ください。</a></li>
+<li><a class="reference internal" href="#q13-pycon-jp" id="id13">Q13 今後、PyCon JPがお近くの都市部で開催された場合、スタッフとして参加いただけますか？</a></li>
+<li><a class="reference internal" href="#q14" id="id14">Q14 面白かった講演を選んでください</a></li>
+<li><a class="reference internal" href="#q15" id="id15">Q15 自由記入欄</a></li>
+</ul>
+</div>
+<div class="section" id="q1-pycon-jp-2011">
+<h3><a class="toc-backref" href="#id1">Q1 PyCon JP 2011 を知ったきっかけはなんですか？</a></h3>
+<p>有効回答数 107</p>
+<div class="figure">
+<img alt="charts/q1.png" src="charts/q1.png" />
+</div>
+</div>
+<div class="section" id="q2-python">
+<h3><a class="toc-backref" href="#id2">Q2 主に利用しているPythonのバージョンを教えてください</a></h3>
+<p>複数選択・総数 156</p>
+<div class="figure">
+<img alt="charts/q2.png" src="charts/q2.png" />
+</div>
+</div>
+<div class="section" id="q3-python">
+<h3><a class="toc-backref" href="#id3">Q3 普段、どの分野でPythonを使っていますか？</a></h3>
+<p>複数選択・総数 173</p>
+<div class="figure">
+<img alt="charts/q3.png" src="charts/q3.png" />
+</div>
+</div>
+<div class="section" id="q4-python">
+<h3><a class="toc-backref" href="#id4">Q4 Python以外で普段利用しているプログラミング言語を教えてください</a></h3>
+<p>複数選択・総数 244</p>
+<div class="figure">
+<img alt="charts/q4.png" src="charts/q4.png" />
+</div>
+</div>
+<div class="section" id="q5-webweb">
+<h3><a class="toc-backref" href="#id5">Q5 Web開発に関わっている方に質問です。どんなWebフレームワークを使っていますか？</a></h3>
+<p>複数選択・総数 125</p>
+<div class="figure">
+<img alt="charts/q5.png" src="charts/q5.png" />
+</div>
+</div>
+<div class="section" id="q6">
+<h3><a class="toc-backref" href="#id6">Q6 今回は、どちらからお越しですか？</a></h3>
+<p>有効回答数 103</p>
+<div class="figure">
+<img alt="charts/q6.png" src="charts/q6.png" />
+</div>
+</div>
+<div class="section" id="q7-pycon-jp">
+<h3><a class="toc-backref" href="#id7">Q7 今後も、日本で開催されるPyCon JP に参加したいと思いますか？</a></h3>
+<p>有効回答数 105</p>
+<div class="figure">
+<img alt="charts/q7.png" src="charts/q7.png" />
+</div>
+</div>
+<div class="section" id="q8">
+<h3><a class="toc-backref" href="#id8">Q8 次回以降の開催について、ご意見ください。</a></h3>
+<p>複数選択・総数 155</p>
+<div class="figure">
+<img alt="charts/q8.png" src="charts/q8.png" />
+</div>
+</div>
+<div class="section" id="q9">
+<h3><a class="toc-backref" href="#id9">Q9 本イベントは有料で開催されましたが、値段は適切だったと思いますか？</a></h3>
+<p>有効回答数 101</p>
+<div class="figure">
+<img alt="charts/q9.png" src="charts/q9.png" />
+</div>
+</div>
+<div class="section" id="q10-q9">
+<h3><a class="toc-backref" href="#id10">Q10 Q9で「適切である」以外を選択された方にお聞きします。本イベントの適切な価格は幾らでしょうか。</a></h3>
+<p>有効回答数 46</p>
+<div class="figure">
+<img alt="charts/q10.png" src="charts/q10.png" />
+</div>
+</div>
+<div class="section" id="q11">
+<h3><a class="toc-backref" href="#id11">Q11 本イベントはトラック形式で発表が行われました。トラックについてご意見ください。</a></h3>
+<p>有効回答数 98</p>
+<div class="figure">
+<img alt="charts/q11.png" src="charts/q11.png" />
+</div>
+</div>
+<div class="section" id="q12-office-houroffice-hour">
+<h3><a class="toc-backref" href="#id12">Q12 本イベントはOffice Hourを行いました。Office Hourについてご意見ください。</a></h3>
+<p>有効回答数 41</p>
+<div class="figure">
+<img alt="charts/q12.png" src="charts/q12.png" />
+</div>
+</div>
+<div class="section" id="q13-pycon-jp">
+<h3><a class="toc-backref" href="#id13">Q13 今後、PyCon JPがお近くの都市部で開催された場合、スタッフとして参加いただけますか？</a></h3>
+<p>有効回答数 73</p>
+<div class="figure">
+<img alt="charts/q13.png" src="charts/q13.png" />
+</div>
+</div>
+<div class="section" id="q14">
+<h3><a class="toc-backref" href="#id14">Q14 面白かった講演を選んでください</a></h3>
+<p>複数回答・総数 386</p>
+<div class="figure">
+<img alt="charts/q14.png" src="charts/q14.png" />
+</div>
+</div>
+<div class="section" id="q15">
+<h3><a class="toc-backref" href="#id15">Q15 自由記入欄</a></h3>
+<ul class="simple">
+<li>スタッフを含め誰もが気軽に意見を交えることができる空気がとても良かった。</li>
+<li>スポンサー企業協賛のブース等</li>
+<li>快適に過ごせるいいイベントでした。　ありがとうございます。</li>
+<li>チュートリアルは初心者の定義が難しいなと思った。Objectの話はPythonに限った話ではないけど説明が必要ですね。</li>
+<li>&quot;出会い系というタイトルがついていたのではなしかけやすかった。いろんなバックボーンの人の話をきけて楽しかったです。</li>
+<li>チュートリアルは時間がもう少しあればよかったですが自宅で復習できるし、はじめての人にも優しいアナウンスが有り</li>
+<li>コミュニティの暖かさを感じました。個人的にはScreen Readerが面白いなと思った。</li>
+<li>サンドイッチとてもおいしかったけどお腹好きました。Python Candyはうれしすぎます♡&quot;</li>
+<li>Coffee Breakがよかったです。</li>
+<li>休み時間</li>
+<li>Python初学者ですが、参加しやすい講演が多くてよかったです。LTも興味深かったです。</li>
+<li>セミナー中にスタッフの声がうるさい</li>
+<li>&quot;途中休憩が10分でしたが、延長することもあったので15分に少し伸ばせば、ゆとりを持って移動出来るのではないかと思いました。</li>
+<li>面白いトラックなども有り、非常に有意義なイベントでした。</li>
+<li>スタッフの皆様ありがとうございました。&quot;</li>
+<li>OpenSpaceの告知をもう少しわかりやすく広めやすい方法がないかなと。ドラが欲しい。。。</li>
+<li>Pythonチュートリアルはもうすこし時間とれれば良いのかなあと思いました。</li>
+<li>すごく楽しくて良かったです。ありがとうございました。資料へのリンク集を作ってくれると助かります。</li>
+<li>Tarekのサイン入りTシャツもらったので大満足です</li>
+<li>各プログラムの説明が全体的に急いでいたように感じた。これとは逆になりますが、５つも話を聞けてよかった。</li>
+<li>入り口が最初わかりませんでした。</li>
+<li>チュートリアルを１日でやっても良いのでは？</li>
+<li>残念ですが、Ubuntu 10.10でWiFiつながらなかった... &gt;&lt;</li>
+<li>楽しかったです。知りたいことを直接聞けるのが良かったです。</li>
+<li>WiFiに繋げなかった←後でつなげた。OfficeHourがとても良かった。業務連絡のアナウンスがうるさすぎて会話ができない。もう少し頻度を落とすか、マイクの音量を落として欲しい。</li>
+<li>個人的には行きたいトラックがかぶっていたのが残念だった</li>
+<li>一人で来たが、ランチ等で気さくに話しかけてくれる人がいてよかった。強制的に話す場があるのは意外と良かったと思いました。Python自体は初心者なので、難しい話はついていけませんでしたが、httpとtelnet〜を始め、Q14でチェックを入れた講演はすべて参加してよかったです。</li>
+<li>LTでうまく発表は出来なかったが、良い経験になった。次回、機会があれば再チャレンジしたいです。Tシャツをもらったｗ</li>
+<li>初参加でしたので、全ての講演が新鮮でした。ただ、３０分の講演は、さわりだけで終わってしまうため、物足りなく感じました。</li>
+<li>LTの時にドラがあればよかった。</li>
+<li>安い！もう少し値段が上がってもモンク言わない。それだけ内容が良い。英語...ツライ...自分で勉強はしますが、できれば日本語の通訳が欲しい</li>
+<li>朝早い時間はつらいです...10:30〜くらいだと嬉しいです</li>
+<li>コーヒーブレイクは不要。代わりにトラックを増やして欲しい。OpenSpaceは参加したが、ほとんどかぶってできなかった。OfficeHourは良いと思います。どのレベルの人が対象かをもっと細かく書いて欲しい</li>
+<li>Jobボードを写真で持ち帰れることになった。綺麗な写真データを１こ欲しい。</li>
+<li>全て素晴らしいと思いました。</li>
+<li>楽しかったです！スタッフの皆さんありがとうございます。お疲れ様でした！！！</li>
+<li>English Sessionをもっと充実させよう！</li>
+<li>Job Boardがあるのは良かった。Ustの画質がよかった（らしい）。</li>
+<li>４階のイスは座りにくい</li>
+<li>最高でした！次回はぜひTシャツ作ってください！</li>
+<li>スタッフの皆さん、素晴らしいイベントをありがとう。交流（Break）や求職もよいと思いました。- - - Ustreamの品質も高くて感動。SlideShareと結びつけてFBに共有しました。</li>
+<li>ノベルティがよかった。</li>
+<li>大遅刻して申し訳ありませんでした</li>
+</ul>
+</div>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-09-11T12:37:52Z</dc:date>
+    <dc:type>ページ</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/3l7p2t">
+    <title>gihyo.jp にて PyCon JP 参加レポート後編公開中!</title>
+    <link>http://2011.pycon.jp/news/3l7p2t</link>
+    <description>gihyo.jp にて PyCon JP 2011 参加レポート(後編)が公開されました!</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>gihyo.jp にて PyCon JP 2011 参加レポート(後編)が公開されました!</p>
+<ul class="simple">
+<li><a class="reference external" href="http://gihyo.jp/news/report/2011/09/0602">レポート：PyCon JP 2011 参加レポート［後編］ ｜gihyo.jp … 技術評論社</a></li>
+</ul>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-09-08T02:36:06Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/t4g6jj">
+    <title>gihyo.jp にて PyCon JP 参加レポート公開中!</title>
+    <link>http://2011.pycon.jp/news/t4g6jj</link>
+    <description>gihyo.jp にて PyCon JP 2011 参加レポート(前編)が公開されました!</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>gihyo.jp にて PyCon JP 2011 参加レポート(前編)が公開されました!</p>
+<p><a class="reference external" href="http://gihyo.jp/news/report/2011/09/0601">レポート：PyCon JP 2011 参加レポート［前編］ ｜gihyo.jp … 技術評論社</a></p>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-09-07T02:08:02Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/program/index">
+    <title>Program</title>
+    <link>http://2011.pycon.jp/program/index</link>
+    <description>プログラム一覧</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>各セッションの内容は <a class="reference external" href="/program/talks">Talks</a> ページを参照してください。</p>
+<p>オープンスペースについての説明は <a class="reference external" href="/program/open-space">Open Space</a> ページを参照して下さい。</p>
+<p>また、PyCon の翌日8月28日(日)には、開発イベント <a class="reference external" href="/program/sprints">Sprints(スプリント)</a> が開催されます。</p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#program" id="id6">Program</a></li>
+<li><a class="reference internal" href="#office-hour" id="id7">Office Hour</a><ul>
+<li><a class="reference internal" href="#special-guest" id="id8">Special Guest</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="program">
+<h3><a class="toc-backref" href="#id6">Program</a></h3>
+<ul class="simple">
+<li><img alt="gb" src="/++resource++country-flags/gb.gif" /> English session</li>
+<li><img alt="jp" src="/++resource++country-flags/jp.gif" /> Japanese session</li>
+</ul>
+<table border="1" class="docutils">
+<colgroup>
+<col width="8%">
+<col width="25%">
+<col width="25%">
+<col width="25%">
+<col width="17%">
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head stub">&nbsp;</th>
+<th class="head">Main Track</th>
+<th class="head">English Track</th>
+<th class="head">Sub Track</th>
+<th class="head">Open Space</th>
+</tr>
+<tr><th class="head stub">Ustream</th>
+<th class="head"><a class="reference external" href="http://www.ustream.tv/channel/pyconjp1">pyconjp1</a></th>
+<th class="head"><a class="reference external" href="http://www.ustream.tv/channel/pyconjp2">pyconjp2</a></th>
+<th class="head"><a class="reference external" href="http://www.ustream.tv/channel/pyconjp3">pyconjp3</a></th>
+<th class="head">&nbsp;</th>
+</tr>
+<tr><th class="head stub">Time</th>
+<th class="head">Room 433</th>
+<th class="head">Room 351a</th>
+<th class="head">Room 357PC</th>
+<th class="head">Room 358+359</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><th class="stub">09:30</th>
+<td>Opening</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr><th class="stub">09:50</th>
+<td><p class="first"><a class="reference external" href="/program/keynote">Keynote</a></p>
+<p>Tarek Ziade</p>
+<p class="last"><img alt="gb" src="/++resource++country-flags/gb.gif" /></p>
+</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr><th class="stub">10:50</th>
+<td>Break</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr><th class="stub">11:00</th>
+<td><p class="first"><a class="reference external" href="/program/talks#c-api">C API への誘(いざな)い</a>
+/ An Introduction to the C API</p>
+<p>Tomohiko Kinebuchi</p>
+<p class="last"><img alt="jp" src="/++resource++country-flags/jp.gif" /> intermediate, python-core</p>
+</td>
+<td><p class="first"><a class="reference external" href="/program/talks#scribboo-with-embedded-python">Scribboo with Embedded Python</a></p>
+<p>Sinker Li</p>
+<p class="last"><img alt="gb" src="/++resource++country-flags/gb.gif" /> intermediate, embed, HTML5, gui</p>
+</td>
+<td><p class="first"><a class="reference external" href="/program/talks#http-telnet">http と telnet をつなぐ何か</a>
+/ Bridging between HTTP and Telnet</p>
+<p>LossCuts</p>
+<p class="last"><img alt="jp" src="/++resource++country-flags/jp.gif" /> non-programmer, other</p>
+</td>
+<td><p class="first"><a class="reference external" href="/program/talks#id3">Python チュートリアル</a>
+/ Python Tutorial</p>
+<p>Takanao Endoh(MiCHiLU Labs.)</p>
+<p class="last"><img alt="jp" src="/++resource++country-flags/jp.gif" /> beginner, tutorial</p>
+</td>
+</tr>
+<tr><th class="stub">11:30</th>
+<td>Break</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr><th class="stub">11:40</th>
+<td><p class="first"><a class="reference external" href="/program/talks#web">Webフォームウィジェットツールキットを総括する</a>
+/ Exploring Web Form Widget Toolkits</p>
+<p>Atsushi Odagiri(BeProud)</p>
+<p class="last"><img alt="jp" src="/++resource++country-flags/jp.gif" /> intermediate, web</p>
+</td>
+<td><p class="first"><a class="reference external" href="/program/talks#asyncronous-python-programming">Asyncronous Python Programming</a></p>
+<p>Ian Lewis(BeProud)</p>
+<p class="last"><img alt="gb" src="/++resource++country-flags/gb.gif" /> beginner, python-language</p>
+</td>
+<td><p class="first"><a class="reference external" href="/program/talks#python">Python エンジニアの作り方</a>
+/ How to Become a Python Engineer</p>
+<p>Takeshi Komiya(Time Intermedia)</p>
+<p class="last"><img alt="jp" src="/++resource++country-flags/jp.gif" /> beginner, project, programming</p>
+</td>
+<td>Python チュートリアル(続き)</td>
+</tr>
+<tr><th class="stub">12:10</th>
+<td>Lunch time</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr><th class="stub">13:10</th>
+<td><p class="first"><a class="reference external" href="/program/five-questions-to-guido">Guido への5つの質問</a>
+/ Five Questions to Guido van Rossum</p>
+<p class="last">Takashi Matsuo</p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr><th class="stub">13:20</th>
+<td><p class="first"><strong>Gold Sponser Session</strong> <a class="reference external" href="/program/talks#gold-sponser-session-python">Pythonで創るソーシャルゲームの未来</a>
+/ Creating the Future of Social Games in Python</p>
+<p>Hironao Kunimitsu(gumi), Yasuhiro Horiuchi(gumi)</p>
+<p class="last"><img alt="jp" src="/++resource++country-flags/jp.gif" /> intermediate, web, django, aws</p>
+</td>
+<td><p class="first"><a class="reference external" href="/program/talks#object-oriented-usage-of-using-command-line-tools-in-python">Object-oriented usage of using command line tools in Python</a></p>
+<p>Hsin-Yi Chen</p>
+<p class="last"><img alt="gb" src="/++resource++country-flags/gb.gif" /> intermediate, oss</p>
+</td>
+<td><p class="first"><a class="reference external" href="/program/talks#python-mongodb-web">Python と MongoDB でWEB開発</a>
+/ Web Application Development with Python and MongoDB</p>
+<p>Fumikazu Kiyota</p>
+<p class="last"><img alt="jp" src="/++resource++country-flags/jp.gif" /> beginner, web, python-tornado</p>
+</td>
+<td>Open Space</td>
+</tr>
+<tr><th class="stub">13:50</th>
+<td>Break</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr><th class="stub">14:00</th>
+<td><p class="first"><a class="reference external" href="/program/talks#tuning-python-code">Tuning Python Code</a></p>
+<p>Naoki Inada(KLab)</p>
+<p class="last"><img alt="jp" src="/++resource++country-flags/jp.gif" /> intermediate, performance, profiling</p>
+</td>
+<td><p class="first"><a class="reference external" href="/program/talks#slapos-python-powered-open-source-cloud-computing-system">SlapOS, A Python Powered Open Source Cloud Computing System</a></p>
+<p>Yusei Tahara(Nexedi)</p>
+<p class="last"><img alt="gb" src="/++resource++country-flags/gb.gif" /> intermediate, network programming</p>
+</td>
+<td><p class="first"><a class="reference external" href="/program/talks#pyqtgui">PyQtではじめるGUIプログラミング</a>
+/ Tutorial: GUI Programming with PyQt</p>
+<p>Ransui Iso(X-Listing)</p>
+<p class="last"><img alt="jp" src="/++resource++country-flags/jp.gif" /> beginner, gui programming</p>
+</td>
+<td>Open Space</td>
+</tr>
+<tr><th class="stub">15:00</th>
+<td>Coffee break</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr><th class="stub">15:50</th>
+<td><p class="first">Panel Discussion
+<a class="reference external" href="/program/talks#panel-discussion-python">Pythonで働くということ</a>
+/ Using Python at Work</p>
+<ul>
+<li><p class="first">Panelists:</p>
+<blockquote>
+<ul class="simple">
+<li>Hironao Kunimitsu(gumi)</li>
+<li>Yusei Tahara(Nexedi)</li>
+<li>Haruo Sato(BeProud)</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">Moderator: Tohru Ike</p>
+</li>
+</ul>
+<p class="last"><img alt="jp" src="/++resource++country-flags/jp.gif" /> non-programmer, project</p>
+</td>
+<td><p class="first"><a class="reference external" href="/program/talks#python1iphone">Pythonで1万台のiPhoneを管理する</a>
+/ Managing 10,000 iPhones with Python</p>
+<p>Keisuke Nishida(BizMobile)</p>
+<p class="last"><img alt="jp" src="/++resource++country-flags/jp.gif" /> intermediate, project</p>
+</td>
+<td><p class="first"><a class="reference external" href="/program/talks#id5">Pythonを使った次世代組み込みシステムの姿</a>
+/ Next Generation Embedded Systems using Python</p>
+<p>Yuta Kitagami(ArtifactNoise)</p>
+<p class="last"><img alt="jp" src="/++resource++country-flags/jp.gif" /> intermediate, embed, MeeGo, Pyside, Pyserial</p>
+</td>
+<td>Open Space</td>
+</tr>
+<tr><th class="stub">16:20</th>
+<td>&nbsp;</td>
+<td>Break</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr><th class="stub">16:30</th>
+<td>Panel Discussion(続き)</td>
+<td><p class="first"><a class="reference external" href="/program/talks#id6">Pythonによる日本語自然言語処理</a>
+/ Japanese Natural Language Processing with Python</p>
+<p>Okuno Yoh</p>
+<p class="last"><img alt="jp" src="/++resource++country-flags/jp.gif" /> intermediate, science</p>
+</td>
+<td><p class="first"><a class="reference external" href="/program/talks#restudy-study-group-about-rest">reSTudy: STudy group about reST の活動</a>
+/ An Update on reSTudy</p>
+<p>team reSTudy</p>
+<p class="last"><img alt="jp" src="/++resource++country-flags/jp.gif" /> non-programmer, documentation, sphinx, docutils</p>
+</td>
+<td>Open Space</td>
+</tr>
+<tr><th class="stub">17:00</th>
+<td>Break</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr><th class="stub">17:10</th>
+<td><a class="reference external" href="lightning-talks">Lightning Talks</a></td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr><th class="stub">18:10</th>
+<td>Closing</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr><th class="stub">19:00</th>
+<td><a class="reference external" href="/audience/party">PyCon JP Party</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="office-hour">
+<h3><a class="toc-backref" href="#id7">Office Hour</a></h3>
+<p>Office Hour という用語は元々は大学で使われていたようです。大学の先生が自分の Office Hour を提示しておき、その時間は必ず部屋にいて学生からの質問を受けられるようにしておく仕組みです。</p>
+<p>それと同様に凄い Pythonista たちと気軽に話せる時間と場所を設けたのが、PyCon JP 2011 における Office Hour です。</p>
+<p>PyCon JP 2011 の Office Hour では講師役に、各セッションの発表者や Python の勉強会を主催している方々に依頼をしています。</p>
+<p>場所は会場の3F廊下に 1 ブース設けて行う予定です。ホワイトボードの前でお茶とお菓子を楽しみながら、雑談のような雰囲気で講師役の人とお話を楽しんでください。</p>
+<a class="reference external image-reference" href="/images/3f.png"><img alt="/images/3f.png/image_preview" src="/images/3f.png/image_preview" /></a>
+<p>発表者にセッション中には気が引けて聞けなかったちょっとした質問などをするのも良いですし、Python について語り合うのも良いでしょう。エキスパート Python プログラミングの翻訳者たちも参加しているので、本を持って行ったらサインがもらえるかもしれませんよ。</p>
+<div class="section" id="special-guest">
+<h4><a class="toc-backref" href="#id8">Special Guest</a></h4>
+<p>そして今回の Office Hour の大きな特徴は Python を生み出した <strong>Guido</strong> と Video Conference システムでやり取りができることです。Guido と直接やり取りできる機会はなかなか無いと思うので、是非積極的に参加してみてください。</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%">
+<col width="50%">
+</colgroup>
+<tbody valign="top">
+<tr><td>11:00 - 12:10</td>
+<td><p class="first"><strong>[Special]</strong></p>
+<p class="last">Guido van Rossum,
+Takashi Matsuo</p>
+</td>
+</tr>
+<tr><td>13:20 - 13:50</td>
+<td><p class="first"><strong>[Document]</strong></p>
+<p class="last">Takeshi Komiya, Yoshiki Shibukawa, Takayuki Shimizukawa</p>
+</td>
+</tr>
+<tr><td>14:00 - 14:30</td>
+<td><p class="first"><strong>[EuroPython]</strong></p>
+<p class="last">Tetsuya Morimoto, Tohru Ike</p>
+</td>
+</tr>
+<tr><td>15:50 - 16:20</td>
+<td><p class="first"><strong>[GUI]</strong></p>
+<p class="last">Ransui Iso, Atsushi Odagiri</p>
+</td>
+</tr>
+<tr><td>16:30 - 17:00</td>
+<td><p class="first"><strong>[Python Core]</strong></p>
+<p class="last">Naoki Inada, Tomohiko Kinebuchi</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-07-01T05:10:00Z</dc:date>
+    <dc:type>ページ</dc:type>
+  </item>
+
+
+
+
+
+</rdf:RDF>

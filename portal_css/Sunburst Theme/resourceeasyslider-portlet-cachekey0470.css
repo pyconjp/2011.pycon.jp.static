@@ -1,0 +1,26 @@
+
+/* - ++resource++easyslider-portlet.css - */
+@media screen {
+/* http://2011.pycon.jp/portal_css/++resource++easyslider-portlet.css?original=1 */
+.slider-portlet{
+position:relative;
+overflow:hidden;
+padding:0;
+margin:0;
+width:100%;
+}
+.slider-under, .slider-over{
+position:absolute;
+top:0px;
+left:0px;
+width:100%;
+height:100%;
+}
+.slider-over{
+z-index:1;
+background-color:inherit;
+}
+.slider-under{
+}
+}
+

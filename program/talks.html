@@ -1,0 +1,1571 @@
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+
+    
+    
+    
+    
+    
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Forces IE8+ into newest rendering engine even if on an intranet. This has to be defined before any script/style tags. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+    
+        <base href="" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <link rel="alternate" type="application/rss+xml" title="ニュース" href="#" />
+    <link rel="alternate" type="application/rss+xml" title="更新情報" href="#" />
+
+    
+        
+<link rel="kss-base-url" href="talks/index.html" />
+
+  
+    <link rel="stylesheet" type="text/css" href="../portal_css/Sunburst&#32;Theme/base-cachekey3695.css" />
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="#" />
+        <![endif]-->
+    
+    <style type="text/css" media="screen">@import url(../portal_css/Sunburst&#32;Theme/resourceeasyslider-portlet-cachekey0470.css);</style>
+    <style type="text/css" media="screen">@import url(../portal_css/Sunburst&#32;Theme/resourceprettyPhoto-cachekey0127.css);</style>
+    <link rel="stylesheet" type="text/css" media="all" href="../portal_css/Sunburst&#32;Theme/ploneCustom-cachekey1147.css" />
+
+  
+    <link rel="kinetic-stylesheet" type="text/css" href="../portal_kss/Sunburst&#32;Theme/resourcetinymce.ksstinymce-cachekey4145.kss.css" />
+    <link rel="kinetic-stylesheet" type="text/css" href="../portal_kss/Sunburst&#32;Theme/at-cachekey4559.kss.css" />
+  
+    <script type="text/javascript" src="../portal_javascripts/Sunburst&#32;Theme/jquery-cachekey4811.js"></script>
+       <!--[if lt IE 8]>
+     
+    <script type="text/javascript" src="#"></script>
+       <![endif]-->
+     
+    <script type="text/javascript" src="../portal_javascripts/Sunburst&#32;Theme/jquery-shuffle-cachekey3172.js"></script>
+    <script type="text/javascript" src="../portal_javascripts/Sunburst&#32;Theme/resourceeasyslider-portlet-cachekey0840.js"></script>
+    <script type="text/javascript" src="../portal_javascripts/Sunburst&#32;Theme/resourcejquery.prettyPhoto-cachekey5397.js"></script>
+
+
+<title>Talks &mdash; PyCon JP 2011</title>
+        
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+    <link rel="apple-touch-icon" href="../touch_icon.png" />
+
+
+
+    <link rel="home" href="../index.html" title="フロントページ" />
+
+    <link rel="contents" href="../sitemap.html" title="サイトマップ" />
+
+
+
+
+
+
+    <link rel="search" href="#" title="このサイトを検索" />
+
+
+
+        
+        
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width; initial-scale=0.6666; maximum-scale=1.0; minimum-scale=0.6666" />
+        <meta name="generator" content="Plone - http://plone.org" />
+    
+</head>
+
+<body class="template-document_view portaltype-document section-program icons-on" dir="ltr">
+
+<div id="visual-portal-wrapper">
+
+        <div id="portal-top" class="row">
+<div class="cell width-full position-0"> <!-- TODO: Temporary, this one should be in the template that is inserted -->
+            <div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="talks.html#content">コンテンツに飛ぶ</a> |
+
+  <a accesskey="6" href="talks.html#portlet-navigation-tree">ナビゲーションに飛ぶ</a>
+</p>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">パーソナルツール</h5>
+
+
+
+<dl class="actionMenu deactivated" id="portal-personaltools">
+  <dt id="anon-personalbar">
+    
+        <a href="#" id="personaltools-login">ログイン</a>
+    
+  </dt>
+</dl>
+
+</div>
+
+
+
+<div id="portal-searchbox">
+
+   <div id="python-logo">
+        <img width="250" height="68" src="../python_logo.png" />
+   </div>
+
+   <form name="searchform" id="searchGadget_form" action="#">
+
+        <div class="LSBox">
+        <label class="hiddenStructure" for="searchGadget">サイトを検索</label>
+
+        <input name="SearchableText" type="text" size="18" title="サイトを検索" accesskey="4" class="searchField inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="submit" value="検索" />
+
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/Plone/program" />
+            <label for="searchbox_currentfolder_only" style="cursor: pointer">現在のセクション内のみ</label>
+        </div>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="#" accesskey="5">詳細検索</a>
+    </div>
+
+</div>
+<a id="portal-logo" title="ホーム" accesskey="1" href="../index.html">
+    <img src="../logo.png" alt="" title="logo.png" height="90" width="292" /></a>
+
+
+    <h5 class="hiddenStructure">セクション</h5>
+
+    <ul id="portal-globalnav"><li id="portaltab-index_html" class="plain"><a href="../index.html" title="">ホーム</a></li><li id="portaltab-about" class="plain"><a href="../about.html" title="PyCon は、Pythonユーザが集まり、PythonやPythonを使ったソフトウェアについて情報交換し、交流するためのカンファレンスです。 PyCon JP開催を通してPythonの使い手が一同に集まり、他の分野などの情報や知識や知人を増やす場所とすることが目標です。
+
+2011年春に開催した&quot;PyCon mini JP&quot;の成功を受け、よりよいイベントの開催を目指しています。
+">開催趣旨</a></li><li id="portaltab-audience" class="plain"><a href="../audience.html" title="参加者向け情報">一般参加の方へ</a></li><li id="portaltab-program" class="selected"><a href="../program.html" title="当日のプログラムに関する情報">Program</a></li><li id="portaltab-english-information" class="plain"><a href="../english-information.html" title="">English Information</a></li><li id="portaltab-sponsor" class="plain"><a href="../sponsor.html" title="">スポンサー一覧</a></li><li id="portaltab-misc" class="plain"><a href="../misc.html" title="">運営情報</a></li><li
+    id="portaltab-reports" class="plain"><a href="../reports.html" title="開催報告系記事・動画アーカイブ・発表資料とアンケートなど諸々">開催報告</a></li></ul>
+
+</div>
+</div>
+        </div>
+    <div id="portal-columns" class="row">
+
+        <div id="portal-column-content" class="cell width-3:4 position-0">
+
+            <div id="viewlet-above-content"><div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">現在位置:</span>
+    <span id="breadcrumbs-home">
+        <a href="../index.html">ホーム</a>
+        <span class="breadcrumbSeparator">
+            &rsaquo;
+            
+        </span>
+    </span>
+    <span id="breadcrumbs-1" dir="ltr">
+        
+            <a href="../program.html">Program</a>
+            <span class="breadcrumbSeparator">
+                &rsaquo;
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-2" dir="ltr">
+        
+            
+            
+            <span id="breadcrumbs-current">Talks</span>
+         
+    </span>
+
+</div>
+</div>
+            
+            
+                <div class="">
+
+                    
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                        <div id="content">
+
+                            
+
+                                                                                        
+
+                                                          
+                                                           
+                                 
+                                 
+            
+                <h1 id="parent-fieldname-title" class="documentFirstHeading">
+                    Talks
+                </h1>
+            
+            
+                                                                                            
+                                                                                                            
+                             
+
+
+                             
+
+                                               
+                                 
+                                 
+            
+                
+            
+            
+                                                                                             
+                                                                                                      
+
+                             
+
+                              
+                             <div id="content-core">                                                                      
+                                 
+    
+        
+        <div class="" id="parent-fieldname-text">
+            <div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="talks.html#english" id="id7">英語/English</a><ul>
+<li><a class="reference internal" href="talks.html#scribboo-with-embedded-python" id="id8">Scribboo with Embedded Python</a><ul>
+<li><a class="reference internal" href="talks.html#kuifeng-li-sinker" id="id9">Kuifeng Li(Sinker)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#object-oriented-usage-of-using-command-line-tools-in-python" id="id10">Object-oriented usage of using command line tools in Python</a><ul>
+<li><a class="reference internal" href="talks.html#hsin-yi-chen-hychen" id="id11">Hsin-Yi Chen(hychen)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#slapos-python-powered-open-source-cloud-computing-system" id="id12">SlapOS, Python powered open source cloud computing system</a><ul>
+<li><a class="reference internal" href="talks.html#yusei-tahara" id="id13">Yusei Tahara</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#asyncronous-python-programming" id="id14">Asyncronous Python Programming</a><ul>
+<li><a class="reference internal" href="talks.html#ian-lewis" id="id15">Ian Lewis</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#non-programmer" id="id16">プログラマ以外/Non programmer</a><ul>
+<li><a class="reference internal" href="talks.html#panel-discussion-python" id="id17">Panel discussion: Pythonで働くということ</a><ul>
+<li><a class="reference internal" href="talks.html#panelists" id="id18">Panelists</a></li>
+<li><a class="reference internal" href="talks.html#moderator" id="id19">Moderator: 池 徹</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#http-telnet" id="id20">http と telnet をつなぐ何か</a><ul>
+<li><a class="reference internal" href="talks.html#shigeki-yamada-losscuts" id="id21">Shigeki Yamada(LossCuts)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#restudy-study-group-about-rest" id="id22">reSTudy: STudy group about reST の活動</a><ul>
+<li><a class="reference internal" href="talks.html#restudy" id="id23">reSTudyチーム</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#beginner" id="id24">初級/Beginner</a><ul>
+<li><a class="reference internal" href="talks.html#python" id="id25">Python エンジニアの作り方</a><ul>
+<li><a class="reference internal" href="talks.html#takeshi-komiya-tk0miya" id="id26">Takeshi Komiya: 小宮 健(&#64;tk0miya)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#pyqtgui" id="id27">PyQtではじめるGUIプログラミング</a><ul>
+<li><a class="reference internal" href="talks.html#ransui-iso" id="id28">Ransui Iso</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#id3" id="id29">Python チュートリアル</a><ul>
+<li><a class="reference internal" href="talks.html#michilu" id="id30">遠藤 隆尚(MiCHiLU)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#python-mongodb-web" id="id31">Python と MongoDB でWEB開発</a><ul>
+<li><a class="reference internal" href="talks.html#fumikazu-kiyota-kiyotaman" id="id32">Fumikazu Kiyota(&#64;kiyotaman)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#intermediate" id="id33">中級/Intermediate</a><ul>
+<li><a class="reference internal" href="talks.html#gold-sponser-session-python" id="id34">Gold Sponser Session: Pythonで創るソーシャルゲームの未来</a><ul>
+<li><a class="reference internal" href="talks.html#id4" id="id35">株式会社gumi 国光 宏尚、堀内 康弘</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#id5" id="id36">Pythonを使った次世代組み込みシステムの姿</a><ul>
+<li><a class="reference internal" href="talks.html#noise" id="id37">北神 雄太(北神noise)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#python1iphone" id="id38">Pythonで1万台のiPhoneを管理する</a><ul>
+<li><a class="reference internal" href="talks.html#knishida" id="id39">西田 圭介(knishida)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#web" id="id40">Webフォームウィジェットツールキットを総括する</a><ul>
+<li><a class="reference internal" href="talks.html#aodag" id="id41">小田切 篤(aodag)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#id6" id="id42">Pythonによる日本語自然言語処理</a><ul>
+<li><a class="reference internal" href="talks.html#nokuno" id="id43">奥野 陽(nokuno)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#tuning-python-code" id="id44">Tuning Python Code</a><ul>
+<li><a class="reference internal" href="talks.html#inada-naoki-methane" id="id45">INADA Naoki(&#64;methane)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="talks.html#c-api" id="id46">C API への誘(いざな)い</a><ul>
+<li><a class="reference internal" href="talks.html#tomohiko-kinebuchi-cocoatomo" id="id47">Tomohiko Kinebuchi(cocoatomo)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="english">
+<h3><a class="toc-backref" href="talks.html#id7">英語/English</a></h3>
+<div class="section" id="scribboo-with-embedded-python">
+<h4><a class="toc-backref" href="talks.html#id8">Scribboo with Embedded Python</a></h4>
+<p>There is no open source solution that can compete with commercial ones for animation and GUI applications. Inkscape is a high quality open source vector graphic editor, but lacks animation. Scribboo extend Inkscape by embedding CPython to provide animation functions. It is an open source animation and GUI solution for HTML5/CSS3.</p>
+<p>WEB developers use vector graphic to create application for years. The tool dominating the market is Adobe Flash. Even hardware vendors desire to use it in embedded device. But, there is no open source solution that is good enough to be a replacement of commercial ones. For years of development, WEB browsers are going to HTML5/CSS3. It is an open standard runtime. With it, we can skip runtime/plug-ins controlled by any company. But, we lack an authoring tool. Without a high-quality tool, HTML5/CSS3 can not be a good solution. Base on Inkscape, a vector graphic editor, we extend it to provide an open source solution for HTML5/CSS3 environment. To simplify the development, Scribboo team embeds CPython engine into Inkscape. We also use Cython to export a set of API from Inkscape to Python code. Programmers can extend Inkscape with Python code.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">embed</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">11:00-11:30</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">351a</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">intermediate</td>
+</tr>
+<tr class="field"><th class="field-name">tags:</th><td class="field-body">HTML5 GUI</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="kuifeng-li-sinker">
+<h5><a class="toc-backref" href="talks.html#id9">Kuifeng Li(Sinker)</a></h5>
+<p>An open source developer from Taiwan</p>
+
+<a class="reference external image-reference" href="images/sinker/image_view_fullscreen.html"><img alt="sinker" src="images/sinker/image_tile" /></a>
+<p>Sinker is a freelancer, from Taiwan. In last two years, he focus on an authoring tool, Scribboo, that is for creating GUI and animation for applications. It is supposed to be a tool for fast-prototyping applications, and will export CSS3/HTML compatible code.</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="object-oriented-usage-of-using-command-line-tools-in-python">
+<h4><a class="toc-backref" href="talks.html#id10">Object-oriented usage of using command line tools in Python</a></h4>
+<p>To introduce 'ucltip' python library (<a class="reference external" href="http://pypi.python.org/pypi/ucltip">http://pypi.python.org/pypi/ucltip</a>). The basic concept is to transform 1) command as a instance, 2) command options as arguments or function/method keyword arguments.
+outline: To introduce 'ucltip' python library (<a class="reference external" href="http://pypi.python.org/pypi/ucltip">http://pypi.python.org/pypi/ucltip</a>).</p>
+<p>The basic concept is to transform 1) command as a instance, 2) command options as arguments or function/method keyword arguments.</p>
+<ul class="simple">
+<li>Transform CLI arguments to Python function/method arguments</li>
+<li>Transform CLI Tool Boolean option style to Python function/method keyword arguments</li>
+<li>Transform CLI Key-Value option style to Python function/method keyword arguments</li>
+<li>Transform CLI Tool Key-Value option style to Python function/method keyword arguments</li>
+<li>Transform CLI Command to Python Class and use it in your script</li>
+<li>Set default options of Command for multiple use</li>
+<li>Create a workable Python Binding quickly</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">project-oss</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">13:20-13:50</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">351a</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">intermediate</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="hsin-yi-chen-hychen">
+<h5><a class="toc-backref" href="talks.html#id11">Hsin-Yi Chen(hychen)</a></h5>
+<p>hychen is a Python Developer in Taiwan</p>
+
+<p><a class="reference external" href="http://hychen.wuweig.org">http://hychen.wuweig.org</a></p>
+<a class="reference external image-reference" href="images/hychen/image_view_fullscreen.html"><img alt="hychen" src="images/hychen/image_tile" /></a>
+<p>Hsin-Yi Chen is a software engineer of Canonical Ltd, the commercial sponsor of the Ubuntu project.</p>
+<p>He enjoys to be a member in open source, free software communities such as Kaohsiung Linux User Group, Hacking Thursday Gathering. He was also a volunteer committee member/accountant of COSCUP - a biggest open source conference in Taiwan in 2009, 2010.</p>
+<p>KaLug: kalug.linux.org.tw
+Hacking Thursday Gathering: <a class="reference external" href="http://www.hackingthursday.org/">http://www.hackingthursday.org/</a>
+COSCUP: <a class="reference external" href="http://coscup.org/">http://coscup.org/</a></p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="slapos-python-powered-open-source-cloud-computing-system">
+<h4><a class="toc-backref" href="talks.html#id12">SlapOS, Python powered open source cloud computing system</a></h4>
+<p>SlapOS is an open source cloud computing system powered by Python. In this talk, I will present an overview of SlapOS and technical basis.</p>
+<p>This talk will focus on following topics:</p>
+<ul class="simple">
+<li>A brief overview of SlapOS</li>
+<li>Demonstration</li>
+<li>Simple API</li>
+<li>Buildout recipe</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">program-net</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">14:00-15:00</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">351a</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">intermediate</td>
+</tr>
+<tr class="field"><th class="field-name">tags:</th><td class="field-body">cloud</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="yusei-tahara">
+<h5><a class="toc-backref" href="talks.html#id13">Yusei Tahara</a></h5>
+<p>Nexedi KK</p>
+
+<p><a class="reference external" href="http://www.nexedi.co.jp/">http://www.nexedi.co.jp/</a></p>
+<p>Yusei Tahara is a representative director at Nexedi KK, a subsidiary of Nexedi group, an open source ERP solution provider. He has about 10 years experience with Python and Zope. Yusei is a contributor to Zope project and is involved with Python Japan User's Group as a system administrator. He is also a member of Free Software Initiative of Japan(FSIJ) and an associate member of Free Software Foundation.</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="asyncronous-python-programming">
+<h4><a class="toc-backref" href="talks.html#id14">Asyncronous Python Programming</a></h4>
+<p>Asyncronous programming is an important part of making programs more efficient in any programming language.
+There is a lot of talk concerning python and it's concurrency model, especially pertaining to the Global Interpreter Lock (GIL).</p>
+<p>In this talk I will discuss concurrent, asyncronous programming in Python and Python's concurrency model.
+I will discuss various ways of doing concurrent programming and the strengths and weaknesses of each.</p>
+<p>This talk will be geared mostly towards application programmers and those wishing to get the most out of Python's existing concurrency model rather than those wishing to do low level concurrent programming with Python's C API.</p>
+<ul class="simple">
+<li>Intro to Concurrency</li>
+<li>Python's Concurrency Model</li>
+<li>What is the GIL?</li>
+<li>Python Threads</li>
+<li>Events/Coroutines</li>
+<li>Multiprocessing</li>
+<li>Multimachine</li>
+<li>Task Queues</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">python-language</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">11:40-21:10</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">351a</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">beginner</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="ian-lewis">
+<h5><a class="toc-backref" href="talks.html#id15">Ian Lewis</a></h5>
+<a class="reference external image-reference" href="images/ian-lewis/image_view_fullscreen.html"><img alt="Ian Lewis" src="images/ian-lewis/image_tile" /></a>
+<p>Ian is a web developer living in Tokyo Japan, working for BeProud Inc.</p>
+<p>His current interests are in Django, python, Google Appengine, alternative databases and rapid web application development.
+Ian is currently a Official Google API Expert in Japan specializing in the Python language version.</p>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="non-programmer">
+<h3><a class="toc-backref" href="talks.html#id16">プログラマ以外/Non programmer</a></h3>
+<div class="section" id="panel-discussion-python">
+<h4><a class="toc-backref" href="talks.html#id17">Panel discussion: Pythonで働くということ</a></h4>
+<p>Python 言語を主要なプログラミング言語として採用している企業を経営しているみなさんにパネリストとして参加していただくパネルディスカッションです。</p>
+<p>なぜ Python なのか、Python (コミュニティ)に期待すること、自社のスタイル、今後の展望などについて参加者も交えて熱く語り合っていただきます。</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">project-prj</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">15:50-16:50</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">433</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">non-programmer</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="panelists">
+<h5><a class="toc-backref" href="talks.html#id18">Panelists</a></h5>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">國光 宏尚:</th><td class="field-body"><a class="reference external" href="http://gu3.co.jp/">株式会社gumi</a> 代表取締役社長</td>
+</tr>
+<tr class="field"><th class="field-name">田原 悠西:</th><td class="field-body"><a class="reference external" href="http://www.nexedi.co.jp/">株式会社Nexedi</a> 代表取締役社長</td>
+</tr>
+<tr class="field"><th class="field-name">佐藤 治夫:</th><td class="field-body"><a class="reference external" href="http://www.beproud.jp/">株式会社ビープラウド</a> 代表取締役社長</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="moderator">
+<h5><a class="toc-backref" href="talks.html#id19">Moderator: 池 徹</a></h5>
+<a class="reference external image-reference" href="images/ike/image_view_fullscreen.html"><img alt="池 徹" src="images/ike/image_tile" /></a>
+<p>教育研修コンサルタント、システムインテグレータを経て、現在はオーストラリアの企業から忍者の称号を授かりソフトウェアエンジニアとして働く。 2011年の初夏にEuroPythonに行って以来、PyPyにのめり込み、ついには日本コミュニティ <a class="reference external" href="https://groups.google.com/forum/#!forum/pypy-ja">pypy-ja</a> の立ち上げを模索中。 Pythonとの出会いは外界から閉ざされた開発ルームでたまたまサーバに置いてあった <a class="reference external" href="http://www.activestate.com/activepython">ActivePython</a> をこっそり触ったことからはじまる。好きなプログラミング言語は、Scheme、JavaScript、Python。最近はRubyとIo、Erlangに興味を持つ。</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">Twitter:</th><td class="field-body"><a class="reference external" href="http://twitter.com/#!/rokujyouhitoma">&#64;rokujyouhitoma</a></td>
+</tr>
+<tr class="field"><th class="field-name">ブログ:</th><td class="field-body"><a class="reference external" href="http://d.hatena.ne.jp/rokujyouhitoma/">rokujyouhitomaの日記</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="http-telnet">
+<h4><a class="toc-backref" href="talks.html#id20">http と telnet をつなぐ何か</a></h4>
+<p>websocket(pywebsocket) を使った http と telnet をつなぐ変換プロキシ的なものの紹介。</p>
+<p>http と telnet という異なるプロトコルをつなぐために websocket(pywebsocket) を使ってみたところ、とても簡単に実現できました。websocket の利用ケースの一つとしてご紹介します。</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">other</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">11:00-11:30</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">357PC</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">non-programmer</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="shigeki-yamada-losscuts">
+<h5><a class="toc-backref" href="talks.html#id21">Shigeki Yamada(LossCuts)</a></h5>
+
+<p>とあるSIに派遣されている</p>
+<p>ネットワーク系。
+Switch や Router、FW を設定/接続して、検証したり導入したりしてます。</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="restudy-study-group-about-rest">
+<h4><a class="toc-backref" href="talks.html#id22">reSTudy: STudy group about reST の活動</a></h4>
+<p>reSTructured Text (reST) によるドキュメントサンプルをまとめる活動を行う、reSTudyについて紹介します。</p>
+<p>活動の成果などを紹介します。</p>
+<ul class="simple">
+<li>プロダクトドキュメントってこういうのが必要で、reSTで書くときはこんな感じのテンプレートが必要で、成果物イメージってこんな感じだよね</li>
+<li>運用ドキュメントってこういうのが必要で、reSTで書くときはこんな感じのテンプレートが必要で、成果物イメージってこんな感じだよね</li>
+<li>reST で blog 書きたい。</li>
+<li>reST で 論文書きたい。</li>
+<li>Sphinxドメインっておいしい?</li>
+<li>Sphinxテーマをカスタマイズするコツは? チュートリアルが欲しい。</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">doc</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">16:30-17:00</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">357PC</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">non-programmer</td>
+</tr>
+<tr class="field"><th class="field-name">tags:</th><td class="field-body">reStructuredText reST sphinx docutils documentation document</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="restudy">
+<h5><a class="toc-backref" href="talks.html#id23">reSTudyチーム</a></h5>
+<p>reSTudy is STudy group about reST</p>
+
+<p><a class="reference external" href="http://groups.google.com/group/restudy/about">http://groups.google.com/group/restudy/about</a></p>
+<p>講演はreSTudy勉強会主催の波田野が行います。</p>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="beginner">
+<h3><a class="toc-backref" href="talks.html#id24">初級/Beginner</a></h3>
+<div class="section" id="python">
+<h4><a class="toc-backref" href="talks.html#id25">Python エンジニアの作り方</a></h4>
+<p>Python プログラミングを知らなかったエンジニアが、Python と出会い、テストやバージョン管理、勉強会への参加、さらには Google AppEngine を用いた開発など、ソフトウェアをリリースするまでに経験することになった様々なこととどのようにすれば知識を獲得できるかについてお話しします。</p>
+<ul class="simple">
+<li>Python との出会い</li>
+<li>ソフトウェア開発の動機</li>
+<li>テスト、バージョン管理</li>
+<li>開発環境作り</li>
+<li>勉強会への参加</li>
+<li>リリース後のできごと</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">project-prj</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">11:40-12:10</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">357PC</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">beginner</td>
+</tr>
+<tr class="field"><th class="field-name">tags:</th><td class="field-body">python programming</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="takeshi-komiya-tk0miya">
+<h5><a class="toc-backref" href="talks.html#id26">Takeshi Komiya: 小宮 健(&#64;tk0miya)</a></h5>
+<p>株式会社タイムインターメディア</p>
+<p><a class="reference external" href="http://blockdiag.com/">http://blockdiag.com/</a></p>
+<a class="reference external image-reference" href="images/tk0miya/image_view_fullscreen.html"><img alt="tk0miya" src="images/tk0miya/image_tile" /></a>
+
+<p>(株)タイムインターメディア所属。
+Perl, Ruby などの LL 言語を経た後 Python にたどり着く。
+Sphinx に出会うことでドキュメンテーションツールの開発に興味を持ち、各種 Sphinx プラグインや blockdiag シリーズをリリース。</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="pyqtgui">
+<h4><a class="toc-backref" href="talks.html#id27">PyQtではじめるGUIプログラミング</a></h4>
+<p>Python初級〜中級の方を対象に、PyQtというツールキットを使ったクロスプラットフォームなGUIプログラミングの基礎をチュートリアル形式で紹介します。</p>
+<p>PyQtはQtというC++で構築されたフレームワークをPythonから利用できるようにした拡張ライブラリで、Windows, Linux等のUnix系OS、MacOSX上で動作します。このセッションでは以下のような内容を実際に動作する実例を示しながら紹介します。</p>
+<ul class="simple">
+<li>HelloWorld</li>
+<li>GUIコンポーネントの基本</li>
+<li>SIGNALとSLOT</li>
+<li>QApplication、イベント、そしてスレッド</li>
+<li>Qtドキュメントの読み方(assistantの使い方)</li>
+<li>QtオブジェクトとPythonオブジェクト</li>
+<li>GUIエディタ(designer)とレイアウト</li>
+<li>グラフィックスとメディア(動画/音声)</li>
+<li>Webサポート(HTTP Request, Web Browserコンポーネント)</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">program-gui</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">14:00-15:00</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">357PC</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">beginner 中級者(GUIプログラミング経験無しの方)</td>
+</tr>
+<tr class="field"><th class="field-name">tags:</th><td class="field-body">Qt PyQt</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="ransui-iso">
+<h5><a class="toc-backref" href="talks.html#id28">Ransui Iso</a></h5>
+<p>X-Listing Co, Ltd.</p>
+
+<p><a class="reference external" href="http://facebook.com/ransui">http://facebook.com/ransui</a></p>
+<a class="reference external image-reference" href="images/ransui-iso/image_view_fullscreen.html"><img alt="Ransui Iso" src="images/ransui-iso/image_tile" /></a>
+<p>講演者：磯 蘭水</p>
+<p>1998年よりPythonを使い始め、Webサーチエンジン, E-Commerceサイト, 広告配信エンジンの開発等に携わる。
+最近の主な領域は大規模データ解析、分散コンピューティング等の研究開発。</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id3">
+<h4><a class="toc-backref" href="talks.html#id29">Python チュートリアル</a></h4>
+<p>プログラミング言語Pythonの入門チュートリアルです。</p>
+<p>Pythonの作者であるGuido van Rossum氏が執筆した「Python チュートリアル」（ <a class="reference external" href="http://www.python.jp/doc/2.5/tut/tut.html">http://www.python.jp/doc/2.5/tut/tut.html</a> ）相当の内容をチュートリアル形式で学んでいきます。</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">対象者:</th><td class="field-body">Pythonの基本的な機能に触れてみたい、他の言語の経験を持つソフトウェア開発者。</td>
+</tr>
+<tr class="field"><th class="field-name">チュートリアル形式:</th><td class="field-body">テーマ毎にプレゼンテーションと演習のセットを、5〜15分の長さで進行していきます。</td>
+</tr>
+<tr class="field"><th class="field-name">出席者の要件:</th><td class="field-body">Pythonの2.7がインストールされたラップトップコンピュータを持参してください。</td>
+</tr>
+<tr class="field"><th class="field-name">前提条件:</th><td class="field-body">何らかのプログラミング言語の経験があること。事前に「Python チュートリアル」の予習を推奨します。</td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li>数値型と演算子</li>
+<li>文字列型</li>
+<li>インタープリタの操作</li>
+<li>タプル型とリスト型</li>
+<li>セット型</li>
+<li>辞書型</li>
+<li>リスト内包表記</li>
+<li>オブジェクト</li>
+<li>ループとブロック</li>
+<li>イテレータ</li>
+<li>ジェネレータ式</li>
+<li>スクリプトとモジュール</li>
+<li>関数</li>
+<li>ジェネレータ</li>
+<li>名前空間</li>
+<li>クラスとインスタンス</li>
+<li>例外</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">tutorial</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">11:00-12:00</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">358+359</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">beginner</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="michilu">
+<h5><a class="toc-backref" href="talks.html#id30">遠藤 隆尚(MiCHiLU)</a></h5>
+<p>MiCHiLU Labs.</p>
+<p><a class="reference external" href="http://michilu.com/contacts">http://michilu.com/contacts</a></p>
+
+<a class="reference external image-reference" href="images/michilu/image_view_fullscreen.html"><img alt="MiCHiLU" src="images/michilu/image_tile" /></a>
+<p>Current:</p>
+<ul class="simple">
+<li>Sole Proprietor, Planner, Technical Engineer</li>
+</ul>
+<p>Past:</p>
+<ul class="simple">
+<li>Engineer at Accense Technology, Inc.</li>
+<li>Engineer at Tokyo Electric Power Company</li>
+<li>Technical Producer at CASTY,Inc.</li>
+</ul>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="python-mongodb-web">
+<h4><a class="toc-backref" href="talks.html#id31">Python と MongoDB でWEB開発</a></h4>
+<p>Python と MongoDB でインターネットサービスを簡単構築する方法を <a class="reference external" href="http://snapdi.sh">http://snapdi.sh</a> というサービスをベースに紹介</p>
+<ul class="simple">
+<li>python-tornadoでWEBサーバー構築</li>
+<li>pymongo を使ってMongoDBを操作</li>
+<li>Python と MongoDB を使う事によるメリット</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">web</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">13:20-13:50</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">357PC</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">beginner</td>
+</tr>
+<tr class="field"><th class="field-name">tags:</th><td class="field-body">python-tornado mongodb pymongo</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="fumikazu-kiyota-kiyotaman">
+<h5><a class="toc-backref" href="talks.html#id32">Fumikazu Kiyota(&#64;kiyotaman)</a></h5>
+<p>エンジニア</p>
+<p><a class="reference external" href="http://snapdi.sh">http://snapdi.sh</a></p>
+
+<ul class="simple">
+<li>Living on the edge (Livedoor)</li>
+<li>Itokuro</li>
+<li>Vuzz</li>
+</ul>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="intermediate">
+<h3><a class="toc-backref" href="talks.html#id33">中級/Intermediate</a></h3>
+<div class="section" id="gold-sponser-session-python">
+<h4><a class="toc-backref" href="talks.html#id34">Gold Sponser Session: Pythonで創るソーシャルゲームの未来</a></h4>
+<p>gumiは2008年のプラットフォームの公開からはじまり、SNS各社のプラットフォーム公開に合わせてゲームを提供し続け、ソーシャルゲーム業界を全力で駆け抜けてきました。
+その結果、現在は1日億単位のアクセスが来る程になりました。
+これらのゲームは全てPython + Djangoで創られており、AWS上で運用されています。
+このセッションではソーシャルゲーム業界の現状と、それを支える技術を余すところなくご紹介します。</p>
+<ul class="simple">
+<li>ソーシャルゲーム業界の現状</li>
+<li>億単位のPVを支えるPython x Django x AWS</li>
+<li>世界市場への挑戦</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">web</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">13:20-13:50</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">433</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">intermediate</td>
+</tr>
+<tr class="field"><th class="field-name">tags:</th><td class="field-body">django aws</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="id4">
+<h5><a class="toc-backref" href="talks.html#id35">株式会社gumi 国光 宏尚、堀内 康弘</a></h5>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">國光 宏尚:</th><td class="field-body">代表取締役社長</td>
+</tr>
+<tr class="field"><th class="field-name">堀内 康弘:</th><td class="field-body">取締役CTO</td>
+</tr>
+</tbody>
+</table>
+<p><a class="reference external" href="http://gu3.co.jp/">http://gu3.co.jp/</a></p>
+</div>
+</div>
+<div class="section" id="id5">
+<h4><a class="toc-backref" href="talks.html#id36">Pythonを使った次世代組み込みシステムの姿</a></h4>
+<p>僕が考える次世代な組み込みシステムの姿を発表致します。
+小型PC＋MeeGo＋Python+USBハードウェア＋ネットワークとにかくPythonは最高ですw</p>
+<p>前回のPycon mini JPにて、Pythonを使って電光掲示板を制御したプレゼンを行った。
+そこからPythonを組み込み機器やハードウェアに大して活用することは非常に有利であり、今後も組み込み分野にてPythonの活躍が期待される。
+今回はPythonを使った中規模な組み込みシステムの設計テクに加え、今後出てくるであろう次世代組み込みシステムの姿を発表致します。</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">embed</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">15:50-16:20</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">357PC</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">intermediate システム系の人 ガジェット好きな人 Pythonが好きな人</td>
+</tr>
+<tr class="field"><th class="field-name">tags:</th><td class="field-body">Python MeeGo Pyside Pyserial</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="noise">
+<h5><a class="toc-backref" href="talks.html#id37">北神 雄太(北神noise)</a></h5>
+<p>ArtifactNoise代表 発明家</p>
+
+<p><a class="reference external" href="http://artifactnoise.com/">http://artifactnoise.com/</a></p>
+<a class="reference external image-reference" href="images/noise/image_view_fullscreen.html"><img alt="北神noise" src="images/noise/image_tile" /></a>
+<p>高校時代からシステムに興味を持ち、電子工作を始めました。その後、大学でもシステム工学を学び、電子工作やプログラミングを極め、ハードウェアにシステム工学の概念を取り入れ、ハードウェア開発を一層ソフトウェア開発に近づける技術を磨いている。
+現在はArtifactNoiseにて、新しいシステムの形を提案してます。</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="python1iphone">
+<h4><a class="toc-backref" href="talks.html#id38">Pythonで1万台のiPhoneを管理する</a></h4>
+<p>Pythonの応用事例として、Djangoで実装したモバイルデバイス管理（MDM）システムについて紹介します。クラウドに設置したサーバから、数千台以上のスマートフォンをコントロールします。</p>
+<ul class="simple">
+<li>モバイルデバイス管理の概要</li>
+<li>システムアーキテクチャ<ul>
+<li>クラウド: Amazon EC2, RDS, SES, Route 53</li>
+<li>クラウド: boto (AWSのAPIを呼び出すPythonライブラリ）</li>
+<li>アプリケーションサーバ(Djange, Celery, pyapns)</li>
+<li>デプロイ(Fabric, pip)</li>
+<li>監視システム(ZABBIX)</li>
+</ul>
+</li>
+<li>苦労した点など</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">project-prj</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">15:50-16:20</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">351a</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">intermediate</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="knishida">
+<h5><a class="toc-backref" href="talks.html#id39">西田 圭介(knishida)</a></h5>
+<p>BizMobile株式会社 CTO</p>
+
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="web">
+<h4><a class="toc-backref" href="talks.html#id40">Webフォームウィジェットツールキットを総括する</a></h4>
+<p>wtforms, toscawidgets, tw2, formalchemy, deformなどのフォームウィジェット作成ライブラリを比較します。</p>
+<p>SQLAlchemyとの連携、実行時の柔軟性、ajax、グリッドサポート、スタイルのカスタマイズなどを比較。</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">web</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">11:40-12:10</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">433</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">intermediate</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="aodag">
+<h5><a class="toc-backref" href="talks.html#id41">小田切 篤(aodag)</a></h5>
+<p>プログラマー</p>
+<p><a class="reference external" href="http://aodag.posterous.com/">http://aodag.posterous.com/</a></p>
+<a class="reference external image-reference" href="images/aodag/image_view_fullscreen.html"><img alt="aodag" src="images/aodag/image_tile" /></a>
+
+<p>Be Proudに所属</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id6">
+<h4><a class="toc-backref" href="talks.html#id42">Pythonによる日本語自然言語処理</a></h4>
+<p>Pythonを使った自然言語処理のためのライブラリ「NLTK（Natural Language Toolkit）」の使い方と日本語処理の方法について解説する。</p>
+<p>自然言語処理(Natural Language Processing; NLP)とは、コンピュータを使って人間が使用する言語（プログラミング言語などの人工言語と比して自然言語と呼ばれる）を適切に処理することを目的とした分野である。</p>
+<p>NLPを使うと普通のテキストデータから有用な情報や興味深い情報を抽出できるため、検索エンジンやかな漢字変換（IME）、スペルチェック、機械翻訳などのアプリケーションに利用することができる。今回はNLPの中でも、</p>
+<ul class="simple">
+<li>形態素解析</li>
+<li>構文解析</li>
+<li>意味解析</li>
+</ul>
+<p>といった基礎的な処理について概説する。英語と違って文字の種類が多く、単語がスペース区切りになっていない日本語のテキストデータには独特の扱いが必要である。これらの日本語への対処のための周辺のツールや利用できるデータもあわせて説明する。</p>
+<p>実装にはPythonを使った自然言語処理のためのライブラリ「NLTK（Natural Language Toolkit）」を用いる。NLTKは実際のライブラリだけでなくドキュメントや付属のデータが充実しており、この分野の入門には最適な導入となるだろう。</p>
+<p><a class="reference external" href="http://www.nltk.org/">http://www.nltk.org/</a></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">science 自然言語処理</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">16:30-17:00</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">351a</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">intermediate</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="nokuno">
+<h5><a class="toc-backref" href="talks.html#id43">奥野 陽(nokuno)</a></h5>
+<p>Web系エンジニア</p>
+<p><a class="reference external" href="http://d.hatena.ne.jp/nokuno/">http://d.hatena.ne.jp/nokuno/</a></p>
+
+<a class="reference external image-reference" href="images/nokuno/image_view_fullscreen.html"><img alt="nokuno" src="images/nokuno/image_tile" /></a>
+<ul class="simple">
+<li>2002年〜2006年：慶応義塾大学でコンピューターサイエンスを学ぶ傍ら、フリーウェアや同人ソフトとしてWindowsゲームを多数開発。</li>
+<li>2007年〜2009年：同大学院進学。未踏ソフトウェア創造事業に採択され、クラウド型日本語入力システム「Social IME」を開発。</li>
+<li>2009年〜現在：Web系エンジニアとして就職。PythonやHadoopを使った自然言語処理のアプリケーション開発に関わる。</li>
+</ul>
+<p>自然言語処理勉強会主催。オライリー「入門 自然言語処理」査読協力。</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">Twitter:</th><td class="field-body"><a class="reference external" href="http://twitter.com/#!/nokuno">http://twitter.com/#!/nokuno</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="tuning-python-code">
+<h4><a class="toc-backref" href="talks.html#id44">Tuning Python Code</a></h4>
+<p>プロファイリングとチューニングのテクニックの紹介</p>
+<p>Python製アプリケーションがパフォーマンスの問題を抱えており、それがCPUバウンドだと分かっている場合に、ボトルネックを検出する方法と、ボトルネックが特定できたあとにPythonコードをチューニングする方法を紹介します。</p>
+<ul class="simple">
+<li>プロファイリング</li>
+<li>ループ内のコードの最適化</li>
+<li>GCコストの低減</li>
+<li>Cython を使った高速化</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">other Performance</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">14:00-15:00</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">433</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">intermediate</td>
+</tr>
+<tr class="field"><th class="field-name">tags:</th><td class="field-body">performance profiling</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="inada-naoki-methane">
+<h5><a class="toc-backref" href="talks.html#id45">INADA Naoki(&#64;methane)</a></h5>
+<p>Architect, KLab Inc.</p>
+<p><a class="reference external" href="http://d.hatena.ne.jp/methane/">http://d.hatena.ne.jp/methane/</a></p>
+
+<ul class="simple">
+<li>2004年3月 大阪府立高専卒業</li>
+<li>2004年4月 パナソニックAVCマルチメディアソフト株式会社 入社</li>
+<li>2007年4月 KLab株式会社 入社</li>
+</ul>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="c-api">
+<h4><a class="toc-backref" href="talks.html#id46">C API への誘(いざな)い</a></h4>
+<p>Python/C API って言葉を聞いたことはあってなんとなく気になっているけれど, どう始めていいか分からない人向けに C API を使い始められるような話をします.</p>
+<p>Python/C API って言葉を Python 公式ドキュメントで見掛けたり, ブログの記事で読んだりするけど, なんとなく難しそうで手を出すのに躊躇ってしまうような人がスムーズに始められるような C API の紹介をします.</p>
+<ul>
+<li><p class="first">C API って何?</p>
+</li>
+<li><p class="first">開発の流れ</p>
+<blockquote>
+<ul class="simple">
+<li>API の調べ方</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">CPython の裏側</p>
+<blockquote>
+<ul class="simple">
+<li>C による OOP</li>
+<li>参照カウンタ</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">モジュールの作り方</p>
+</li>
+<li><p class="first">クラスの作り方</p>
+</li>
+</ul>
+<p>アジェンダは上記の通りで30分でざっと全体を俯瞰するように話します.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name">
+<col class="field-body">
+<tbody valign="top">
+<tr class="field"><th class="field-name">topic:</th><td class="field-body">python-core</td>
+</tr>
+<tr class="field"><th class="field-name">time:</th><td class="field-body">11:00-11:30</td>
+</tr>
+<tr class="field"><th class="field-name">room:</th><td class="field-body">433</td>
+</tr>
+<tr class="field"><th class="field-name">audience:</th><td class="field-body">intermediate</td>
+</tr>
+<tr class="field"><th class="field-name">tags:</th><td class="field-body">c-api c cpython</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="tomohiko-kinebuchi-cocoatomo">
+<h5><a class="toc-backref" href="talks.html#id47">Tomohiko Kinebuchi(cocoatomo)</a></h5>
+<p>developer</p>
+<p><a class="reference external" href="http://twitter.com/cocoatomo">http://twitter.com/cocoatomo</a></p>
+
+<a class="reference external image-reference" href="images/cocoatomo/image_view_fullscreen.html"><img alt="cocoatomo" src="images/cocoatomo/image_tile" /></a>
+<p>開発者として働き出して4年目. Python 歴は2年ほど. Python の言語そのもの (構文とか実装とか) に強い興味を持っています. PyPy, Jython にも興味有り.</p>
+</div>
+</div>
+</div>
+
+            
+        </div>
+    
+    
+                                                                            
+                             </div>                                                                                       
+                             
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+        
+
+    </div>
+                              
+
+                            
+                        </div>
+                    
+
+                    
+                </div>
+            
+        
+            <div id="viewlet-below-content">
+
+
+
+
+
+    <div class="discussion">
+
+        <h2>コメント (<span>0</span>)</h2>
+
+        
+        
+            <form action="#">
+                <input type="submit" value="コメントを加えるためにログイン" />
+            </form>
+        
+        
+    </div>
+
+</div>
+        </div>
+
+        
+        
+
+        <div id="portal-column-two" class="cell width-1:4 position-3:4">
+            
+                
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a727373" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a727373"><div class="portletStaticText portlet-static-rss"><p style="text-align:right;font-size:80%;margin-bottom:1em;margin-right:1em">
+<a href="../headline/rss"><img src="feed.png" />ニュース</a> <a href="../recent/rss"><img src="feed.png" />サイト更新情報</a>
+</p>
+</div>
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a706f72746c65745f636f756e74646f776e" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a706f72746c65745f636f756e74646f776e">
+
+
+  
+    <div>
+      <dl class="portlet portletStaticText">
+
+        <dt class="portletHeader">
+          <span class="portletTopLeft"></span>
+          <span>
+            PyCon JP 2011 (8/27開催)
+          </span>
+          <span class="portletTopRight"></span>
+        </dt>
+
+        <dd class="portletItem odd">
+          <div style="text-align:center">
+            終了後
+            <span style="color:red; font-size:400%; font-weight:bold">958</span>
+            日経過
+          </div>
+
+          <ul>
+          </ul>
+          
+          <span class="portletBottomLeft"></span>
+          <span class="portletBottomRight"></span>
+          
+        </dd>
+      </dl>
+
+    </div>
+  
+
+  
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a6e617669676174696f6e" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a6e617669676174696f6e">
+<dl class="portlet portletNavigationTree">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="sitemap.html" class="tile">ナビゲーション</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem lastItem">
+        <ul class="navTree navTreeLevel0">
+            
+            
+
+
+
+<li class="navTreeItem visualNoMarker section-keynote">
+
+    
+
+
+        <a href="keynote.html" class="state-published contenttype-document" title="">
+            
+            <span>Keynote</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-5tips">
+
+    
+
+
+        <a href="5tips.html" class="state-published contenttype-document" title="">
+            
+            <span>Python プロジェクトをパッケージングする5つの Tips</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeCurrentNode section-talks">
+
+    
+
+
+        <a href="talks.html" class="state-published navTreeCurrentItem navTreeCurrentNode contenttype-document" title="">
+            
+            <span>Talks</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-five-questions-to-guido-old">
+
+    
+
+
+        <a href="five-questions-to-guido-old.html" class="state-published contenttype-document" title="事前に Google Modelator で募った質問を Guido にぶつけて答えてもらいます">
+            
+            <span>Guido への5つの質問/Five questions to Guido</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-five-questions-to-guido">
+
+    
+
+
+        <a href="five-questions-to-guido.html" class="state-published contenttype-document" title="事前に Google Modelator で募った質問を Guido にぶつけて答えてもらいます">
+            
+            <span>Guido への5つの質問/Five questions to Guido</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-open-space">
+
+    
+
+
+        <a href="open-space.html" class="state-published contenttype-document" title="">
+            
+            <span>Open Space</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-sprints">
+
+    
+
+
+        <a href="sprints.html" class="state-published contenttype-document" title="PyCon JP Sprints">
+            
+            <span>Sprints(スプリント)</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-sprints-en">
+
+    
+
+
+        <a href="sprints-en.html" class="state-published contenttype-document" title="PyCon JP Sprints">
+            
+            <span>Sprints</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-collection">
+
+    
+
+
+        <a href="collection.html" class="state-published contenttype-document" title="随時更新します。最終的にURL変わるかもしれません。
+">
+            
+            <span>速報版 PyCon JP 2011 諸々まとめ</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-lightning-talks">
+
+    
+
+
+        <a href="lightning-talks.html" class="state-published contenttype-document" title="">
+            
+            <span>Lightning Talks</span>
+        </a>
+
+    
+    
+</li>
+
+
+
+
+        </ul>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a33306239333066333330623533306663" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a33306239333066333330623533306663">
+<dl class="portlet portletStaticText portlet-static-30b930f330b530fc">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span>
+           スポンサー
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <h4>Gold</h4>
+<div style="text-align:center">
+<p>
+<a href="http://gu3.co.jp/"><img alt="株式会社gumi" title="株式会社gumi" src="../banners/sponsors/gumi_sign.jpg" /><br />株式会社gumi</a>
+</p>
+</div>
+
+<hr />
+
+<h4>Silver</h4>
+<div style="text-align:center">
+<p>
+<a href="http://www.nexedi.co.jp/"><img alt="株式会社Nexedi" title="株式会社Nexedi" src="../banners/sponsors/nexedi_logo.png" /><br />株式会社Nexedi</a>
+</p>
+<p>
+<a href="http://www.s-cubism.jp/"><img alt="株式会社エスキュービズム" title="株式会社エスキュービズム" src="../banners/sponsors/s-cubism.png" /><br />株式会社エスキュービズム</a>
+</p>
+</div>
+
+<hr />
+
+<h4>Bronze</h4>
+<div style="text-align:center">
+<p>
+<a href="http://www.beproud.jp/"><img alt="株式会社ビープラウド" title="株式会社ビープラウド" src="../banners/sponsors/beproud.jpg" /><br />株式会社ビープラウド</a>
+</p>
+<p>
+<a href="http://accense.com/"><img alt="株式会社アクセンス・テクノロジー" title="株式会社アクセンス・テクノロジー" src="../banners/sponsors/atlogo.png" /><br />株式会社アクセンス・テクノロジー</a>
+</p>
+<p>
+<a href="http://www.cb21.co.jp/"><img alt="株式会社キャッチボールトゥエンティワン・インターネット・コンサルティング" title="株式会社キャッチボールトゥエンティワン・インターネット・コンサルティング" src="../banners/sponsors/catchball21.png" /><br />株式会社キャッチボールトゥエンティワン・<br />インターネット・コンサルティング</a>
+</p>
+<p>
+<a href="http://www.ariel-networks.com/"><img alt="アリエル・ネットワーク株式会社" title="アリエル・ネットワーク株式会社" src="../banners/sponsors/ariel.png" /><br />アリエル・ネットワーク株式会社</a>
+</p>
+</div>
+
+<hr />
+
+<h4>Snack&amp;Beverage</h4>
+<ul>
+<li><a href="http://www.garage.co.jp/">株式会社デジタルガレージ</a></li>
+<li><a href="http://www.rakuten.co.jp/">楽天株式会社</a></li>
+</ul>
+
+<hr />
+
+<p>(スポンサー募集は終了しました)</p>
+
+        
+            <span class="portletBottomLeft"></span>
+            <span class="portletBottomRight"></span>
+        
+    </dd>
+    
+    
+
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a3533353435323962" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a3533353435323962">
+<dl class="portlet portletStaticText portlet-static-5354529b">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span>
+           協力
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <div style="text-align:center">
+<p>
+<a href="http://aiit.ac.jp/"><img alt="産業技術大学院大学" title="産業技術大学院大学" src="../banners/aiit_logo_s.gif" /><br />産業技術大学院大学</a>
+</p>
+<p>
+<a href="http://gihyo.jp/"><img alt="技術評論社" title="技術評論社" src="../banners/gjp_site_logo_200.jpg" /><br />技術評論社</a>
+</p>
+<p>
+<a href="http://codezine.jp/"><img alt="CodeZine" title="CodeZine" src="../banners/codezine.png" /><br />CodeZine</a>
+</p>
+<p>
+<a href="http://www.oreilly.co.jp/"><img alt="オライリー・ジャパン" title="オライリー・ジャパン" src="../banners/oraj_logo.jpg" /><br />オライリー・ジャパン</a>
+</p>
+<p>
+<a href="http://mozilla.jp/"><img alt="Mozilla Japan" title="Mozilla Japan" src="../banners/mozilla-firefox.png" /><br />Mozilla Japan</a>
+</p>
+</div>
+
+
+        
+            <span class="portletBottomLeft"></span>
+            <span class="portletBottomRight"></span>
+        
+    </dd>
+    
+    
+
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a666f75726469676974732d706f72746c65742d74776974746572" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a666f75726469676974732d706f72746c65742d74776974746572"><dl class="portlet portletTwitterPortlet">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        Twitter (#pyconjp)
+        <span class="portletTopRight"></span>
+    </dt>
+
+    
+
+    
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a3930346535336262333036657079636f6e2d6a70" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c6f6e650a3930346535336262333036657079636f6e2d6a70">
+<dl class="portlet portletStaticText portlet-static-904e53bb306epycon-jp">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span>
+           過去のPyCon JP
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <ul>
+<li><a class="external-link" href="http://sites.google.com/site/pyconminijp/">PyCon mini JP 2011</a></li>
+</ul>
+        
+            <span class="portletBottomLeft"></span>
+            <span class="portletBottomRight"></span>
+        
+    </dd>
+    
+    
+
+</dl>
+</div>
+
+
+
+
+            
+        </div>
+        
+    </div>
+
+
+    
+        <div class="row">
+  <div class="cell width-full position-0">
+    <div id="portal-footer">
+      <p>
+        &copy; 2014
+        <span>PyCon JP</span>
+      </p>
+    </div>
+
+  </div>
+</div>
+<div id="portal-colophon">
+
+<div class="colophonWrapper">
+<ul>
+  <li>
+    <a href="http://plone.org" title="このサイトは Plone オープンソース CMS/WCM を使って作られました。">Powered by Plone & Python</a>
+  </li>
+</ul>
+</div>
+</div>
+
+<ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a href="../sitemap.html" accesskey="3" title="サイトマップ">サイトマップ</a></li>
+    <li id="siteaction-accessibility"><a href="../accessibility-info.html" accesskey="0" title="アクセシビリティ">アクセシビリティ</a></li>
+    <li id="siteaction-contact"><a href="../contact-info.html" accesskey="9" title="お問い合わせ">お問い合わせ</a></li>
+</ul>
+
+
+    
+
+</div>
+</body>
+</html>
+
+
+

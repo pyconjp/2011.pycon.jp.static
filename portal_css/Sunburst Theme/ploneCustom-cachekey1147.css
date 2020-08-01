@@ -1,0 +1,79 @@
+
+/* - ploneCustom.css - */
+@media all {
+/* http://2011.pycon.jp/portal_css/ploneCustom.css?original=1 */
+#portal-globalnav {
+background-color: #91C3ED;
+background-color: #70BFE7;
+}
+#portal-globalnav li a {
+color: #FFFFFF;
+font-weight: bold;
+background-color: #3885C3;
+background-color: #1095D7;
+}
+#portal-footer  {
+font-weight: bold;
+color: #FFFFFF;
+text-align: center;
+background-color: #70BFE7;
+padding: 0.7em 0;
+}
+dl.portlet dt, div.portletAssignments div.portletHeader {
+color: #FFFFFF;
+font-size: 110%;
+background-color: #70BFE7;
+padding: 0.7em 1em;
+}
+dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
+color: #FFFFFF;
+}
+.collage-row{
+border-bottom: solid 1px #888888;
+}
+.two-columns-equal .collage-first-object {
+border-right: solid 1px #888888;
+}
+#collage .two-columns-equal .block_1 {
+width: 47%;
+}
+.collage-row h1, .collage-row h2 {
+padding-top: 13px;
+}
+.one-column {
+padding-bottom: 13px;
+}
+h2 {
+margin-bottom: 0.6em;
+}
+h3, h4 {
+margin-bottom: 0.8em;
+}
+h4 {
+font-size: 1.1em;
+}
+ul {
+margin-bottom: 1em;
+}
+.documentDescription {
+margin-bottom: 1.2em;
+}
+table.docutils th, table.docutils td {
+padding: 0.3em;
+}
+ul ul, ul ul ul, ul ul ul ul {
+margin-bottom: 0;
+}
+#portal-searchbox {
+max-width: 490px;
+}
+div#python-logo {
+float: left;
+width: 250px;
+margin: -0.6em 1em 0 0;
+}
+form#livesearch0 {
+float:right;
+}
+}
+

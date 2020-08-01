@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+
+
+
+    
+
+
+
+<channel rdf:about="http://2011.pycon.jp/headline/rss">
+  <title>headline</title>
+  <link>http://2011.pycon.jp</link>
+
+  <description>
+    
+      ニュースリリース
+    
+  </description>
+
+  
+
+  
+            <syn:updatePeriod>daily</syn:updatePeriod>
+            <syn:updateFrequency>1</syn:updateFrequency>
+            <syn:updateBase>2011-04-23T09:34:12Z</syn:updateBase>
+        
+
+  <image rdf:resource="http://2011.pycon.jp/logo.png"/>
+
+  <items>
+    <rdf:Seq>
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/9j9g6"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/3l7p2t"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/t4g6jj"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/32bmmk"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/gtdos0"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/4thkrs"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/ax1ljd"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/0qysnr"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/sib5zx"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/l4il3t"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/32wtxj"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/schedule"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/codezine2"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/gihyo2"/>
+      
+      
+        <rdf:li rdf:resource="http://2011.pycon.jp/news/tasks"/>
+      
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/9j9g6">
+    <title>運営チームによる開催報告記事が公開されました!</title>
+    <link>http://2011.pycon.jp/news/9j9g6</link>
+    <description>6ページに渡る長編です!</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>運営チームによる PyCon JP 2011 開催報告記事が <a class="reference external" href="http://codezine.jp/">CodeZine</a> にて公開されています。</p>
+<p>PyCon JP 運営の裏側から運営に関する反省・今後の展望まで幅広い内容です。</p>
+<p><a class="reference external" href="http://codezine.jp/article/detail/6151">運営スタッフが振り返る「PyCon JP 2011」の模様と今後の展望（1/6）：CodeZine</a></p>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-09-15T08:54:20Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/3l7p2t">
+    <title>gihyo.jp にて PyCon JP 参加レポート後編公開中!</title>
+    <link>http://2011.pycon.jp/news/3l7p2t</link>
+    <description>gihyo.jp にて PyCon JP 2011 参加レポート(後編)が公開されました!</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>gihyo.jp にて PyCon JP 2011 参加レポート(後編)が公開されました!</p>
+<ul class="simple">
+<li><a class="reference external" href="http://gihyo.jp/news/report/2011/09/0602">レポート：PyCon JP 2011 参加レポート［後編］ ｜gihyo.jp … 技術評論社</a></li>
+</ul>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-09-08T02:36:06Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/t4g6jj">
+    <title>gihyo.jp にて PyCon JP 参加レポート公開中!</title>
+    <link>http://2011.pycon.jp/news/t4g6jj</link>
+    <description>gihyo.jp にて PyCon JP 2011 参加レポート(前編)が公開されました!</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>gihyo.jp にて PyCon JP 2011 参加レポート(前編)が公開されました!</p>
+<p><a class="reference external" href="http://gihyo.jp/news/report/2011/09/0601">レポート：PyCon JP 2011 参加レポート［前編］ ｜gihyo.jp … 技術評論社</a></p>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-09-07T02:08:02Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/32bmmk">
+    <title>当日の Ustream の URL が決まりました</title>
+    <link>http://2011.pycon.jp/news/32bmmk</link>
+    <description>当日の Ustream の URL が決定しました。</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>当日 Ustream で配信を行う URL が決定しました。</p>
+<p>Main, English, Sub の三トラックを同時配信します。</p>
+<ul class="simple">
+<li><a class="reference external" href="http://www.ustream.tv/channel/pyconjp1">Main Track</a></li>
+<li><a class="reference external" href="http://www.ustream.tv/channel/pyconjp2">English Track</a></li>
+<li><a class="reference external" href="http://www.ustream.tv/channel/pyconjp3">Sub Track</a></li>
+</ul>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-08-24T05:32:21Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/gtdos0">
+    <title>CodeZine にプログラム紹介記事番外編が掲載されています</title>
+    <link>http://2011.pycon.jp/news/gtdos0</link>
+    <description>CodeZine にプログラム紹介記事番外編が掲載されています</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p><a class="reference external" href="http://codezine.jp/">CodeZine</a> に PyCon JP プログラム紹介番外編が掲載されています。</p>
+<p><a class="reference external" href="http://codezine.jp/article/detail/6125">「PyCon JP 2011」紹介 番外編 ～Pythonで働くということ</a></p>
+<p>パネルディスカッションおよびその登壇者の紹介と、事前打ち合わせの座談会のレポートです。</p>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-08-23T01:47:31Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/4thkrs">
+    <title>Python プロジェクトをパッケージングする5つの Tips</title>
+    <link>http://2011.pycon.jp/news/4thkrs</link>
+    <description></description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Tarek 氏が自身のブログに投稿したパッケージングに関する記事を PyCon JP チームが和訳しました!</p>
+<p>文中で PyCon JP についても触れているので参加する前に見ておくと良いかも</p>
+<p><a class="reference external" href="http://2011.pycon.jp/program/5tips">Python プロジェクトをパッケージングする5つの Tips</a></p>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-08-22T11:34:48Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/ax1ljd">
+    <title>PyCon JP プログラム紹介第二弾・第三弾公開!</title>
+    <link>http://2011.pycon.jp/news/ax1ljd</link>
+    <description>CodeZine にて PyCon JP プログラム紹介の第二弾・第三弾が公開されています</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>CodeZine にて PyCon JP プログラム紹介の第二弾・第三弾が公開されています。</p>
+<ul class="simple">
+<li>第二弾 <a class="reference external" href="http://codezine.jp/article/detail/6101">「PyCon JP 2011」プログラム紹介　～Lightning Talks、Office Hour、Open Spaceも</a>
+セッションの紹介や、 Open Space, Office Hour などに焦点を当てて紹介しています</li>
+<li>第三弾 <a class="reference external" href="http://codezine.jp/article/detail/6118">「PyCon JP 2011」本編以外の注目ポイント　～出会いの場をどう活用するか？</a>
+プログラム以外の昼食・懇親会・Sprint などを紹介しています。 「出会い系」らしい記事もあるので是非ご覧ください!</li>
+</ul>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-08-18T11:30:00Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/0qysnr">
+    <title>CodeZine にて PyCon JP 2011 プログラム紹介の連載開始!</title>
+    <link>http://2011.pycon.jp/news/0qysnr</link>
+    <description>CodeZine にて PyCon JP 2011 のプログラムを紹介する記事が掲載されました!</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>CodeZine にて PyCon JP 2011 のプログラムを紹介する記事が掲載されました!</p>
+<p>三回に分けて当日開催されるセッションやその他プログラムを紹介していきます!</p>
+<p><a class="reference external" href="http://codezine.jp/article/detail/6093">「PyCon JP 2011」開催間近！ ～運営チームが見どころをいち早く紹介</a></p>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-08-17T06:45:00Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/sib5zx">
+    <title>PyCon JP チケット販売終了</title>
+    <link>http://2011.pycon.jp/news/sib5zx</link>
+    <description>チケット販売予定数を超えましたので、チケット販売を終了いたします。</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>2011年8月5日(金) 13:00 にチケットの販売を終了いたしました。</p>
+<p>チケット購入済みの方で、このサイトで登録を済まされていない方は、早めに参加登録をお願いいたします。</p>
+<p>参加登録は <a class="reference external" href="http://2011.pycon.jp/audience/registration">Registration to PyCon JP 2011</a> からどうぞ。</p>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>Manabu TERADA</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-08-05T04:06:48Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/l4il3t">
+    <title>Party の受付を開始しました！</title>
+    <link>http://2011.pycon.jp/news/l4il3t</link>
+    <description>PyCon JP 2011 Party の受付を開始しました！</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>参加を予定されている方は <a href="../audience/party/">PyCon JP 2011 Party</a> ページよりPartyのチケット購入をお願いします。</p>
+<p>定員100名なので、お早めに</p>]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>flagboy</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-08-04T12:35:00Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/32wtxj">
+    <title>PyCon JP チケット残りわずか!</title>
+    <link>http://2011.pycon.jp/news/32wtxj</link>
+    <description>PyCon JP のチケットが残りわずかです!</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>PyCon JP のチケットが残りわずかとなっています!</p>
+<p>参加を予定されている方はお早めにご購入ください!</p>
+<p>チケット購入と参加登録は <a class="reference external" href="http://2011.pycon.jp/audience/registration">Registration to PyCon JP 2011</a> からどうぞ。</p>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-08-04T08:15:00Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/schedule">
+    <title>タイムテーブルを公開しました!</title>
+    <link>http://2011.pycon.jp/news/schedule</link>
+    <description>プログラムのタイムテーブルを公開しました!</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>プログラムのタイムテーブルを公開しました!</p>
+<p>詳細は <a class="reference external" href="/program">プログラム</a> ページよりご覧ください。</p>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-08-01T03:15:00Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/codezine2">
+    <title>CodeZine に紹介記事が掲載されました!</title>
+    <link>http://2011.pycon.jp/news/codezine2</link>
+    <description>CodeZine に紹介記事が掲載されました!</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>翔泳社様のサイトである <a class="reference external" href="http://codezine.jp/">CodeZine</a> に PyCon JP 2011 参加者募集記事が掲載されました!</p>
+<p><a class="reference external" href="http://codezine.jp/article/detail/6067">【告知】PyCon JP 2011の発表内容が決定、一般参加の登録受付も開始</a></p>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-07-26T07:35:00Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/gihyo2">
+    <title>gihyo.jp に紹介記事が掲載されました!</title>
+    <link>http://2011.pycon.jp/news/gihyo2</link>
+    <description>gihyo.jp に PyCon JP 2011 参加者募集記事が掲載されました!</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>技術評論社様のサイト <a class="reference external" href="http://gihyo.jp/">gihyo.jp</a> にて PyCon JP 2011 参加者募集記事が掲載されました!</p>
+<p><a class="reference external" href="http://gihyo.jp/news/info/2011/07/2601">8/27開催「PyCon JP 2011」基調講演に『エキスパートPythonプログラミング』著者Tarek Ziade氏 ―一般参加者の募集も開始</a></p>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-07-26T07:30:00Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+  <item rdf:about="http://2011.pycon.jp/news/tasks">
+    <title>PyCon 2011 演目が決定しました!</title>
+    <link>http://2011.pycon.jp/news/tasks</link>
+    <description>皆様の投票の結果を受けて PyCon 2011 の演目が決定しました!!</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>皆様の投票の結果を受けて PyCon 2011 の演目が決定しました!!</p>
+<p>演目は <a class="reference external" href="/program/talks">Talks</a> ページから確認できます。</p>
+<p>プログラムのタイムテーブルの確定はもう少しお待ちください。</p>
+]]></content:encoded>
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator>しょうま</dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2011-07-21T12:44:51Z</dc:date>
+    <dc:type>ニュース</dc:type>
+  </item>
+
+
+
+
+
+</rdf:RDF>
